@@ -294,3 +294,46 @@ input:checked + .slider:before { transform: translateX(22px); }
     accent-color: var(--primary);
     cursor: pointer;
 }
+
+/* Viewer */
+.viewer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.viewer-item {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--panel-border);
+}
+.viewer-question-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.viewer-options {
+    list-style-type: none;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.viewer-options li {
+    padding: 5px 0;
+    position: relative;
+    color: var(--text-muted);
+}
+.viewer-options li.correct-option {
+    color: var(--success);
+    font-weight: 600;
+}
+.viewer-options li.correct-option::before {
+    content: "\2713";
+    position: absolute;
+    left: -20px;
+    color: var(--success);
+}

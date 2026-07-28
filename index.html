@@ -93,6 +93,10 @@
                     <h3>🔥 Repaso de Fallos</h3>
                     <p id="fallos-desc">Tienes 0 preguntas falladas registradas.</p>
                 </button>
+                <button class="btn-card" onclick="openViewer()">
+                    <h3>📚 Visor de Preguntas</h3>
+                    <p>Explora el banco completo de preguntas y estudia con las respuestas correctas.</p>
+                </button>
             </div>
 
             <div class="filter-section">
@@ -162,6 +166,20 @@
             <div id="errors-container" class="errors-list">
                 <h3>Repaso de fallos:</h3>
                 <!-- Fallos inyectados por JS -->
+            </div>
+
+            <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>
+        </section>
+
+        <!-- Viewer Screen -->
+        <section id="viewer-screen" class="screen hidden">
+            <div class="results-header">
+                <h2>📚 Banco de Preguntas</h2>
+                <p class="feedback">Visualizando todas las preguntas de la base de datos.</p>
+            </div>
+            
+            <div id="viewer-list" class="viewer-list">
+                <!-- Preguntas inyectadas por JS -->
             </div>
 
             <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>

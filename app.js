@@ -58,7 +58,8 @@ systemPrefersDark.addEventListener('change', () => {
 const screens = {
     menu: document.getElementById('menu-screen'),
     quiz: document.getElementById('quiz-screen'),
-    results: document.getElementById('results-screen')
+    results: document.getElementById('results-screen'),
+    viewer: document.getElementById('viewer-screen')
 };
 
 const blockSelect = document.getElementById('block-select');
@@ -395,4 +396,33 @@ function showResults() {
 
 function returnToMenu() {
     switchScreen('menu');
+}
+
+function openViewer() {
+    switchScreen('viewer');
+    const viewerList = document.getElementById('viewer-list');
+    viewerList.innerHTML = '';
+    
+    baseDeDatos.forEach((q, index) => {
+        const item = document.createElement('div');
+        item.className = 'viewer-item';
+        
+        let optionsHTML = '';
+        q.opciones.forEach((opt, i) => {
+            const isCorrect = i === q.respuestaCorrecta;
+            optionsHTML += `<li class="${isCorrect ? 'correct-option' : ''}">${opt}</li>`;
+        });
+
+        item.innerHTML = `
+            <div class="viewer-question-header">
+                <span class="badge">#${index + 1}</span>
+                <span class="badge" style="background: var(--accent);">${q.bloque}</span>
+            </div>
+            <h4 style="margin-top: 10px;">${q.pregunta}</h4>
+            <ul class="viewer-options">
+                ${optionsHTML}
+            </ul>
+        `;
+        viewerList.appendChild(item);
+    });
 }
