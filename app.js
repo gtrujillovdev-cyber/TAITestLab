@@ -138,6 +138,23 @@ function switchScreen(screenName) {
 function startTest(mode) {
     let pool = [...baseDeDatos];
     
+    // Filtro por oposiciones seleccionadas
+    const checkboxes = document.querySelectorAll('#opo-checkboxes input[type="checkbox"]:checked');
+    const selectedOpos = Array.from(checkboxes).map(cb => cb.value);
+    
+    if (selectedOpos.length === 0 && mode !== 'fallos') {
+        alert("Por favor, selecciona al menos una oposición en el menú.");
+        return;
+    }
+
+    if (mode !== 'fallos') {
+        // Filtrar el pool asegurando que la pregunta pertenece a al menos una de las oposiciones seleccionadas
+        pool = pool.filter(q => {
+            if (!q.oposiciones) return true; // Fallback para preguntas sin el campo
+            return selectedOpos.some(opo => q.oposiciones.includes(opo));
+        });
+    }
+    
     isLearningMode = learningModeToggle.checked;
 
     if (mode === 'theme') {
