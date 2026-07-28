@@ -188,4 +188,1010 @@ const baseDeDatos = [
     {"oposiciones": ["AGE", "SAS", "Junta de Andalucía", "Diputación de Sevilla"], "bloque": "IV", "tema": 10, "pregunta": "El estándar IEEE 802.11 define las especificaciones para redes:", "opciones": ["a) Ethernet cableadas", "b) Redes LAN inalámbricas (Wi-Fi)", "c) Redes de área metropolitana", "d) Bluetooth"], "respuesta": "b"},
     {"oposiciones": ["AGE", "SAS", "Junta de Andalucía", "Diputación de Sevilla"], "bloque": "IV", "tema": 5, "pregunta": "En un CPD, los sistemas de alimentación ininterrumpida (SAI/UPS) se instalan principalmente para garantizar la:", "opciones": ["a) Confidencialidad", "b) Disponibilidad", "c) Integridad", "d) Autenticación"], "respuesta": "b"},
     {"oposiciones": ["AGE", "SAS", "Junta de Andalucía", "Diputación de Sevilla"], "bloque": "IV", "tema": 6, "pregunta": "¿Cuál de las siguientes es una fibra óptica en la que la luz se propaga en un solo camino, permitiendo mayores distancias?", "opciones": ["a) Fibra Multimodo de índice escalonado", "b) Fibra Multimodo de índice gradual", "c) Fibra Monomodo", "d) Cable coaxial ciego"], "respuesta": "c"}
+,
+{
+        "pregunta": "De acuerdo con el artículo 64 de la Constitución Española de 1978 (en adelante CE), los actos del Rey, excepto la propuesta y el nombramiento del Presidente del Gobierno, y la disolución de las Cámaras prevista en el artículo 99, serán refrendados por:",
+        "opciones": [
+            "Los Presidentes del Congreso y el Senado.",
+            "Los Ministros o los Secretarios de Estado en función de la materia.",
+            "El Presidente del Gobierno y, en su caso, por los Presidentes del Congreso y el Senado.",
+            "El Presidente del Gobierno y, en su caso, por los Ministros competentes."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "La suspensión de los derechos y libertades se encuentra regulada en la CE en:",
+        "opciones": [
+            "En el Capítulo III del Título I.",
+            "En sus artículos 52 y 53.",
+            "En el artículo 58.",
+            "En el Capítulo V del Título I."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Según el artículo 18 de la ley 50/1997, de 27 de noviembre, del Gobierno que regula el funcionamiento del Consejo de Ministros, ¿quién actúa como Secretario de este órgano colegiado?",
+        "opciones": [
+            "El Vicepresidente Primero.",
+            "El Ministro portavoz del Gobierno.",
+            "El Ministro de la Presidencia.",
+            "El Ministro de Justicia."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "De acuerdo con el artículo 78 de la CE, expirado el mandato de las Cortes Generales o en caso de disolución de las mismas, las Diputaciones Permanentes seguirán ejerciendo sus funciones hasta:",
+        "opciones": [
+            "La celebración de las elecciones.",
+            "La proclamación de los resultados electorales definitivos.",
+            "La elección de los nuevos presidentes de cada una de las Cámaras de las Cortes Generales.",
+            "La constitución de las nuevas Cortes Generales."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Según establece el artículo 24 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, el plazo máximo para resolver y notificar la resolución de una reclamación ante el Consejo de Transparencia y Buen Gobierno será de:",
+        "opciones": [
+            "Un mes, transcurrido el cual, la reclamación se entenderá estimada.",
+            "Un mes, transcurrido el cual, la reclamación se entenderá desestimada.",
+            "Tres meses, transcurrido el cual, la reclamación se entenderá estimada.",
+            "Tres meses, transcurrido el cual, la reclamación se entenderá desestimada."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale cuál de los siguientes NO es un compromiso del IV Plan de Gobierno Abierto de España:",
+        "opciones": [
+            "Participación de los jóvenes en políticas públicas.",
+            "Protección de denunciantes.",
+            "Huella normativa.",
+            "Reforma del marco regulatorio."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Conforme establece el artículo 18 de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, todas las resoluciones de compatibilidad para desempeñar un segundo puesto o actividad en el sector público o el ejercicio de actividades privadas se inscribirán:",
+        "opciones": [
+            "En el Registro Central de Personal.",
+            "En la Oficina de Conflicto de Intereses.",
+            "En la Unidad de Personal del Ministerio u Organismo correspondiente.",
+            "En los Registros de Personal correspondientes."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "De acuerdo con el artículo 30 de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, el grado de dependencia será revisable:",
+        "opciones": [
+            "A instancia del interesado.",
+            "A instancia de los representantes del interesado.",
+            "De oficio por las Administraciones Públicas competentes.",
+            "Todas las respuestas anteriores son correctas."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Conforme el artículo 49 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, para impulsar la adopción voluntaria de planes de igualdad, el Gobierno establecerá:",
+        "opciones": [
+            "Medidas de acción positiva, especialmente dirigidas a las pequeñas y las medianas empresas.",
+            "Medidas de fomento, especialmente dirigidas a las empresas de 50 o más trabajadores.",
+            "Medidas de fomento, especialmente dirigidas a las pequeñas y las medianas empresas.",
+            "Medidas de acción positiva, dirigidas a cualquier empresa, sea de capital público o privado."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Con carácter general el documento nacional de identidad tendrá un período de validez, a contar desde la fecha de la expedición o de cada una de sus renovaciones, de:",
+        "opciones": [
+            "Dos años cuando el solicitante no haya cumplido los cinco años de edad.",
+            "Cuatro años, cuando el titular haya cumplido los cinco años de edad y no haya alcanzado los treinta al momento de la expedición o renovación.",
+            "Nueve años, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta.",
+            "Permanente cuando el titular haya cumplido los sesenta años. 2022 - TAI-L Página 1 de 14"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "De acuerdo con el artículo 4 de la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza, el periodo de vigencia de los certificados cualificados:",
+        "opciones": [
+            "No será superior a 5 años.",
+            "No será superior a 3 años.",
+            "Es ilimitado.",
+            "No será superior a 6 años."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Indique según el título X de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de los siguientes NO es un derecho digital?",
+        "opciones": [
+            "Derecho al testamento digital.",
+            "Derecho al olvido en servicios de redes sociales y servicios equivalentes.",
+            "Derecho a la desconexión digital en el ámbito laboral.",
+            "Derecho a la igualdad y a la no discriminación en el entorno digital."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta correcta sobre lo que establece la Norma Técnica de Interoperabilidad de Protocolos de Intermediación de Datos:",
+        "opciones": [
+            "Las tecnologías utilizadas para los intercambios se implementarán en base a estándares según lo establecido en la Norma Técnica de Interoperabilidad de Catálogo de estándares.",
+            "De forma general en servicios de intercambio se utilizará la versión 2.0 del protocolo SCSP (Sustitución de Certificados en Soporte Papel).",
+            "Emisores y Requirentes no mantendrán trazabilidad de los intercambios de datos producidos.",
+            "Los intercambios de información se podrán implementar a través de servicios web."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale qué afirmación es correcta con respecto a las soluciones de Ciberseguridad proporcionadas por el Centro Criptológico Nacional (CCN):",
+        "opciones": [
+            "CLARA, protección y trazabilidad del dato.",
+            "ELENA, Simulador de Técnicas de Cibervigilancia.",
+            "GLORIA, Gestión de eventos e información de seguridad.",
+            "MONICA, Gestor de logs para responder ante incidentes y amenazas."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta correcta referente a los servicios comunes en materia de administración electrónica:",
+        "opciones": [
+            "SERVINOMINA realiza la gestión completa de las fases de nómina: cálculo, contabilidad y pago.",
+            "CIRCAB poderosa herramienta de trabajo en grupo para intercambio de información y trabajo colaborativo.",
+            "eVISOR permite a un empleado público la consulta de sus nóminas correspondientes a los cinco últimos años.",
+            "ENVIA es una aplicación que hace posible el envío de ficheros de gran volumen entre usuarios."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "La CE regula la institución del Defensor del Pueblo como:",
+        "opciones": [
+            "Alto comisionado del Congreso de los Diputados.",
+            "Alto comisionado de las Cortes Generales.",
+            "Alto comisionado del Poder judicial.",
+            "Alto comisionado del Gobierno de la nación."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es WCAG?",
+        "opciones": [
+            "Unas pautas de accesibilidad de contenidos web promovidas por el W3C.",
+            "Una librería de Java EE para la creación de aplicaciones web creada por Oracle.",
+            "Un componente del ecosistema Hadoop para el manejo de Big Data.",
+            "Un framework javascript especialmente indicado para trabajar con bases de datos no relacionales."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes es el nombre de un conector usado para carga y datos creado por el fabricante Apple?",
+        "opciones": [
+            "USB-Tipo C",
+            "iUSB",
+            "iFirewire",
+            "Lightning"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Con respecto a las sentencias del lenguaje SQL, indique la respuesta INCORRECTA:",
+        "opciones": [
+            "Sentencia DELETE sirve para borrar en forma sencilla distintos objetos como por ejemplo base de datos, tablas o índices.",
+            "La sentencia INSERT agrega uno o más registros a una tabla en una base de datos relacional.",
+            "La sentencia UPDATE modifica los valores de un conjunto de registros existentes en una tabla.",
+            "La sentencia GRANT se utiliza para dar permisos a un usuario."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Cuál de los siguientes son los objetos básicos de Kubernetes:",
+        "opciones": [
+            "Pod, State, Volume, Namespace.",
+            "Pod, Service, Volume, Namespace.",
+            "Job, Service, Volume, Namespace.",
+            "Job, Pod, Volume, Deployment. 2022 - TAI-L Página 2 de 14"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "La ALU es una parte de:",
+        "opciones": [
+            "La memoria.",
+            "La CPU.",
+            "El bus de operaciones.",
+            "El multiplexor de entrada."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta correcta sobre el modelo CISC:",
+        "opciones": [
+            "La microprogramación es una característica esencial.",
+            "Plantea un conjunto reducido de instrucciones para reducir el número de ciclos de reloj de ejecución de cada una de ellas.",
+            "Implementa las instrucciones directamente en hardware.",
+            "Está muy extendido en el mercado de procesadores para smartphone y tablets por su bajo consumo y buen rendimiento."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En relación con los sistemas RAID señale la respuesta INCORRECTA:",
+        "opciones": [
+            "El RAID 1+0 exige un mínimo de 4 discos.",
+            "RAID 6 amplía el RAID 5 agregando un bloque de paridad.",
+            "RAID 5 necesitará un mínimo de 3 discos para ser implementado.",
+            "Un RAID 4 distribuye la información a nivel de bloques con dos discos de paridad dedicados."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes es una tecnología de almacenamiento en disco mediante bus serie?",
+        "opciones": [
+            "SATA",
+            "ATA",
+            "SCSI",
+            "DLT"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Respecto a la norma USB indique la respuesta INCORRECTA:",
+        "opciones": [
+            "USB Type-C es lo mismo que USB 3.1",
+            "La diferencia entre USB 3.1 Gen 1 y USB 3.1 Gen 2 se reduce solamente a la velocidad.",
+            "USB 3.2 permite velocidades de hasta 20 Gbps.",
+            "Los dispositivos USB 2.0 pueden lograr una velocidad de transferencia máxima hasta de 480 Mbps."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En teoría de grafos, el algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista se denomina:",
+        "opciones": [
+            "Algoritmo de Kruskal.",
+            "Algoritmo de Prim.",
+            "Algoritmo de Dijkstra.",
+            "Algoritmo de Floyd-Warshall."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Con respecto a los estándares PDF, señale que afirmación NO es correcta:",
+        "opciones": [
+            "PDF/UA Es el estándar global para la accesibilidad de PDF.",
+            "PDF/A proporciona las especificaciones para crear, ver e imprimir documentos digitales para conservarlos a largo plazo.",
+            "PDF/E proporciona especificaciones para crear, ver e imprimir documentos utilizados en flujos de trabajo de ingeniería.",
+            "PDF/I proporciona especificaciones para crear, ver e imprimir páginas finales listas para imprimir o listas para la prensa."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las versiones siguientes es la más reciente del sistema operativo macOS?",
+        "opciones": [
+            "macOS Sierra",
+            "macOS Monterey",
+            "macOS Big Sur",
+            "macOS Ventura"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Cuál de las siguientes afirmaciones NO es correcta:",
+        "opciones": [
+            "En Windows de 64 bits, un proceso de 64 bits no puede cargar una biblioteca de vínculos dinámicos (DLL) de 32 bits.",
+            "En Windows de 64 bits, un proceso de 32 bits no puede cargar un archivo DLL de 64 bits.",
+            "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits solo en el mismo equipo.",
+            "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits tanto en el mismo equipo como entre equipos distintos."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Las bases de datos relacionales ofrecen propiedades ACID. Dicho acrónimo se refiere a:",
+        "opciones": [
+            "Atomicidad, Consistencia, Aislamiento y Durabilidad.",
+            "Atomicidad, Coherencia, Integridad y Distribución.",
+            "Disponibilidad, Coherencia, Intensidad y Durabilidad.",
+            "Atomicidad, Consistencia, Aislamiento y Disponibilidad."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Entre las características obligatorias de un sistema gestor de bases de datos orientadas a objetos, NO se encuentra:",
+        "opciones": [
+            "Debe permitir construir objetos complejos.",
+            "El conjunto de tipos de datos debe ser fijo, consiguiendo así mayor eficiencia en las búsquedas.",
+            "Todos los objetos deben tener un identificador que sea independiente de los valores de sus atributos.",
+            "El esquema de una BDOO incluye únicamente un conjunto de clases (o de tipos)."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale qué es el Machine Learning Services para SQL Server:",
+        "opciones": [
+            "Es un conjunto de tecnologías destinadas a la copia y distribución de datos y objetos de base de datos desde una base de datos a otra, para luego sincronizar ambas bases de datos y mantener su coherencia.",
+            "Es una característica de SQL Server que proporciona la capacidad de ejecutar scripts de Python y R con datos relacionales.",
+            "Es un producto de calidad de datos basado en conocimiento.",
+            "Es el servicio principal para almacenar, procesar y proteger los datos. 2022 - TAI-L Página 3 de 14"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta correcta relativa al Modelo Entidad/Relación Extendido según establece METRICA v3:",
+        "opciones": [
+            "Un atributo se define sobre diversos dominios.",
+            "El dominio no tiene existencia propia y depende de las entidades, las relaciones o los atributos.",
+            "La entidad es aquel objeto, real o abstracto, acerca del cual se desea almacenar información en la base de datos.",
+            "La clave candidata es el conjunto de atributos que garantizan la unicidad de las ocurrencias e identifican la ocurrencia unívocamente."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "La arquitectura ANSI/SPARC define para un sistema de gestión de bases de datos tres niveles de abstracción. Indicar la afirmación INCORRECTA:",
+        "opciones": [
+            "El nivel externo contiene las vistas externas de la base de datos y permite a cada tipo de usuario ver sólo aquella parte del esquema que le interesa.",
+            "El nivel físico define cómo se almacenan los datos y los métodos de acceso.",
+            "El nivel contextual define el formato de los campos.",
+            "El nivel interno también recibe el nombre de nivel lógico."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Cuál de las siguientes afirmaciones es FALSA:",
+        "opciones": [
+            "Un intérprete es un programa que ejecuta directamente las instrucciones escritas en un lenguaje de programación dado.",
+            "Un compilador es un programa que transforma el código fuente de un programa a su equivalente en otro lenguaje de programación de más bajo nivel.",
+            "Un transpilador es un programa que hace de intérprete y de compilador al mismo tiempo.",
+            "Un compilador cruzado o cross compiler es un compilador capaz de crear código ejecutable para otra plataforma distinta a aquélla en la que se ejecuta."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "C++ permite especificar más de una función con el mismo nombre en el mismo ámbito. ¿Cómo se denominan estas funciones?",
+        "opciones": [
+            "Funciones dobles.",
+            "Funciones repetidas.",
+            "Funciones sobrecargadas.",
+            "En C++ no se puede nombrar más de una función con el mismo nombre."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Indica, de las siguientes afirmaciones, cuál es verdadera:",
+        "opciones": [
+            "Un array o vector es un tipo de dato estructurado que permite almacenar un conjunto de datos homogéneo donde cada elemento se almacena de forma consecutiva en memoria.",
+            "Bytecode es el código binario obtenido tras el proceso de compilación (Java).",
+            "C++ es un lenguaje de segunda generación.",
+            "En C++ la declaración del array: «int vector2[] = {1,2,3,4,10,9,80,70,19};», es incorrecta."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta correcta sobre los tipos de controladores (drivers) JDBC:",
+        "opciones": [
+            "Los drivers tipo 1 utilizan Java puro para implementar un protocolo de red de proveedores del Sistema Gestor de Base de Datos.",
+            "Los drivers tipo 3 utilizan un protocolo de red y middleware para comunicarse con un servidor.",
+            "Según la tecnología utilizada para conectarse a la base de datos, los drivers JDBC se categorizan en 3 tipos diferentes.",
+            "Los drivers tipo 2 son controladores \"puente\", que utilizan otra tecnología (por ejemplo ODBC) para comunicarse con la base de datos."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta INCORRECTA. Los tipos más corrientes de anomalías de base de datos son:",
+        "opciones": [
+            "Lecturas no repetibles.",
+            "Lecturas hundidas.",
+            "Lecturas sucias.",
+            "Lecturas fantasma."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Seleccione la respuesta correcta sobre .NET:",
+        "opciones": [
+            ".NET es un marco multiplataforma gratuito de Google para compilar aplicaciones y servicios en la nube.",
+            ".NET es un proyecto de código abierto.",
+            ".NET sirve exclusivamente para desarrollar aplicaciones móviles.",
+            ".NET admite un amplio rango de lenguajes de programación, a excepción de C# 2022 - TAI-L Página 4 de 14"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta INCORRECTA referente al objeto POCO en .NET:",
+        "opciones": [
+            "Es una estructura de datos de .NET que solo contiene propiedades o campos públicos.",
+            "Es el acrónimo de Plain Old CLR Object.",
+            "No hereda de otra clase o implementa una interfaz.",
+            "Podrá contener miembros como: métodos. eventos y delegados."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Cuál de las siguientes afirmaciones sobre REST es FALSA:",
+        "opciones": [
+            "REST es el acrónimo de Representational State Transfer.",
+            "Los objetos en REST siempre se manipulan a partir de la URI.",
+            "URI son las siglas de Unique Resource Identifier.",
+            "Utiliza un protocolo cliente/servidor sin estado."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la afirmación correcta con respecto a WSIL:",
+        "opciones": [
+            "Es un método alternativo al descubrimiento de servicios Web.",
+            "Define el modelo de programación y la arquitectura de ejecución para desplegar y buscar servicios Web en el entorno Java EE.",
+            "Define un modo de publicar y encontrar información sobre servicios Web.",
+            "Es una organización diseñada para promover la interoperatividad de servicios Web entre plataformas, sistemas operativos y lenguajes de programación."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Para detectar, eliminar y/o mitigar las debilidades de una aplicación se pueden realizar diferentes análisis de seguridad durante el ciclo de vida del desarrollo de software, entre los que NO se encuentra:",
+        "opciones": [
+            "SAST (Static Application Security Testing).",
+            "S-SDLC (Secure Software Development Liability Control).",
+            "DAST (Dynamic Application Security Testing).",
+            "SCA (Software Composition Analysis)."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "El principio de la accesibilidad web que exige que los componentes y la navegación de la interfaz de usuario se puedan utilizar por cualquier persona usuaria es:",
+        "opciones": [
+            "La perceptibilidad.",
+            "La comprensibilidad.",
+            "La robustez.",
+            "La operabilidad."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Según METRICA v3, ¿qué tipo de pruebas son las que tienen como objetivo verificar el correcto ensamblaje entre los distintos componentes para comprobar que interactúan correctamente a través de sus interfaces, cubren la funcionalidad establecida y se ajustan a los requisitos no funcionales especificados?",
+        "opciones": [
+            "Pruebas del sistema.",
+            "Pruebas de implantación.",
+            "Pruebas de regresión.",
+            "Pruebas de integración."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Según establece METRICA v3, ¿qué participantes están presentes en la tarea de “Elaboración de los Manuales de Usuario”?",
+        "opciones": [
+            "Usuarios Expertos.",
+            "Consultor de Sistemas de Información.",
+            "Equipo de Formación.",
+            "Equipo de Proyecto."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Señale la respuesta INCORRECTA sobre el kernel de un Sistema Operativo:",
+        "opciones": [
+            "Controla todas las funciones importantes del hardware.",
+            "Se encarga del procesamiento paralelo de tareas (multitasking).",
+            "Es el núcleo del procesador.",
+            "Recibe peticiones de servicio de los procesos y los comunica con el hardware. 2022 - TAI-L Página 5 de 14"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En un sistema UNIX, cuál es la respuesta INCORRECTA:",
+        "opciones": [
+            "El GID es el número de identificación de grupo.",
+            "El UID es el número de identificación de usuario.",
+            "El administrador del sistema se denomina root.",
+            "El proceso init se refiere al proceso de arranque de un usuario."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Respecto a la virtualización de máquinas, indique la opción FALSA:",
+        "opciones": [
+            "Facilita el despliegue de entornos.",
+            "Requiere aumentar la inversión en hardware específico para la virtualización.",
+            "Posibilita la ejecución de varios sistemas operativos en una única máquina física.",
+            "Permite un aprovechamiento mayor de la capacidad del hardware."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Una copia de seguridad (backup) diferencial:",
+        "opciones": [
+            "Realiza una copia fiel de los datos, lo que implica que un archivo eliminado en el origen, también se eliminará en la copia de seguridad.",
+            "Partiendo de una copia de backup completa, realiza una copia de todos los datos modificados desde que se hizo ese backup completo.",
+            "Realiza una copia sólo de los datos modificados desde el último backup (sea completo o incremental).",
+            "Realiza una copia integral de los datos, copiando todos los contenidos de los sistemas a mantener."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Seleccione la respuesta INCORRECTA sobre la firma electrónica:",
+        "opciones": [
+            "Se llama Co-firma a la firma múltiple en la que todos los firmantes están al mismo nivel y en la que no importa el orden en el que se firma.",
+            "Cuando se firma en formato XAdES (XML Avanzado), el resultado es un fichero de texto XML.",
+            "En el formato XAdES se habla de firmas despegadas (detached), envolventes (enveloping) y envueltas (enveloped) según en qué sitio del propio fichero de firma se guarde el documento original.",
+            "El formato PAdES (Propietario Avanzado) es el formato propio utilizado por Microsoft Office, si bien existe una implementación abierta que se aplica en Open Office."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Cuál es la respuesta INCORRECTA acerca de la fibra óptica plástica (POF):",
+        "opciones": [
+            "Está hecha esencialmente de plástico, construida de polimetilmetacrilato envuelto en polímeros fluoruros.",
+            "Permite aprovechar todo el ancho de banda y hacerlo sin pérdidas.",
+            "Ofrece un núcleo conductor menor que el de la fibra tradicional.",
+            "Es muy flexible, lo que hace que se pueda usar sin problema en instalaciones donde los tubos son antiguos."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el prefijo de dirección de Multicast en IPv6?",
+        "opciones": [
+            "::1/128",
+            "224.0.0.0/4",
+            "FF00::/8",
+            "FC00::/7"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Seleccione la respuesta correcta sobre los niveles y servicios del modelo OSI:",
+        "opciones": [
+            "El modelo OSI se compone de 7 niveles, pero se pude asimilar a un modelo de referencia simplificado de solamente 2 niveles: TCP (Niveles 1 a 4) e IP (Niveles 5, 6 y 7).",
+            "Las entidades en un nivel N+1 ofrecen servicios que son utilizados por las entidades del nivel N.",
+            "Un servicio confirmado utiliza las 4 primitivas de comunicación entre capas: Request, Indication, Response, Confirm.",
+            "Un servicio no confirmado utiliza 3 de las 4 primitivas: Request, Indication, Response."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué parte de un certificado de sitio web necesita un navegador para establecer una conexión segura HTTPS?",
+        "opciones": [
+            "La clave pública del certificado del sitio web, para que el navegador descifre los mensajes enviados por ese sitio web.",
+            "La clave privada del certificado del sitio web, para que el navegador cifre los mensajes que envía al sitio web.",
+            "Las claves pública y privada del certificado del sitio web, para poder cifrar y descifrar los mensajes que se intercambia con el sitio web.",
+            "Ninguna. Es el sitio web el que debe recibir las claves pública y privada del certificado de la persona que navega."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué es un portal cautivo?",
+        "opciones": [
+            "Un sitio web bloqueado por un ransomware, cuyo acceso no se recupera hasta que se paga un rescate.",
+            "Una página o aplicación web con acceso limitado, generalmente en fase de pruebas como paso previo a ponerse en producción.",
+            "Un sitio web que no cumple los criterios del nivel AA de WCAG.",
+            "Una página web que gestiona el acceso de los usuarios a una red, generalmente inalámbrica."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué significa CSMA/CD?",
+        "opciones": [
+            "Acceso múltiple por servicio de portadora y múltiples colisiones.",
+            "Acceso múltiple con detección de portadora y detección de colisiones.",
+            "Acceso único con múltiples colisiones y detección de portadora.",
+            "Acceso único de múltiples portadoras y detección de colisiones."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En el diagrama de clases la relación existente entre “Solicitud Representación” y “Trámite”, ¿qué multiplicidades serían compatibles con los requisitos planteados en el enunciado?",
+        "opciones": [
+            "‘1’ en el recuadro “SR>T” y ‘1’ en el recuadro “T>SR”.",
+            "‘1’ en el recuadro “SR>T” y ‘0..N’ en el recuadro “T>SR”.",
+            "‘0..N’ en el recuadro “SR>T” y ‘1’ en el recuadro “T>SR”.",
+            "‘1..N’ en el recuadro “SR>T” y ‘0..N’ en el recuadro “T>SR”."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En Java SE 17, ¿con qué visibilidad se deben generar los atributos de la clase Data Access Object Solicitudes si se quiere tener acceso directamente desde cualquier otro objeto, sin mediación de métodos?",
+        "opciones": [
+            "Se usará el modificador \"public\".",
+            "Se usará el modificador \"protected\".",
+            "No se usará ningún modificador.",
+            "Se usará el modificador \"private\". 2022 - TAI-L Página 8 de 14"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Para crear una tabla llamada Usuario, ¿qué sentencia SQL debemos ejecutar?",
+        "opciones": [
+            "ALTER TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));",
+            "INSERT TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));",
+            "CREATE TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));",
+            "DROP TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Se ha heredado una librería compilada que realiza la conexión a un importante servicio de comprobación de Cl@ve PIN, ¿qué patrón de diseño permite reutilizar este objeto?",
+        "opciones": [
+            "Adaptador (Adapter)",
+            "Singleton",
+            "Chain of responsibility (Cadena de responsabilidad)",
+            "Iterador (Iterator)"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En UML un diagrama de componentes:",
+        "opciones": [
+            "Describe la estructura del sistema mostrando las clases del sistema, sus atributos y relaciones entre ellas.",
+            "Describe cómo un sistema de software se divide en componentes y muestra las dependencias entre ellos.",
+            "Sirve para modelar el hardware utilizado en las implementaciones del sistema, los componentes implementados en el hardware y las asociaciones entre componentes en un momento específico.",
+            "Muestra una vista completa o parcial de la estructura de un sistema modelado en un momento específico."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En el equipo de desarrollo se ha decidido usar Selenium WebDriver para:",
+        "opciones": [
+            "Mejorar la accesibilidad de las páginas web facilitando audios a partir del texto.",
+            "Automatizar la ejecución de pruebas en el navegador.",
+            "Minimizar el tiempo de carga de la página web.",
+            "Diseñar páginas web adaptables."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En el contexto de la administración del almacenamiento, ¿qué es el “Thin Provisioning”?",
+        "opciones": [
+            "Es un mecanismo de despliegue de discos en red para clientes ligeros.",
+            "Es una tecnología que permite agregar discos físicos en caliente a las cabinas de la SAN.",
+            "Es un método de virtualización de almacenamiento que permite asignar el espacio de almacenamiento de una manera flexible bajo demanda.",
+            "Es un método por el que se asigna todo el espacio virtualizado disponible y se va a reduciendo (shrinking) a medida que el cliente lo descarta."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Una vez implementado \"teletrabajo\" mediante VPN, se quiere dotar de mayor seguridad mediante el envío de un código por SMS al teléfono móvil del trabajador. ¿Cómo se denomina a este tipo de validación?",
+        "opciones": [
+            "Factor electrónico de autenticación.",
+            "Autenticación electrónica de usuarios.",
+            "Doble factor de autenticación.",
+            "Factor único de autenticación."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "Los dispositivos de interconexión de redes de nuestro sistema, son compatibles con POE++. Señale la afirmación correcta con respecto a este término:",
+        "opciones": [
+            "Las siglas corresponden a Power-of-Ethernet.",
+            "Como estándar, recibe la denominación IEEE 802.3at.",
+            "La alimentación real recibida es de 25,50 Watts.",
+            "Se subdivide en dos tipos: Tipo 3 y Tipo 4."
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Examen AGE 2023",
+        "tema": "Oficial",
+        "oposiciones": [
+            "AGE"
+        ]
+    }
 ];
