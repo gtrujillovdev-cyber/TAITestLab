@@ -1194,4 +1194,334 @@ const baseDeDatos = [
             "AGE"
         ]
     }
+,
+{
+        "pregunta": "¿Cuál es el plazo máximo para dictar y notificar la resolución expresa en un procedimiento administrativo, según la Ley 39/2015, si la norma reguladora no fija uno distinto?",
+        "opciones": [
+            "3 meses",
+            "6 meses",
+            "1 mes",
+            "10 días"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 8 - Ley 39/2015",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "En la Constitución Española de 1978, ¿qué Título está dedicado a la Corona?",
+        "opciones": [
+            "Título I",
+            "Título II",
+            "Título Preliminar",
+            "Título III"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 1 - La Constitución Española de 1978",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "Según el TREBEP, las vacaciones de los funcionarios públicos retribuidas tendrán una duración mínima de:",
+        "opciones": [
+            "20 días hábiles",
+            "22 días hábiles",
+            "30 días naturales",
+            "15 días hábiles"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 6 - El Personal Funcionario",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "¿A qué capa del modelo OSI pertenece el protocolo IP?",
+        "opciones": [
+            "Capa de Enlace",
+            "Capa de Red",
+            "Capa de Transporte",
+            "Capa de Presentación"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 29 - Modelo OSI y TCP/IP",
+        "oposiciones": [
+            "AGE",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En Linux, ¿qué comando se utiliza para cambiar los permisos de un archivo?",
+        "opciones": [
+            "chown",
+            "ls",
+            "chmod",
+            "pwd"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 18 - Sistemas Operativos. Linux",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de diagrama UML se utiliza para modelar el comportamiento dinámico de un sistema mostrando la interacción entre objetos en un orden temporal?",
+        "opciones": [
+            "Diagrama de Clases",
+            "Diagrama de Secuencia",
+            "Diagrama de Casos de Uso",
+            "Diagrama de Despliegue"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 22 - Análisis Estructurado y UML",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes memorias es volátil?",
+        "opciones": [
+            "ROM",
+            "EPROM",
+            "RAM",
+            "EEPROM"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 14 - Estructura y Componentes de un Ordenador",
+        "oposiciones": [
+            "AGE",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En el contexto de bases de datos relacionales, ¿qué es la cardinalidad de una relación?",
+        "opciones": [
+            "El número de columnas de una tabla",
+            "El número de tuplas (filas) de una tabla",
+            "El número de tablas en la base de datos",
+            "El número de claves foráneas"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 20 - Modelo Relacional",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué nivel de RAID proporciona espejado (mirroring) sin paridad ni striping?",
+        "opciones": [
+            "RAID 0",
+            "RAID 1",
+            "RAID 5",
+            "RAID 10"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 14 - Estructura y Componentes",
+        "oposiciones": [
+            "AGE",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "¿Qué etiqueta de HTML5 se utiliza para definir el contenido principal del documento?",
+        "opciones": [
+            "<main>",
+            "<body>",
+            "<section>",
+            "<article>"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 25 - Tecnologías Web",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes metodologías pertenece al enfoque ágil de desarrollo de software?",
+        "opciones": [
+            "Métrica v3",
+            "Modelo en Cascada",
+            "Scrum",
+            "Modelo en V"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 21 - Ciclo de Vida del Software",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "En Java, ¿qué modificador de acceso permite que un miembro de una clase sea accesible solo dentro de su propio paquete y por subclases en otros paquetes?",
+        "opciones": [
+            "public",
+            "private",
+            "protected",
+            "default"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 25 - Programación Orientada a Objetos",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué puerto utiliza por defecto el protocolo HTTPS?",
+        "opciones": [
+            "80",
+            "21",
+            "443",
+            "25"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 33 - Tecnologías Web e Internet",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En el ámbito de la criptografía asimétrica, para enviar un mensaje cifrado a un destinatario garantizando la confidencialidad, el emisor cifra el mensaje con:",
+        "opciones": [
+            "La clave privada del emisor",
+            "La clave pública del emisor",
+            "La clave privada del receptor",
+            "La clave pública del receptor"
+        ],
+        "respuestaCorrecta": 3,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 32 - Seguridad en Redes",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la dirección de loopback estándar en IPv4?",
+        "opciones": [
+            "127.0.0.1",
+            "192.168.1.1",
+            "255.255.255.0",
+            "10.0.0.1"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 31 - Protocolos de Internet",
+        "oposiciones": [
+            "AGE",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "Según la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales, ¿a qué edad se adquiere la capacidad para prestar consentimiento para el tratamiento de datos personales?",
+        "opciones": [
+            "13 años",
+            "14 años",
+            "16 años",
+            "18 años"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 11 - Protección de Datos",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué componente de la CPU se encarga de realizar operaciones aritméticas y lógicas?",
+        "opciones": [
+            "Unidad de Control (UC)",
+            "Unidad Aritmético Lógica (ALU)",
+            "Registros",
+            "Caché"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 14 - Estructura y Componentes",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes formas normales (Bases de Datos) exige que la tabla esté en 2FN y no existan dependencias funcionales transitivas de los atributos no principales respecto de la clave primaria?",
+        "opciones": [
+            "1FN",
+            "2FN",
+            "3FN",
+            "FNBC"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 23 - Diseño de Bases de Datos",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "En Active Directory, ¿cuál es la unidad contenedora más pequeña a la que se le pueden asignar directivas de grupo (GPO) o delegar autoridad administrativa?",
+        "opciones": [
+            "Dominio",
+            "Bosque",
+            "Sitio",
+            "Unidad Organizativa (OU)"
+        ],
+        "respuestaCorrecta": 3,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 17 - SO Windows y Active Directory",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué protocolo se utiliza fundamentalmente para la transferencia de archivos en internet?",
+        "opciones": [
+            "SMTP",
+            "FTP",
+            "SNMP",
+            "HTTP"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 31 - Protocolos TCP/IP",
+        "oposiciones": [
+            "AGE",
+            "SAS",
+            "Junta Andalucía"
+        ]
+    }
 ];
