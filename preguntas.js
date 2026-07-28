@@ -1524,4 +1524,410 @@ const baseDeDatos = [
             "Junta Andalucía"
         ]
     }
+,
+{
+        "pregunta": "En el modelo relacional de bases de datos, ¿qué regla garantiza que ninguna clave primaria o parte de ella pueda tener un valor nulo?",
+        "opciones": [
+            "Integridad referencial",
+            "Integridad de entidad",
+            "Integridad de dominio",
+            "Regla de restricción de nulos"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 20 - Modelo Relacional",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "En Java, ¿cuál de las siguientes interfaces pertenece al Framework de Colecciones y NO permite elementos duplicados?",
+        "opciones": [
+            "List",
+            "Collection",
+            "Set",
+            "Map"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 25 - Programación Orientada a Objetos",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué sistema de archivos es el más utilizado por defecto en las distribuciones modernas de Linux?",
+        "opciones": [
+            "NTFS",
+            "FAT32",
+            "ext4",
+            "HFS+"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 18 - Sistemas Operativos. Linux",
+        "oposiciones": [
+            "AGE",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En Windows Server, ¿qué tecnología permite implementar políticas de seguridad, distribuir software y administrar configuraciones de usuario a través del Active Directory?",
+        "opciones": [
+            "Directivas de Grupo (GPO)",
+            "Windows Server Update Services (WSUS)",
+            "Remote Desktop Services (RDS)",
+            "Domain Name System (DNS)"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 17 - SO Windows y Active Directory",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes es un algoritmo de cifrado asimétrico?",
+        "opciones": [
+            "AES",
+            "DES",
+            "RSA",
+            "3DES"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 32 - Seguridad en Redes",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "Al definir la arquitectura de una aplicación web JEE, ¿qué patrón de diseño se utiliza habitualmente para separar los datos de la interfaz de usuario y del control de la lógica de negocio?",
+        "opciones": [
+            "Singleton",
+            "Factory Method",
+            "MVC (Modelo-Vista-Controlador)",
+            "Observer"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 24 - Patrones de Diseño",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "En SQL, ¿qué instrucción se utiliza para eliminar todos los registros de una tabla de forma rápida y sin registrar las eliminaciones de filas individuales en el registro de transacciones?",
+        "opciones": [
+            "DROP TABLE",
+            "DELETE FROM",
+            "TRUNCATE TABLE",
+            "REMOVE ALL"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 19 - SGBD y SQL",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué comando de Linux se utiliza para buscar patrones de texto dentro de los archivos?",
+        "opciones": [
+            "find",
+            "grep",
+            "locate",
+            "tar"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 18 - SO Linux",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es la longitud, en bits, de una dirección IPv6?",
+        "opciones": [
+            "32 bits",
+            "64 bits",
+            "128 bits",
+            "256 bits"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 31 - Protocolos TCP/IP e IPv6",
+        "oposiciones": [
+            "AGE",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "Según las pautas de accesibilidad para el contenido web (WCAG), el criterio de proporcionar alternativas textuales para todo contenido no textual se asocia al principio de:",
+        "opciones": [
+            "Perceptible",
+            "Operable",
+            "Comprensible",
+            "Robusto"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 28 - Accesibilidad",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el lenguaje estándar del W3C para transformar documentos XML en otros formatos como HTML?",
+        "opciones": [
+            "XPath",
+            "XQuery",
+            "XSLT",
+            "DTD"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 25 - Tecnologías Web y XML",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "En las redes Ethernet, ¿qué protocolo se encarga de resolver direcciones IP a direcciones MAC físicas?",
+        "opciones": [
+            "DHCP",
+            "DNS",
+            "ARP",
+            "ICMP"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 30 - Redes LAN y Protocolos",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué estructura de datos utiliza el principio LIFO (Last In, First Out)?",
+        "opciones": [
+            "Cola (Queue)",
+            "Pila (Stack)",
+            "Lista enlazada",
+            "Árbol Binario"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 25 - Programación Básica",
+        "oposiciones": [
+            "AGE",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En la metodología SCRUM, el evento donde el equipo sincroniza sus actividades diarias y crea un plan para las siguientes 24 horas recibe el nombre de:",
+        "opciones": [
+            "Sprint Planning",
+            "Sprint Retrospective",
+            "Sprint Review",
+            "Daily Scrum"
+        ],
+        "respuestaCorrecta": 3,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 21 - Metodologías Ágiles",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "Una red de almacenamiento dedicada de alta velocidad que conecta servidores a sus unidades lógicas de almacenamiento separándolas de la red LAN se conoce como:",
+        "opciones": [
+            "NAS (Network Attached Storage)",
+            "SAN (Storage Area Network)",
+            "DAS (Direct Attached Storage)",
+            "WAN (Wide Area Network)"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 14 - Hardware y Almacenamiento",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes NO es un tipo válido de diagrama estructural en UML 2.x?",
+        "opciones": [
+            "Diagrama de Componentes",
+            "Diagrama de Clases",
+            "Diagrama de Actividad",
+            "Diagrama de Paquetes"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 22 - Análisis Estructurado y UML",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "En el modelo OSI, ¿cuál es la función principal de la Capa de Transporte (Capa 4)?",
+        "opciones": [
+            "Enrutamiento de paquetes IP",
+            "Codificación y compresión de datos",
+            "Control de flujo y entrega fiable de datos de extremo a extremo",
+            "Acceso al medio físico (MAC)"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 29 - Modelo OSI",
+        "oposiciones": [
+            "AGE",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En la gestión de memoria de un Sistema Operativo, ¿cómo se denomina el problema donde el espacio de memoria libre se divide en pequeños bloques no contiguos que no pueden utilizarse eficientemente?",
+        "opciones": [
+            "Paginación",
+            "Segmentación",
+            "Fragmentación Externa",
+            "Swapping (Intercambio)"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 16 - Conceptos de Sistemas Operativos",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "Respecto a las pruebas de software, aquellas pruebas funcionales en las que el probador no tiene conocimiento del código fuente interno del sistema se denominan:",
+        "opciones": [
+            "Pruebas de Caja Blanca",
+            "Pruebas de Caja Negra",
+            "Pruebas de Regresión",
+            "Pruebas Estructurales"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 26 - Calidad y Pruebas",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué protocolo estándar de red se utiliza para la gestión y monitorización de dispositivos en redes IP (ej. routers, switches, servidores)?",
+        "opciones": [
+            "SMTP",
+            "SNMP",
+            "LDAP",
+            "IGMP"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 31 - Protocolos de Red",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "Si un microprocesador tiene un bus de direcciones de 32 bits, ¿cuál es la cantidad máxima de memoria RAM física que puede direccionar de forma directa?",
+        "opciones": [
+            "2 Gigabytes",
+            "4 Gigabytes",
+            "8 Gigabytes",
+            "16 Gigabytes"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 14 - Estructura del Ordenador",
+        "oposiciones": [
+            "AGE",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En Java, el proceso de ocultar los detalles de implementación de un objeto y exponer solo una interfaz pública y segura se denomina:",
+        "opciones": [
+            "Polimorfismo",
+            "Herencia",
+            "Sobrecarga",
+            "Encapsulamiento"
+        ],
+        "respuestaCorrecta": 3,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 25 - POO y Java",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "En ciberseguridad, un ataque que intenta hacer que un servidor o recurso de red no esté disponible para sus usuarios legítimos se conoce como:",
+        "opciones": [
+            "Phishing",
+            "Spoofing",
+            "DoS (Denial of Service)",
+            "Man-in-the-Middle"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 32 - Seguridad en Redes",
+        "oposiciones": [
+            "AGE",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "¿Qué comando SQL se utiliza para conceder privilegios o permisos a un usuario sobre un objeto de base de datos?",
+        "opciones": [
+            "ALLOW",
+            "GRANT",
+            "REVOKE",
+            "PERMIT"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque II: Tecnología Básica",
+        "tema": "Tema 19 - SGBD",
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "pregunta": "¿Qué tipo de firma electrónica, según el reglamento europeo eIDAS, se crea mediante dispositivos cualificados de creación de firmas y se basa en un certificado cualificado?",
+        "opciones": [
+            "Firma Electrónica Simple",
+            "Firma Electrónica Avanzada",
+            "Firma Electrónica Cualificada",
+            "Sello Electrónico"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 10 - Administración Electrónica",
+        "oposiciones": [
+            "AGE",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    }
 ];
