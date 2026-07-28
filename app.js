@@ -1,0 +1,381 @@
+// Variables de Estado
+let currentExam = [];
+let currentQuestionIndex = 0;
+let userAnswers = [];
+let timerInterval;
+let secondsElapsed = 0;
+let isCountdown = false;
+let timeLimitSeconds = 0;
+let isLearningMode = true; // Por defecto modo estudio activado
+
+// Registro de fallos en LocalStorage
+let failedQuestionsRegistry = JSON.parse(localStorage.getItem('failedQuestions') || '[]');
+
+// -----------------------------------------------------
+// Lógica del Tema (Claro, Oscuro, Sistema)
+// -----------------------------------------------------
+const themeSelector = document.getElementById('theme-selector');
+const body = document.body;
+const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+function applyTheme(themeValue) {
+    if (themeValue === 'dark') {
+        body.classList.add('dark-mode');
+    } else if (themeValue === 'light') {
+        body.classList.remove('dark-mode');
+    } else if (themeValue === 'system') {
+        if (systemPrefersDark.matches) {
+            body.classList.add('dark-mode');
+        } else {
+            body.classList.remove('dark-mode');
+        }
+    }
+}
+
+// Cargar preferencia guardada o forzar light por defecto
+const savedTheme = localStorage.getItem('themePref') || 'light';
+themeSelector.value = savedTheme;
+applyTheme(savedTheme);
+
+// Escuchar cambios en el selector
+themeSelector.addEventListener('change', (e) => {
+    const val = e.target.value;
+    localStorage.setItem('themePref', val);
+    applyTheme(val);
+});
+
+// Escuchar cambios en las preferencias del sistema si está en modo "system"
+systemPrefersDark.addEventListener('change', () => {
+    if (themeSelector.value === 'system') {
+        applyTheme('system');
+    }
+});
+
+
+// -----------------------------------------------------
+// Referencias del DOM y Lógica Principal
+// -----------------------------------------------------
+const screens = {
+    menu: document.getElementById('menu-screen'),
+    quiz: document.getElementById('quiz-screen'),
+    results: document.getElementById('results-screen')
+};
+
+const blockSelect = document.getElementById('block-select');
+const themeSelect = document.getElementById('theme-select');
+const btnThemeTest = document.getElementById('btn-theme-test');
+const btnErrores = document.getElementById('btn-errores');
+const fallosDesc = document.getElementById('fallos-desc');
+const learningModeToggle = document.getElementById('learning-mode-toggle');
+const nextBtn = document.getElementById('next-btn');
+const insituFeedback = document.getElementById('insitu-feedback');
+
+// Inicializar el texto de los fallos
+function updateFallosUI() {
+    failedQuestionsRegistry = JSON.parse(localStorage.getItem('failedQuestions') || '[]');
+    if (failedQuestionsRegistry.length > 0) {
+        fallosDesc.textContent = `Tienes ${failedQuestionsRegistry.length} preguntas falladas registradas.`;
+        btnErrores.disabled = false;
+    } else {
+        fallosDesc.textContent = `¡Felicidades! No tienes preguntas falladas pendientes.`;
+        btnErrores.disabled = true;
+    }
+}
+updateFallosUI();
+
+// Guardar fallo en LocalStorage asegurando que no se duplique
+function saveFailedQuestion(questionObj) {
+    const exists = failedQuestionsRegistry.find(q => q.pregunta === questionObj.pregunta);
+    if (!exists) {
+        failedQuestionsRegistry.push(questionObj);
+        localStorage.setItem('failedQuestions', JSON.stringify(failedQuestionsRegistry));
+    }
+}
+
+// Remover fallo si se acierta en un test
+function removeFailedQuestion(questionObj) {
+    failedQuestionsRegistry = failedQuestionsRegistry.filter(q => q.pregunta !== questionObj.pregunta);
+    localStorage.setItem('failedQuestions', JSON.stringify(failedQuestionsRegistry));
+}
+
+
+// Lógica de los Selectores de Temas
+function updateThemeOptions() {
+    const block = blockSelect.value;
+    themeSelect.innerHTML = '<option value="">-- Selecciona un Tema --</option>';
+    
+    if (block) {
+        const temas = [...new Set(baseDeDatos.filter(p => p.bloque === block).map(p => p.tema))].sort((a,b) => a-b);
+        temas.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t;
+            opt.textContent = `Tema ${t}`;
+            themeSelect.appendChild(opt);
+        });
+        themeSelect.disabled = false;
+    } else {
+        themeSelect.disabled = true;
+    }
+    checkThemeTestButton();
+}
+
+themeSelect.addEventListener('change', checkThemeTestButton);
+
+function checkThemeTestButton() {
+    btnThemeTest.disabled = !(blockSelect.value && themeSelect.value);
+}
+
+// Navegación de Pantallas
+function switchScreen(screenName) {
+    Object.values(screens).forEach(s => s.classList.remove('active', 'hidden'));
+    Object.values(screens).forEach(s => s.classList.add('hidden'));
+    
+    screens[screenName].classList.remove('hidden');
+    setTimeout(() => screens[screenName].classList.add('active'), 10);
+}
+
+// Lógica Principal del Test
+function startTest(mode) {
+    let pool = [...baseDeDatos];
+    
+    isLearningMode = learningModeToggle.checked;
+
+    if (mode === 'theme') {
+        const blk = blockSelect.value;
+        const tma = parseInt(themeSelect.value);
+        pool = pool.filter(p => p.bloque === blk && p.tema === tma);
+    }
+    
+    if (mode === 'fallos') {
+        pool = [...failedQuestionsRegistry];
+    }
+    
+    pool = pool.sort(() => 0.5 - Math.random());
+    
+    let numQuestions = 10;
+    isCountdown = false;
+    
+    if (mode === 'short') numQuestions = 10;
+    if (mode === 'global') numQuestions = 30;
+    if (mode === 'fallos') numQuestions = pool.length; 
+    if (mode === 'simulacro') {
+        numQuestions = 80;
+        isCountdown = true;
+        timeLimitSeconds = 120 * 60; // 120 minutos
+        isLearningMode = false; // Fuerza modo examen
+        learningModeToggle.checked = false; // Visual update
+    }
+    if (mode === 'theme') numQuestions = 10;
+    
+    currentExam = pool.slice(0, Math.min(numQuestions, pool.length));
+    currentQuestionIndex = 0;
+    userAnswers = [];
+    secondsElapsed = 0;
+    
+    if (currentExam.length === 0) {
+        alert("No hay preguntas disponibles para esta configuración.");
+        return;
+    }
+
+    document.getElementById('status-bar').classList.remove('hidden');
+    startTimer();
+    renderQuestion();
+    switchScreen('quiz');
+}
+
+function startTimer() {
+    clearInterval(timerInterval);
+    const timerDisplay = document.getElementById('timer');
+    
+    timerInterval = setInterval(() => {
+        if(isCountdown) {
+            timeLimitSeconds--;
+            if(timeLimitSeconds <= 0) {
+                clearInterval(timerInterval);
+                alert("¡Tiempo agotado!");
+                showResults();
+                return;
+            }
+            formatTime(timeLimitSeconds, timerDisplay);
+        } else {
+            secondsElapsed++;
+            formatTime(secondsElapsed, timerDisplay);
+        }
+    }, 1000);
+}
+
+function formatTime(totalSeconds, element) {
+    const m = String(Math.floor(totalSeconds / 60)).padStart(2, '0');
+    const s = String(totalSeconds % 60).padStart(2, '0');
+    element.textContent = `${m}:${s}`;
+}
+
+function stopTimer() {
+    clearInterval(timerInterval);
+}
+
+function renderQuestion() {
+    const q = currentExam[currentQuestionIndex];
+    
+    document.getElementById('question-counter').textContent = `Pregunta ${currentQuestionIndex + 1} de ${currentExam.length}`;
+    const progressPct = ((currentQuestionIndex) / currentExam.length) * 100;
+    document.getElementById('progress-bar').style.width = `${progressPct}%`;
+    
+    document.getElementById('question-badge').textContent = `Bloque ${q.bloque} - Tema ${q.tema}`;
+    document.getElementById('question-text').textContent = q.pregunta;
+    
+    const optionsContainer = document.getElementById('options-container');
+    optionsContainer.innerHTML = '';
+    
+    insituFeedback.classList.add('hidden');
+    nextBtn.classList.add('hidden');
+    
+    let shuffledOptions = [...q.opciones].sort(() => 0.5 - Math.random());
+    
+    shuffledOptions.forEach(opcion => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.textContent = opcion;
+        const originalLetter = opcion.charAt(0);
+        btn.onclick = () => selectOption(originalLetter, btn, optionsContainer);
+        btn.dataset.letter = originalLetter; 
+        optionsContainer.appendChild(btn);
+    });
+}
+
+function selectOption(letter, clickedBtn, container) {
+    userAnswers.push(letter);
+    const currentQ = currentExam[currentQuestionIndex];
+    
+    if (isLearningMode) {
+        // Corrección in-situ
+        const allBtns = container.querySelectorAll('.option-btn');
+        allBtns.forEach(b => b.disabled = true);
+        
+        insituFeedback.classList.remove('hidden');
+        insituFeedback.classList.remove('success-bg', 'error-bg');
+        nextBtn.classList.remove('hidden');
+
+        if (letter === currentQ.respuesta) {
+            clickedBtn.classList.add('correct-insitu');
+            insituFeedback.classList.add('success-bg');
+            insituFeedback.textContent = "✅ ¡Correcto!";
+            removeFailedQuestion(currentQ); 
+        } else {
+            clickedBtn.classList.add('wrong-insitu');
+            insituFeedback.classList.add('error-bg');
+            insituFeedback.textContent = "❌ Incorrecto.";
+            saveFailedQuestion(currentQ); 
+            
+            allBtns.forEach(b => {
+                if (b.dataset.letter === currentQ.respuesta) {
+                    b.classList.add('correct-insitu');
+                }
+            });
+        }
+    } else {
+        // Modo Examen
+        if(letter !== currentQ.respuesta) {
+            saveFailedQuestion(currentQ); 
+        } else {
+            removeFailedQuestion(currentQ);
+        }
+        advanceOrFinish();
+    }
+}
+
+function nextQuestion() {
+    advanceOrFinish();
+}
+
+function advanceOrFinish() {
+    currentQuestionIndex++;
+    
+    if (currentQuestionIndex < currentExam.length) {
+        document.querySelector('.question-container').style.opacity = '0';
+        document.getElementById('options-container').style.opacity = '0';
+        insituFeedback.style.opacity = '0';
+        nextBtn.style.opacity = '0';
+        
+        setTimeout(() => {
+            renderQuestion();
+            document.querySelector('.question-container').style.opacity = '1';
+            document.getElementById('options-container').style.opacity = '1';
+            insituFeedback.style.opacity = '1';
+            nextBtn.style.opacity = '1';
+        }, 200);
+    } else {
+        document.getElementById('progress-bar').style.width = `100%`;
+        updateFallosUI(); 
+        setTimeout(showResults, 300);
+    }
+}
+
+function showResults() {
+    stopTimer();
+    document.getElementById('status-bar').classList.add('hidden');
+    
+    let aciertos = 0;
+    let fallos = 0;
+    const errorsContainer = document.getElementById('errors-container');
+    errorsContainer.innerHTML = '<h3>Repaso de fallos en este Test:</h3>';
+    let hasErrors = false;
+    
+    currentExam.forEach((q, index) => {
+        const correcta = q.respuesta;
+        const marcada = userAnswers[index];
+        
+        if (marcada === correcta) {
+            aciertos++;
+        } else {
+            fallos++;
+            hasErrors = true;
+            const div = document.createElement('div');
+            div.className = 'error-item';
+            div.innerHTML = `
+                <div class="q">${index + 1}. ${q.pregunta}</div>
+                <div class="wrong-ans">❌ Tu respuesta: ${q.opciones.find(o => o.startsWith(marcada)) || 'En blanco'}</div>
+                <div class="right-ans">✅ Correcta: ${q.opciones.find(o => o.startsWith(correcta))}</div>
+            `;
+            errorsContainer.appendChild(div);
+        }
+    });
+    
+    if(!hasErrors) {
+        errorsContainer.innerHTML = '<h3 style="color:var(--success);">¡Simulacro perfecto! Ningún fallo registrado en este intento.</h3>';
+    }
+    
+    let notaNeta = aciertos - (fallos / 3);
+    if(notaNeta < 0) notaNeta = 0;
+    const notaSobre10 = (notaNeta / currentExam.length) * 10;
+    
+    const scoreCircle = document.querySelector('.score-circle');
+    const pct = (notaSobre10 / 10) * 100;
+    let color = 'var(--success)';
+    if(notaSobre10 < 5) color = 'var(--danger)';
+    
+    scoreCircle.style.background = `conic-gradient(${color} ${pct}%, var(--card-bg) ${pct}%)`;
+    
+    document.getElementById('score-text').textContent = notaSobre10.toFixed(2);
+    document.getElementById('stat-correct').textContent = aciertos;
+    document.getElementById('stat-wrong').textContent = fallos;
+    
+    if(isCountdown){
+        const timeUsed = (120*60) - timeLimitSeconds;
+        formatTime(timeUsed, document.getElementById('stat-time'));
+    } else {
+        formatTime(secondsElapsed, document.getElementById('stat-time'));
+    }
+    
+    const feedback = document.getElementById('feedback-message');
+    feedback.style.color = color;
+    if (notaSobre10 >= 8) feedback.textContent = "¡Plaza asegurada! Nivel excelente.";
+    else if (notaSobre10 >= 5) feedback.textContent = "¡Aprobado! (Aplicada la penalización de -0.33 por fallo).";
+    else feedback.textContent = "Suspenso. Estos fallos ya están guardados en tu registro.";
+    
+    switchScreen('results');
+}
+
+function returnToMenu() {
+    switchScreen('menu');
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAI Prep - Plataforma de Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    
+    <div class="app-container glass-panel">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <span class="icon">💻</span>
+                <h1>TAI Prep</h1>
+            </div>
+            <div class="header-controls">
+                <div id="status-bar" class="hidden">
+                    <span class="badge" id="question-counter">Pregunta 1/10</span>
+                    <span class="badge timer-badge" id="timer">00:00</span>
+                </div>
+                <div class="theme-wrapper">
+                    <select id="theme-selector" class="custom-select theme-select">
+                        <option value="light">☀️ Claro (Defecto)</option>
+                        <option value="dark">🌙 Oscuro</option>
+                        <option value="system">🖥️ Sistema</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Menu -->
+        <section id="menu-screen" class="screen active">
+            <div class="menu-header">
+                <h2>Opciones de Test</h2>
+                <p>Personaliza tu sesión de estudio. Base de datos actualizada al temario TAI AGE 2026.</p>
+                
+                <div class="toggle-container">
+                    <label class="switch">
+                      <input type="checkbox" id="learning-mode-toggle" checked>
+                      <span class="slider round"></span>
+                    </label>
+                    <div class="toggle-text">
+                        <strong>Modo Estudio (Corrección al instante)</strong>
+                        <span class="hint">Te dice si aciertas y marca la correcta. Desactívalo para Modo Examen.</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-grid">
+                <button class="btn-card" onclick="startTest('short')">
+                    <h3>⏱️ Test Corto</h3>
+                    <p>10 preguntas aleatorias de cualquier bloque para repasos rápidos.</p>
+                </button>
+                <button class="btn-card" onclick="startTest('global')">
+                    <h3>🌍 Test Global</h3>
+                    <p>30 preguntas mezcladas. Evalúa tu conocimiento general.</p>
+                </button>
+                <button class="btn-card highlight" onclick="startTest('simulacro')">
+                    <h3>🎓 Simulacro Real</h3>
+                    <p>Condiciones de examen: 80 preguntas y 120 min. (Fuerza Modo Examen).</p>
+                </button>
+                <button class="btn-card danger-card" onclick="startTest('fallos')" id="btn-errores">
+                    <h3>🔥 Repaso de Fallos</h3>
+                    <p id="fallos-desc">Tienes 0 preguntas falladas registradas.</p>
+                </button>
+            </div>
+
+            <div class="filter-section">
+                <h3>Test por Tema Específico</h3>
+                <div class="theme-selector-container">
+                    <select id="block-select" class="custom-select" onchange="updateThemeOptions()">
+                        <option value="">-- Selecciona un Bloque --</option>
+                        <option value="I">Bloque I (Organización)</option>
+                        <option value="II">Bloque II (Tecnología)</option>
+                        <option value="III">Bloque III (Desarrollo)</option>
+                        <option value="IV">Bloque IV (Sistemas)</option>
+                    </select>
+                    <select id="theme-select" class="custom-select" disabled>
+                        <option value="">-- Selecciona un Tema --</option>
+                    </select>
+                    <button class="btn-primary small-btn" onclick="startTest('theme')" id="btn-theme-test" disabled>Empezar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen hidden">
+            <div class="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            
+            <div class="question-container">
+                <span id="question-badge" class="badge">Bloque X - Tema Y</span>
+                <h2 id="question-text">¿Pregunta de prueba?</h2>
+            </div>
+            
+            <div id="options-container" class="options-grid">
+                <!-- Opciones inyectadas por JS -->
+            </div>
+
+            <div id="insitu-feedback" class="hidden feedback-insitu">
+                <!-- Mensaje de correcto/incorrecto -->
+            </div>
+            <button id="next-btn" class="btn-primary hidden" onclick="nextQuestion()">Siguiente Pregunta</button>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="results-screen" class="screen hidden">
+            <div class="results-header">
+                <h2>Resultados</h2>
+                <div class="score-circle">
+                    <span id="score-text">0.00</span>
+                </div>
+                <p id="feedback-message" class="feedback"></p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-value" id="stat-correct">0</span>
+                    <span class="stat-label">Aciertos</span>
+                </div>
+                <div class="stat-box error">
+                    <span class="stat-value" id="stat-wrong">0</span>
+                    <span class="stat-label">Fallos</span>
+                </div>
+                <div class="stat-box neutral">
+                    <span class="stat-value" id="stat-time">00:00</span>
+                    <span class="stat-label">Tiempo Invertido</span>
+                </div>
+            </div>
+
+            <div id="errors-container" class="errors-list">
+                <h3>Repaso de fallos:</h3>
+                <!-- Fallos inyectados por JS -->
+            </div>
+
+            <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>
+        </section>
+    </div>
+
+    <script src="preguntas.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
