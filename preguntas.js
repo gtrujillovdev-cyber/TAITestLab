@@ -167,4 +167,25 @@ const baseDeDatos = [
         "opciones": ["a) Anillo", "b) Bus", "c) Estrella", "d) Malla"],
         "respuesta": "c"
     }
+,
+    {"bloque": "I", "tema": 1, "pregunta": "En la Constitución Española, el Título Preliminar comprende los artículos:", "opciones": ["a) 1 al 9", "b) 1 al 10", "c) 1 al 14", "d) 1 al 5"], "respuesta": "a"},
+    {"bloque": "I", "tema": 4, "pregunta": "Según la Ley 39/2015, ¿tienen los sábados la consideración de días hábiles?", "opciones": ["a) Sí, siempre.", "b) No, se consideran inhábiles.", "c) Solo en la Administración Local.", "d) Solo si lo establece un Reglamento."], "respuesta": "b"},
+    {"bloque": "I", "tema": 6, "pregunta": "¿Qué Ley regula actualmente la Firma Electrónica en España?", "opciones": ["a) Ley 59/2003", "b) Ley 6/2020", "c) Ley 39/2015", "d) Ley 11/2007"], "respuesta": "b"},
+    {"bloque": "I", "tema": 8, "pregunta": "El Esquema Nacional de Seguridad (ENS) se regula mediante el:", "opciones": ["a) RD 3/2010", "b) RD 311/2022", "c) RD 4/2010", "d) RD 203/2021"], "respuesta": "b"},
+    {"bloque": "II", "tema": 1, "pregunta": "Un byte está compuesto por:", "opciones": ["a) 4 bits", "b) 8 bits", "c) 16 bits", "d) 32 bits"], "respuesta": "b"},
+    {"bloque": "II", "tema": 2, "pregunta": "¿Cuál es la velocidad máxima teórica de un puerto USB 3.0?", "opciones": ["a) 480 Mbps", "b) 5 Gbps", "c) 10 Gbps", "d) 40 Gbps"], "respuesta": "b"},
+    {"bloque": "II", "tema": 4, "pregunta": "En Unix/Linux, ¿qué comando muestra los procesos en ejecución interactiva y en tiempo real?", "opciones": ["a) ps", "b) ls", "c) top", "d) grep"], "respuesta": "c"},
+    {"bloque": "II", "tema": 4, "pregunta": "En Windows, ¿qué sistema de archivos es el más habitual hoy en día, permitiendo cifrado y cuotas de disco?", "opciones": ["a) FAT32", "b) exFAT", "c) NTFS", "d) ReFS"], "respuesta": "c"},
+    {"bloque": "III", "tema": 1, "pregunta": "En el modelo relacional, la regla de integridad referencial asegura que:", "opciones": ["a) No haya nulos en la clave primaria.", "b) El valor de la clave ajena coincida con el valor de la clave primaria referenciada o sea nulo.", "c) No existan filas repetidas.", "d) Todos los atributos atómicos tengan el mismo dominio."], "respuesta": "b"},
+    {"bloque": "III", "tema": 3, "pregunta": "¿Qué sentencia SQL se utiliza para dar privilegios a un usuario sobre una base de datos?", "opciones": ["a) ALLOW", "b) GRANT", "c) PERMIT", "d) ASSIGN"], "respuesta": "b"},
+    {"bloque": "III", "tema": 4, "pregunta": "¿En qué paradigma de programación se basa el encapsulamiento?", "opciones": ["a) Funcional", "b) Procedimental", "c) Orientada a Objetos", "d) Estructurada"], "respuesta": "c"},
+    {"bloque": "III", "tema": 5, "pregunta": "En Java, ¿qué palabra reservada se usa para heredar de una clase?", "opciones": ["a) implements", "b) inherits", "c) extends", "d) overrides"], "respuesta": "c"},
+    {"bloque": "III", "tema": 9, "pregunta": "¿Qué comando en Git se usa para subir los cambios del repositorio local al remoto?", "opciones": ["a) git fetch", "b) git pull", "c) git push", "d) git commit"], "respuesta": "c"},
+    {"bloque": "III", "tema": 8, "pregunta": "Según las pautas WCAG, asegurar que el texto tiene contraste suficiente con su fondo se asocia al principio:", "opciones": ["a) Operable", "b) Perceptible", "c) Comprensible", "d) Robusto"], "respuesta": "b"},
+    {"bloque": "IV", "tema": 7, "pregunta": "En la pila de protocolos TCP/IP, ¿en qué capa se ubica el protocolo UDP?", "opciones": ["a) Capa de Aplicación", "b) Capa de Internet", "c) Capa de Transporte", "d) Capa de Acceso a la Red"], "respuesta": "c"},
+    {"bloque": "IV", "tema": 8, "pregunta": "¿Qué puerto estándar utiliza el protocolo SMTP para la transmisión de correo saliente?", "opciones": ["a) 21", "b) 25", "c) 110", "d) 143"], "respuesta": "b"},
+    {"bloque": "IV", "tema": 3, "pregunta": "¿Qué puerto por defecto usa el protocolo POP3?", "opciones": ["a) 25", "b) 53", "c) 110", "d) 443"], "respuesta": "c"},
+    {"bloque": "IV", "tema": 10, "pregunta": "El estándar IEEE 802.11 define las especificaciones para redes:", "opciones": ["a) Ethernet cableadas", "b) Redes LAN inalámbricas (Wi-Fi)", "c) Redes de área metropolitana", "d) Bluetooth"], "respuesta": "b"},
+    {"bloque": "IV", "tema": 5, "pregunta": "En un CPD, los sistemas de alimentación ininterrumpida (SAI/UPS) se instalan principalmente para garantizar la:", "opciones": ["a) Confidencialidad", "b) Disponibilidad", "c) Integridad", "d) Autenticación"], "respuesta": "b"},
+    {"bloque": "IV", "tema": 6, "pregunta": "¿Cuál de las siguientes es una fibra óptica en la que la luz se propaga en un solo camino, permitiendo mayores distancias?", "opciones": ["a) Fibra Multimodo de índice escalonado", "b) Fibra Multimodo de índice gradual", "c) Fibra Monomodo", "d) Cable coaxial ciego"], "respuesta": "c"}
 ];
