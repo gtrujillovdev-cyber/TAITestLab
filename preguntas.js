@@ -1930,4 +1930,168 @@ const baseDeDatos = [
             "SAS"
         ]
     }
+,
+{
+        "pregunta": "Según la Ley 7/1985, Reguladora de las Bases del Régimen Local, ¿cuál de los siguientes es un órgano de existencia obligatoria en todas las Diputaciones Provinciales?",
+        "opciones": [
+            "La Comisión Especial de Cuentas",
+            "El Defensor del Ciudadano Local",
+            "El Consejo de Alcaldes",
+            "La Junta de Gobierno Local, solo en provincias de más de 500.000 habitantes"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 5 - Régimen Local",
+        "oposiciones": [
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "¿Qué norma constituye el estatuto básico de los municipios y provincias en el ordenamiento jurídico español?",
+        "opciones": [
+            "La Constitución Española de 1978",
+            "La Ley 39/2015 del Procedimiento Administrativo Común",
+            "La Ley 7/1985, Reguladora de las Bases del Régimen Local",
+            "El Estatuto de Autonomía de la Comunidad respectiva"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 5 - Régimen Local",
+        "oposiciones": [
+            "Diputación Sevilla",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "Según el Estatuto de Autonomía para Andalucía, ¿quién ostenta la suprema representación de la Comunidad Autónoma y la ordinaria del Estado en Andalucía?",
+        "opciones": [
+            "El Presidente del Parlamento de Andalucía",
+            "El Presidente de la Junta de Andalucía",
+            "El Delegado del Gobierno en Andalucía",
+            "El Consejero de la Presidencia"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 4 - Estatuto de Autonomía de Andalucía",
+        "oposiciones": [
+            "Diputación Sevilla",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "En el ámbito de la Diputación de Sevilla (e INPRO), ¿qué plataforma de la Administración General del Estado se utiliza habitualmente para la interconexión de registros (SIR)?",
+        "opciones": [
+            "Notific@​",
+            "Cl@ve",
+            "GEISER / ORVE",
+            "Inside"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 10 - Administración Electrónica",
+        "oposiciones": [
+            "AGE",
+            "Diputación Sevilla",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el órgano máximo de gobierno y administración de una provincia según la Ley de Bases del Régimen Local?",
+        "opciones": [
+            "El Presidente de la Diputación",
+            "El Pleno de la Diputación",
+            "La Junta de Gobierno Provincial",
+            "El Consejo Provincial"
+        ],
+        "respuestaCorrecta": 1,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 5 - Régimen Local",
+        "oposiciones": [
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "En la Junta de Andalucía, ¿cuál es el instrumento principal para la tramitación electrónica de expedientes por parte de la administración?",
+        "opciones": [
+            "Trew@",
+            "Alfresco",
+            "SARA",
+            "Portafirmas AGE"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque III: Desarrollo de Sistemas",
+        "tema": "Tema 27 - Sistemas de Información",
+        "oposiciones": [
+            "Junta Andalucía",
+            "SAS",
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "De acuerdo con la Ley de Bases del Régimen Local, ¿cuál de los siguientes servicios NO es de prestación obligatoria en todos los municipios independientemente de su población?",
+        "opciones": [
+            "Alumbrado público",
+            "Cementerio",
+            "Recogida de residuos",
+            "Transporte colectivo urbano de viajeros"
+        ],
+        "respuestaCorrecta": 3,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 5 - Régimen Local",
+        "oposiciones": [
+            "Diputación Sevilla"
+        ]
+    },
+    {
+        "pregunta": "¿A qué institución andaluza le corresponde el control externo del sector público de la Comunidad Autónoma de Andalucía y de las Entidades Locales andaluzas?",
+        "opciones": [
+            "Cámara de Cuentas de Andalucía",
+            "Tribunal de Cuentas del Estado",
+            "Consejo Consultivo de Andalucía",
+            "Defensor del Pueblo Andaluz"
+        ],
+        "respuestaCorrecta": 0,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 4 - Instituciones de Andalucía",
+        "oposiciones": [
+            "Diputación Sevilla",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    },
+    {
+        "pregunta": "Para la integración de los Ayuntamientos de Sevilla con la pasarela de pagos electrónicos autonómica, ¿qué plataforma se suele utilizar como referencia en Andalucía?",
+        "opciones": [
+            "Pasarela de Pagos del Estado",
+            "Plataforma de Contratación",
+            "Plataforma de Pago Telemático de la Junta de Andalucía",
+            "Red SARA"
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque IV: Sistemas y Comunicaciones",
+        "tema": "Tema 33 - Plataformas de Administración Electrónica",
+        "oposiciones": [
+            "Diputación Sevilla",
+            "Junta Andalucía"
+        ]
+    },
+    {
+        "pregunta": "Según la normativa de administración electrónica (Ley 39/2015 y Ley 40/2015), ¿qué es el Esquema Nacional de Interoperabilidad (ENI)?",
+        "opciones": [
+            "El conjunto de criterios y recomendaciones que rigen las políticas de seguridad en el uso de medios electrónicos.",
+            "El documento que regula los salarios de los empleados TIC en la administración.",
+            "El conjunto de criterios y recomendaciones que deberán ser tenidos en cuenta por las Administraciones Públicas para asegurar la interoperabilidad.",
+            "Una red de fibra óptica exclusiva para las diputaciones."
+        ],
+        "respuestaCorrecta": 2,
+        "bloque": "Bloque I: Estado y Administración Electrónica",
+        "tema": "Tema 10 - Administración Electrónica",
+        "oposiciones": [
+            "AGE",
+            "Diputación Sevilla",
+            "Junta Andalucía",
+            "SAS"
+        ]
+    }
 ];
