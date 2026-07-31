@@ -53,7 +53,8 @@
 
     function questionBadgeText(q) {
         if (q.origen === 'oficial') {
-            return `${BLOQUE_LABELS[q.bloque] || ('Bloque ' + q.bloque)} · 📜 Examen Oficial`;
+            const ops = (q.oposiciones && q.oposiciones.length) ? ` (${q.oposiciones.join(', ')})` : '';
+            return `${BLOQUE_LABELS[q.bloque] || ('Bloque ' + q.bloque)} · 📜 Examen Oficial${ops}`;
         }
         return `${BLOQUE_LABELS[q.bloque] || ('Bloque ' + q.bloque)} · Tema ${q.tema}`;
     }
