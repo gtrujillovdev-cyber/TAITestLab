@@ -159,7 +159,7 @@ Todas las preguntas —tanto las de elaboración propia sobre el temario como la
 
 ```javascript
 {
-    "id": 268,                     // identificador único y estable (siguiente número libre)
+    "id": 473,                     // identificador único y estable (siguiente número libre)
     "bloque": "IV",                // "I" | "II" | "III" | "IV"
     "tema": 7,                     // número de tema dentro del bloque, o null si no aplica
                                     // a un único tema (p.ej. preguntas de examen oficial)
@@ -227,23 +227,51 @@ que faltaban de la Primera Parte y de las preguntas de reserva del
 Posteriormente se ha incorporado el cuestionario completo de la **OPEP
 2025 del SAS** (Técnico/a Especialista en Informática, turno libre): 75
 preguntas del cuestionario teórico-práctico + 3 de reserva, con
-`"oposiciones":["SAS"]`, elevando el banco a **268 preguntas**. También se
-ha añadido el **Supuesto I (Desarrollo)** de la OEP 2020-2022 (AGE) —19
-preguntas + 4 de reserva sobre un sistema de representación ante la
-Administración con Java/Jakarta EE, SQL y UML— a `supuestos.js`, que pasa
-a tener **4 supuestos prácticos**.
+`"oposiciones":["SAS"]`. También se añadió el **Supuesto I (Desarrollo)**
+de la OEP 2020-2022 (AGE) —19 preguntas + 4 de reserva sobre un sistema de
+representación ante la Administración con Java/Jakarta EE, SQL y UML— a
+`supuestos.js`.
 
-Quedan pendientes de incorporar (los PDF no se pudieron descargar de forma
-automática; hace falta descargarlos manualmente, ver
-`Examenes_Oficiales_OEP/*/DESCARGA_MANUAL.md`): OEP 2019 (AGE) y OEP
-2023-2024 (AGE, modelos A y B). El cuestionario de la OPEP 2025 del SAS
-ya está incorporado en su totalidad (turno libre). El cuestionario del
-examen TAI 2018 (`Examenes_Oficiales/2018/Cuestionario_TAI_2018.pdf`) se
-localizó, pero es un PDF escaneado sin capa de texto: la extracción
-automática (`pdftotext`, `pypdf`) devuelve vacío y el entorno no dispone
-de los paquetes de idioma de Tesseract (`tesseract-ocr-spa`) ni de acceso
-de administrador para instalarlos, por lo que el OCR queda pendiente de
-hacerse manualmente.
+Más adelante se detectó que un script externo (`Herramientas/Scripts/merge_preguntas.py`)
+había reescrito `preguntas.js` fusionándolo con otras fuentes y, en el proceso, había perdido
+las 78 preguntas del SAS y dejado 4 preguntas sin `id`. Se restauraron las preguntas del SAS
+(recuperadas de esta misma conversación), se asignó `id` a las 4 huérfanas y se eliminó una
+pregunta duplicada y con la respuesta incorrecta que había quedado mal copiada desde un
+supuesto práctico. Si vas a ejecutar scripts propios sobre `preguntas.js`, ten en cuenta que
+el array contiene comentarios `//` entre bloques de preguntas, así que un `JSON.parse()`
+directo sobre el contenido del fichero fallará silenciosamente.
+
+Por último se han incorporado las convocatorias **OEP 2019 (AGE)** y **OEP 2023-2024 (AGE)**:
+- OEP 2019: 80 preguntas de la Primera Parte (3 anuladas: 22, 51 y 70) + 5 de reserva a
+  `preguntas.js`, y los dos supuestos (`oep_2019_sup1` Desarrollo, `oep_2019_sup2` Sistemas,
+  20+5 preguntas cada uno) a `supuestos.js`.
+- OEP 2023-2024: 80 preguntas de la Primera Parte (3 anuladas: 22, 51 y 70) + 5 de reserva a
+  `preguntas.js`, y los dos supuestos (`oep_2023_2024_sup1` Desarrollo, `oep_2023_2024_sup2`
+  Sistemas —este con la pregunta 15 anulada—) a `supuestos.js`. El examen tiene modelos A y B
+  con el mismo banco de preguntas reordenado; solo se extrajo del modelo A para no duplicar.
+
+El banco de preguntas queda en **472 preguntas** y `supuestos.js` en **8 supuestos prácticos**.
+
+Se detectó que 4 de los 8 supuestos hacían referencia a un diagrama del enunciado original
+(diagrama de clases o de red) que no se había extraído junto con el texto, por lo que las
+preguntas correspondientes no tenían el apoyo visual necesario. Se han recortado los diagramas
+de los PDF oficiales (`pdftoppm` + recorte con PIL) y se han añadido como imágenes en
+`assets/diagramas/`, referenciadas con `<img>` al final del `contextoHTML` de cada supuesto:
+- `oep_2020_2022_sup1`: diagrama de clases (Solicitud Representación / Trámite / Notificación).
+- `oep_2020_2022_sup2`: dos diagramas de red (Modelo A y Modelo B).
+- `oep_2019_sup1`: diagrama de clases (Solicitud / Opositor / Proceso / Ejercicio).
+- `oep_2023_2024_sup1`: diagrama entidad-relación (Interesado / SolicitudBeca / FicheroAdjunto /
+  CuerpoBecado / Estado).
+
+Los supuestos `oep_2019_sup2` y `oep_2023_2024_sup2` (ambos de Sistemas) son puramente textuales
+en el enunciado original y no necesitan imagen. Los rutas de imagen son relativas a `index.html`
+(`assets/diagramas/...`), por lo que funcionan tanto en `file://` como en GitHub Pages.
+
+Queda pendiente el cuestionario del examen TAI 2018
+(`Examenes_Oficiales/2018/Cuestionario_TAI_2018.pdf`): es un PDF escaneado sin capa de texto,
+la extracción automática (`pdftotext`, `pypdf`) devuelve vacío y el entorno no dispone de los
+paquetes de idioma de Tesseract (`tesseract-ocr-spa`) ni de acceso de administrador para
+instalarlos, por lo que el OCR queda pendiente de hacerse manualmente.
 
 ---
 *Mucha suerte y a por la plaza.* 🎯

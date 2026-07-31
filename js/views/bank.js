@@ -65,7 +65,7 @@
                 `<li class="${i === q.respuestaIndex ? 'correct-option' : ''}">${utils.escapeHtml(opt)}</li>`).join('');
             item.innerHTML = `
                 <div class="viewer-question-header">
-                    <span class="badge">#${q.id}</span>
+                    ${q.id !== undefined ? `<span class="badge">#${q.id}</span>` : ''}
                     <span class="badge" style="background: var(--accent); color:white;">Bloque ${q.bloque}</span>
                     ${origenBadge}
                 </div>
