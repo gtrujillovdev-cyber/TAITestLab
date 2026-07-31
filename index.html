@@ -14,253 +14,63 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
 </head>
 <body>
+    <a class="skip-link" href="#view-root">Saltar al contenido</a>
+
     <div class="background-blobs">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
     </div>
 
-    <div class="app-container glass-panel">
-        <!-- Header -->
-        <header>
-            <div class="logo">
-                <span class="icon">💻</span>
-                <h1>TAI Prep</h1>
-            </div>
-            <div class="header-controls">
-                <div id="status-bar" class="hidden">
-                    <span class="badge" id="question-counter">Pregunta 1/10</span>
-                    <span class="badge timer-badge" id="timer">00:00</span>
+    <div class="app-shell">
+        <div id="nav-root" class="nav-root"></div>
+
+        <div class="app-container glass-panel">
+            <header>
+                <div class="logo">
+                    <span class="icon" aria-hidden="true">💻</span>
+                    <h1>TAI Prep</h1>
                 </div>
-                <div class="theme-wrapper">
-                    <select id="theme-selector" class="custom-select theme-select" aria-label="Selector de tema de la interfaz">
-                        <option value="light">☀️ Claro (Defecto)</option>
-                        <option value="dark">🌙 Oscuro</option>
-                        <option value="system">🖥️ Sistema</option>
-                    </select>
-                </div>
-            </div>
-        </header>
+            </header>
 
-        <!-- Main Menu -->
-        <section id="menu-screen" class="screen active">
-            <div class="menu-header">
-                <h2>Opciones de Test</h2>
-                <p>Personaliza tu sesión de estudio. Base de datos actualizada al temario TAI AGE 2026.</p>
-
-                <div class="toggle-container">
-                    <label class="switch">
-                      <input type="checkbox" id="learning-mode-toggle" checked>
-                      <span class="slider round"></span>
-                    </label>
-                    <div class="toggle-text">
-                        <strong>Modo Estudio (Corrección al instante)</strong>
-                        <span class="hint">Te dice si aciertas y marca la correcta. Desactívalo para Modo Examen.</span>
-                    </div>
-                </div>
-
-                <div class="filter-section opo-filters">
-                    <h3>¿A qué Oposición te presentas?</h3>
-                    <p class="hint">Selecciona las administraciones que estés preparando. Las preguntas se filtrarán para tu examen.</p>
-                    <div class="checkbox-group" id="opo-checkboxes">
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="AGE" checked>
-                            <span class="checkmark"></span> AGE (Estado)
-                        </label>
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="SAS" checked>
-                            <span class="checkmark"></span> SAS (Salud)
-                        </label>
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="Junta de Andalucía" checked>
-                            <span class="checkmark"></span> Junta de Andalucía
-                        </label>
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="Diputación de Sevilla" checked>
-                            <span class="checkmark"></span> Diputación de Sevilla
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu-grid">
-                <button class="btn-card" onclick="startTest('short')">
-                    <h3>⏱️ Test Corto</h3>
-                    <p>10 preguntas aleatorias de cualquier bloque para repasos rápidos.</p>
-                </button>
-                <button class="btn-card" onclick="startTest('global')">
-                    <h3>🌍 Test Global</h3>
-                    <p>30 preguntas mezcladas. Evalúa tu conocimiento general.</p>
-                </button>
-                <button class="btn-card highlight" onclick="startTest('simulacro')">
-                    <h3>🎓 Simulacro Real</h3>
-                    <p>Condiciones de examen: 80 preguntas y 120 min. (Fuerza Modo Examen).</p>
-                </button>
-                <button class="btn-card highlight" onclick="startTest('oficiales')">
-                    <h3>📜 Exámenes Oficiales</h3>
-                    <p>Practica solo con preguntas reales de convocatorias oficiales (OEP).</p>
-                </button>
-                <button class="btn-card" onclick="openSupuestosMenu()">
-                    <h3>📝 Supuestos Prácticos</h3>
-                    <p>Resuelve casos prácticos reales, estilo Parte II del examen.</p>
-                </button>
-                <button class="btn-card danger-card" onclick="startTest('fallos')" id="btn-errores">
-                    <h3>🔥 Repaso de Fallos</h3>
-                    <p id="fallos-desc">Tienes 0 preguntas falladas registradas.</p>
-                </button>
-                <button class="btn-card" onclick="openViewer()">
-                    <h3>📚 Visor de Preguntas</h3>
-                    <p>Explora el banco completo de preguntas y estudia con las respuestas correctas.</p>
-                </button>
-                <button class="btn-card" onclick="openHistorial()">
-                    <h3>📈 Mi Progreso</h3>
-                    <p>Consulta el histórico de tus tests: nota media, mejor resultado y evolución.</p>
-                </button>
-            </div>
-
-            <div class="filter-section">
-                <h3>Test por Tema Específico</h3>
-                <div class="theme-selector-container">
-                    <select id="block-select" class="custom-select" onchange="updateThemeOptions()">
-                        <option value="">-- Selecciona un Bloque --</option>
-                        <option value="I">Bloque I (Organización)</option>
-                        <option value="II">Bloque II (Tecnología)</option>
-                        <option value="III">Bloque III (Desarrollo)</option>
-                        <option value="IV">Bloque IV (Sistemas)</option>
-                    </select>
-                    <select id="theme-select" class="custom-select" disabled>
-                        <option value="">-- Selecciona un Tema --</option>
-                    </select>
-                    <button class="btn-primary small-btn" onclick="startTest('theme')" id="btn-theme-test" disabled>Empezar</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Quiz Screen -->
-        <section id="quiz-screen" class="screen hidden">
-            <div class="progress-bar-container">
-                <div id="progress-bar"></div>
-            </div>
-
-            <div class="question-container">
-                <span id="question-badge" class="badge">Bloque X - Tema Y</span>
-                <h2 id="question-text">¿Pregunta de prueba?</h2>
-            </div>
-
-            <div id="options-container" class="options-grid">
-                <!-- Opciones inyectadas por JS -->
-            </div>
-
-            <div id="insitu-feedback" class="hidden feedback-insitu">
-                <!-- Mensaje de correcto/incorrecto -->
-            </div>
-            <button id="next-btn" class="btn-primary hidden" onclick="nextQuestion()">Siguiente Pregunta</button>
-        </section>
-
-        <!-- Results Screen -->
-        <section id="results-screen" class="screen hidden">
-            <div class="results-header">
-                <h2>Resultados</h2>
-                <div class="score-circle">
-                    <span id="score-text">0.00</span>
-                </div>
-                <p id="feedback-message" class="feedback"></p>
-            </div>
-
-            <div class="stats-grid">
-                <div class="stat-box">
-                    <span class="stat-value" id="stat-correct">0</span>
-                    <span class="stat-label">Aciertos</span>
-                </div>
-                <div class="stat-box error">
-                    <span class="stat-value" id="stat-wrong">0</span>
-                    <span class="stat-label">Fallos</span>
-                </div>
-                <div class="stat-box neutral">
-                    <span class="stat-value" id="stat-time">00:00</span>
-                    <span class="stat-label">Tiempo Invertido</span>
-                </div>
-            </div>
-
-            <div id="errors-container" class="errors-list">
-                <h3>Repaso de fallos:</h3>
-                <!-- Fallos inyectados por JS -->
-            </div>
-
-            <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>
-        </section>
-
-        <!-- Viewer Screen -->
-        <section id="viewer-screen" class="screen hidden">
-            <div class="results-header">
-                <h2>📚 Banco de Preguntas</h2>
-                <p class="feedback">Visualizando todas las preguntas de la base de datos.</p>
-            </div>
-
-            <div id="viewer-list" class="viewer-list">
-                <!-- Preguntas inyectadas por JS -->
-            </div>
-
-            <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>
-        </section>
-
-        <!-- Supuestos Menu Screen -->
-        <section id="supuestos-menu-screen" class="screen hidden">
-            <div class="results-header">
-                <h2>📝 Supuestos Prácticos</h2>
-                <p class="feedback">Elige un caso práctico. La Parte II del examen consiste en preguntas basadas en un supuesto.</p>
-            </div>
-
-            <div id="supuestos-list" class="menu-grid">
-                <!-- Inyectado por JS -->
-            </div>
-
-            <button class="btn-primary" style="margin-top:20px;" onclick="returnToMenu()">Volver al Menú Principal</button>
-        </section>
-
-        <!-- Supuesto Active Screen -->
-        <section id="supuesto-active-screen" class="screen hidden split-screen">
-            <div class="supuesto-context-panel" id="supuesto-context-panel">
-                <!-- Texto del supuesto inyectado por JS -->
-            </div>
-
-            <div class="supuesto-questions-panel">
-                <div class="progress-bar-container">
-                    <div id="supuesto-progress-bar"></div>
-                </div>
-
-                <div class="question-container">
-                    <span id="supuesto-question-badge" class="badge">Pregunta 1 de 20</span>
-                    <h2 id="supuesto-question-text">¿Pregunta?</h2>
-                </div>
-
-                <div id="supuesto-options-container" class="options-grid">
-                    <!-- Opciones inyectadas por JS -->
-                </div>
-
-                <div id="supuesto-feedback" class="hidden feedback-insitu"></div>
-                <button id="supuesto-next-btn" class="btn-primary hidden" onclick="nextSupuestoQuestion()">Siguiente Pregunta</button>
-                <button id="supuesto-finish-btn" class="btn-primary danger-card hidden" style="margin-top:10px;" onclick="finishSupuestoEarly()">Finalizar Supuesto</button>
-            </div>
-        </section>
-
-        <!-- Historial Screen -->
-        <section id="historial-screen" class="screen hidden">
-            <div class="results-header">
-                <h2>📈 Mi Progreso</h2>
-                <p class="feedback">Histórico de tus tests completados en este navegador.</p>
-            </div>
-
-            <div id="historial-summary"></div>
-
-            <div id="historial-list" class="historial-list"></div>
-
-            <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>
-            <button class="btn-card danger-card" style="margin-top:10px; text-align:center;" onclick="clearHistorial()">🗑️ Borrar historial</button>
-        </section>
+            <main id="view-root" class="view-root" role="main" aria-live="polite">
+                <!-- La vista activa se inyecta aquí mediante TAI.router -->
+            </main>
+        </div>
     </div>
 
+    <noscript>
+        <div style="padding:24px;text-align:center;font-family:sans-serif;">
+            TAI Prep necesita JavaScript habilitado para funcionar.
+        </div>
+    </noscript>
+
+    <!-- Banco de preguntas y supuestos: scripts clásicos sin cambios,
+         definen window.baseDeDatos / window.baseDeSupuestos. -->
     <script src="preguntas.js"></script>
     <script src="supuestos.js"></script>
-    <script src="app.js"></script>
+
+    <!-- Núcleo de la aplicación (namespace compartido window.TAI) -->
+    <script src="js/store.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/ui/toast.js"></script>
+    <script src="js/ui/modal.js"></script>
+    <script src="js/ui/nav.js"></script>
+
+    <!-- Vistas -->
+    <script src="js/views/dashboard.js"></script>
+    <script src="js/views/settings.js"></script>
+    <script src="js/views/chooseTest.js"></script>
+    <script src="js/views/quiz.js"></script>
+    <script src="js/views/results.js"></script>
+    <script src="js/views/bank.js"></script>
+    <script src="js/views/supuestos.js"></script>
+    <script src="js/views/progress.js"></script>
+    <script src="js/views/help.js"></script>
+
+    <!-- Arranque -->
+    <script src="js/main.js"></script>
 </body>
 </html>
