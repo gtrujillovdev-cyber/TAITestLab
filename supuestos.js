@@ -102,5 +102,42 @@ const baseDeSupuestos = [
                 "respuestaCorrecta": 2
             }
         ]
+    },
+    {
+        "id": "oep_2018_sup1",
+        "titulo": "OEP 2018 - Supuesto I (Desarrollo y Bases de Datos)",
+        "contextoHTML": "<h3>Contexto</h3><p>La Subdirección General de Nuevas Tecnologías de un Ministerio va a abordar el desarrollo de un nuevo Sistema de Información para la gestión de subvenciones. El desarrollo se realizará con arquitectura web multicapa utilizando <strong>Java EE (Jakarta EE)</strong> en el lado del servidor y <strong>Angular</strong> en el lado del cliente (Frontend). La base de datos elegida es <strong>Oracle 19c</strong>.</p><p>Para el modelado de datos, se ha diseñado una tabla principal llamada <code>SUBVENCIONES</code> con los campos: <code>ID_SUBV (NUMBER, Primary Key)</code>, <code>TITULO (VARCHAR2)</code>, <code>CUANTIA (NUMBER)</code> y <code>FECHA_SOLICITUD (DATE)</code>.</p><p>Se requiere que el sistema sea accesible universalmente y cumpla con la normativa del Esquema Nacional de Seguridad (ENS).</p>",
+        "preguntas": [
+            {
+                "pregunta": "Teniendo en cuenta que el desarrollo del frontend se realizará con Angular, ¿cuál de los siguientes lenguajes es el predeterminado y recomendado por Google para programar en este framework?",
+                "opciones": ["a) JavaScript puro (ES5)", "b) TypeScript", "c) Dart", "d) Kotlin"],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "En la base de datos Oracle 19c, se desea obtener el listado de las subvenciones cuya cuantía sea superior a 5000€, ordenadas desde la más reciente a la más antigua. ¿Cuál es la sentencia SQL correcta?",
+                "opciones": [
+                    "a) SELECT * FROM SUBVENCIONES WHERE CUANTIA > 5000 ORDER BY FECHA_SOLICITUD DESC;",
+                    "b) SELECT * FROM SUBVENCIONES HAVING CUANTIA > 5000 ORDER BY FECHA_SOLICITUD ASC;",
+                    "c) SELECT * FROM SUBVENCIONES WHERE CUANTIA > 5000 SORT BY FECHA_SOLICITUD DESC;",
+                    "d) SELECT * FROM SUBVENCIONES WHERE CUANTIA > 5000 ORDER BY FECHA_SOLICITUD;"
+                ],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "Para cumplir con la arquitectura multicapa en Java, el equipo decide utilizar un patrón de diseño que se encarga de centralizar todas las peticiones entrantes desde el frontend web antes de enrutarlas a los controladores específicos. ¿Cómo se llama este patrón?",
+                "opciones": ["a) Data Access Object (DAO)", "b) Singleton", "c) Front Controller", "d) Model-View-Controller (MVC)"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Durante el desarrollo del backend en Java, un programador quiere asegurarse de que una variable no cambie su valor una vez inicializada (hacerla constante). ¿Qué modificador debe utilizar en Java?",
+                "opciones": ["a) const", "b) static", "c) final", "d) immutable"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "El sistema debe ser accesible universalmente. ¿Qué estándar promovido por el W3C proporciona las pautas de accesibilidad para el contenido web que exige la normativa actual?",
+                "opciones": ["a) ISO 27001", "b) WCAG (Web Content Accessibility Guidelines)", "c) WSDL", "d) UNE 139803"],
+                "respuestaCorrecta": 1
+            }
+        ]
     }
 ];
