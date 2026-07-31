@@ -59,7 +59,9 @@ const screens = {
     menu: document.getElementById('menu-screen'),
     quiz: document.getElementById('quiz-screen'),
     results: document.getElementById('results-screen'),
-    viewer: document.getElementById('viewer-screen')
+    viewer: document.getElementById('viewer-screen'),
+    supuestosMenu: document.getElementById('supuestos-menu-screen'),
+    supuestoActive: document.getElementById('supuesto-active-screen')
 };
 
 const blockSelect = document.getElementById('block-select');
@@ -425,4 +427,120 @@ function openViewer() {
         `;
         viewerList.appendChild(item);
     });
+}
+
+// -----------------------------------------------------
+// Lógica de Supuestos Prácticos
+// -----------------------------------------------------
+
+let currentSupuesto = null;
+let currentSupuestoQIndex = 0;
+let supuestoUserAnswers = [];
+let supuestoAciertos = 0;
+let supuestoFallos = 0;
+
+function openSupuestosMenu() {
+    switchScreen('supuestosMenu');
+    const container = document.getElementById('supuestos-list');
+    container.innerHTML = '';
+    
+    if (typeof baseDeSupuestos === 'undefined' || baseDeSupuestos.length === 0) {
+        container.innerHTML = '<p>No hay supuestos cargados en la base de datos.</p>';
+        return;
+    }
+
+    baseDeSupuestos.forEach((s) => {
+        const btn = document.createElement('button');
+        btn.className = 'btn-card';
+        btn.innerHTML = `<h3>${s.titulo}</h3><p>${s.preguntas.length} preguntas</p>`;
+        btn.onclick = () => startSupuesto(s.id);
+        container.appendChild(btn);
+    });
+}
+
+function startSupuesto(id) {
+    currentSupuesto = baseDeSupuestos.find(s => s.id === id);
+    if (!currentSupuesto) return;
+    
+    currentSupuestoQIndex = 0;
+    supuestoUserAnswers = [];
+    supuestoAciertos = 0;
+    supuestoFallos = 0;
+
+    document.getElementById('supuesto-context-panel').innerHTML = currentSupuesto.contextoHTML;
+    renderSupuestoQuestion();
+    switchScreen('supuestoActive');
+}
+
+function renderSupuestoQuestion() {
+    const q = currentSupuesto.preguntas[currentSupuestoQIndex];
+    
+    const progressPct = (currentSupuestoQIndex / currentSupuesto.preguntas.length) * 100;
+    document.getElementById('supuesto-progress-bar').style.width = `${progressPct}%`;
+    document.getElementById('supuesto-question-badge').textContent = `Pregunta ${currentSupuestoQIndex + 1} de ${currentSupuesto.preguntas.length}`;
+    document.getElementById('supuesto-question-text').textContent = q.pregunta;
+    
+    const optionsContainer = document.getElementById('supuesto-options-container');
+    optionsContainer.innerHTML = '';
+    
+    document.getElementById('supuesto-feedback').classList.add('hidden');
+    document.getElementById('supuesto-next-btn').classList.add('hidden');
+    
+    q.opciones.forEach((opcion, index) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.textContent = opcion;
+        btn.onclick = () => selectSupuestoOption(index, btn, optionsContainer);
+        optionsContainer.appendChild(btn);
+    });
+    
+    if (currentSupuestoQIndex === currentSupuesto.preguntas.length - 1) {
+        document.getElementById('supuesto-finish-btn').classList.remove('hidden');
+    } else {
+        document.getElementById('supuesto-finish-btn').classList.add('hidden');
+    }
+}
+
+function selectSupuestoOption(selectedIndex, clickedBtn, container) {
+    const currentQ = currentSupuesto.preguntas[currentSupuestoQIndex];
+    supuestoUserAnswers.push(selectedIndex);
+    
+    const allBtns = container.querySelectorAll('.option-btn');
+    allBtns.forEach(b => b.disabled = true);
+    
+    const feedback = document.getElementById('supuesto-feedback');
+    feedback.classList.remove('hidden', 'success-bg', 'error-bg');
+    
+    if (selectedIndex === currentQ.respuestaCorrecta) {
+        clickedBtn.classList.add('correct-insitu');
+        feedback.classList.add('success-bg');
+        feedback.textContent = "✅ ¡Correcto!";
+        supuestoAciertos++;
+    } else {
+        clickedBtn.classList.add('wrong-insitu');
+        feedback.classList.add('error-bg');
+        feedback.textContent = "❌ Incorrecto.";
+        supuestoFallos++;
+        allBtns[currentQ.respuestaCorrecta].classList.add('correct-insitu');
+    }
+    
+    if (currentSupuestoQIndex < currentSupuesto.preguntas.length - 1) {
+        document.getElementById('supuesto-next-btn').classList.remove('hidden');
+    }
+}
+
+function nextSupuestoQuestion() {
+    currentSupuestoQIndex++;
+    if (currentSupuestoQIndex < currentSupuesto.preguntas.length) {
+        renderSupuestoQuestion();
+    }
+}
+
+function finishSupuestoEarly() {
+    let notaNeta = supuestoAciertos - (supuestoFallos / 3);
+    if(notaNeta < 0) notaNeta = 0;
+    const notaSobre10 = (notaNeta / currentSupuesto.preguntas.length) * 10;
+    
+    alert(`Supuesto Finalizado.\nAciertos: ${supuestoAciertos}\nFallos: ${supuestoFallos}\nNota: ${notaSobre10.toFixed(2)} sobre 10`);
+    openSupuestosMenu();
 }

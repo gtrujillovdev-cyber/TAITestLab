@@ -89,6 +89,10 @@
                     <h3>🎓 Simulacro Real</h3>
                     <p>Condiciones de examen: 80 preguntas y 120 min. (Fuerza Modo Examen).</p>
                 </button>
+                <button class="btn-card highlight" onclick="openSupuestosMenu()">
+                    <h3>📝 Supuestos Prácticos</h3>
+                    <p>Resuelve casos prácticos de 20 preguntas (Parte II del Examen).</p>
+                </button>
                 <button class="btn-card danger-card" onclick="startTest('fallos')" id="btn-errores">
                     <h3>🔥 Repaso de Fallos</h3>
                     <p id="fallos-desc">Tienes 0 preguntas falladas registradas.</p>
@@ -184,9 +188,50 @@
 
             <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>
         </section>
+
+        <!-- Supuestos Menu Screen -->
+        <section id="supuestos-menu-screen" class="screen hidden">
+            <div class="results-header">
+                <h2>📝 Supuestos Prácticos</h2>
+                <p class="feedback">Elige un caso práctico. Recuerda que la Parte II del examen consta de 20 preguntas basadas en un supuesto.</p>
+            </div>
+            
+            <div id="supuestos-list" class="menu-grid">
+                <!-- Inyectado por JS -->
+            </div>
+
+            <button class="btn-primary" style="margin-top:20px;" onclick="returnToMenu()">Volver al Menú Principal</button>
+        </section>
+
+        <!-- Supuesto Active Screen -->
+        <section id="supuesto-active-screen" class="screen hidden split-screen">
+            <div class="supuesto-context-panel" id="supuesto-context-panel">
+                <!-- Texto del supuesto inyectado por JS -->
+            </div>
+            
+            <div class="supuesto-questions-panel">
+                <div class="progress-bar-container">
+                    <div id="supuesto-progress-bar"></div>
+                </div>
+                
+                <div class="question-container">
+                    <span id="supuesto-question-badge" class="badge">Pregunta 1 de 20</span>
+                    <h2 id="supuesto-question-text">¿Pregunta?</h2>
+                </div>
+                
+                <div id="supuesto-options-container" class="options-grid">
+                    <!-- Opciones inyectadas por JS -->
+                </div>
+
+                <div id="supuesto-feedback" class="hidden feedback-insitu"></div>
+                <button id="supuesto-next-btn" class="btn-primary hidden" onclick="nextSupuestoQuestion()">Siguiente Pregunta</button>
+                <button id="supuesto-finish-btn" class="btn-primary danger-card hidden" style="margin-top:10px;" onclick="finishSupuestoEarly()">Finalizar Supuesto</button>
+            </div>
+        </section>
     </div>
 
     <script src="preguntas.js"></script>
+    <script src="supuestos.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
