@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TAI Prep: simulador de test para la oposición a Técnico Auxiliar Informático (AGE, SAS, Junta de Andalucía, Diputación de Sevilla). Tests por tema, simulacro cronometrado, exámenes oficiales y seguimiento de tu progreso.">
+    <meta name="theme-color" content="#f1f5f9" id="theme-color-meta">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>TAI Prep - Plataforma de Test</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
 </head>
-<body> 
+<body>
     <div class="background-blobs">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
     </div>
-    
+
     <div class="app-container glass-panel">
         <!-- Header -->
         <header>
@@ -26,7 +32,7 @@
                     <span class="badge timer-badge" id="timer">00:00</span>
                 </div>
                 <div class="theme-wrapper">
-                    <select id="theme-selector" class="custom-select theme-select">
+                    <select id="theme-selector" class="custom-select theme-select" aria-label="Selector de tema de la interfaz">
                         <option value="light">☀️ Claro (Defecto)</option>
                         <option value="dark">🌙 Oscuro</option>
                         <option value="system">🖥️ Sistema</option>
@@ -40,7 +46,7 @@
             <div class="menu-header">
                 <h2>Opciones de Test</h2>
                 <p>Personaliza tu sesión de estudio. Base de datos actualizada al temario TAI AGE 2026.</p>
-                
+
                 <div class="toggle-container">
                     <label class="switch">
                       <input type="checkbox" id="learning-mode-toggle" checked>
@@ -75,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="menu-grid">
                 <button class="btn-card" onclick="startTest('short')">
                     <h3>⏱️ Test Corto</h3>
@@ -89,9 +95,13 @@
                     <h3>🎓 Simulacro Real</h3>
                     <p>Condiciones de examen: 80 preguntas y 120 min. (Fuerza Modo Examen).</p>
                 </button>
-                <button class="btn-card highlight" onclick="openSupuestosMenu()">
+                <button class="btn-card highlight" onclick="startTest('oficiales')">
+                    <h3>📜 Exámenes Oficiales</h3>
+                    <p>Practica solo con preguntas reales de convocatorias oficiales (OEP).</p>
+                </button>
+                <button class="btn-card" onclick="openSupuestosMenu()">
                     <h3>📝 Supuestos Prácticos</h3>
-                    <p>Resuelve casos prácticos de 20 preguntas (Parte II del Examen).</p>
+                    <p>Resuelve casos prácticos reales, estilo Parte II del examen.</p>
                 </button>
                 <button class="btn-card danger-card" onclick="startTest('fallos')" id="btn-errores">
                     <h3>🔥 Repaso de Fallos</h3>
@@ -100,6 +110,10 @@
                 <button class="btn-card" onclick="openViewer()">
                     <h3>📚 Visor de Preguntas</h3>
                     <p>Explora el banco completo de preguntas y estudia con las respuestas correctas.</p>
+                </button>
+                <button class="btn-card" onclick="openHistorial()">
+                    <h3>📈 Mi Progreso</h3>
+                    <p>Consulta el histórico de tus tests: nota media, mejor resultado y evolución.</p>
                 </button>
             </div>
 
@@ -126,12 +140,12 @@
             <div class="progress-bar-container">
                 <div id="progress-bar"></div>
             </div>
-            
+
             <div class="question-container">
                 <span id="question-badge" class="badge">Bloque X - Tema Y</span>
                 <h2 id="question-text">¿Pregunta de prueba?</h2>
             </div>
-            
+
             <div id="options-container" class="options-grid">
                 <!-- Opciones inyectadas por JS -->
             </div>
@@ -151,7 +165,7 @@
                 </div>
                 <p id="feedback-message" class="feedback"></p>
             </div>
-            
+
             <div class="stats-grid">
                 <div class="stat-box">
                     <span class="stat-value" id="stat-correct">0</span>
@@ -181,7 +195,7 @@
                 <h2>📚 Banco de Preguntas</h2>
                 <p class="feedback">Visualizando todas las preguntas de la base de datos.</p>
             </div>
-            
+
             <div id="viewer-list" class="viewer-list">
                 <!-- Preguntas inyectadas por JS -->
             </div>
@@ -193,9 +207,9 @@
         <section id="supuestos-menu-screen" class="screen hidden">
             <div class="results-header">
                 <h2>📝 Supuestos Prácticos</h2>
-                <p class="feedback">Elige un caso práctico. Recuerda que la Parte II del examen consta de 20 preguntas basadas en un supuesto.</p>
+                <p class="feedback">Elige un caso práctico. La Parte II del examen consiste en preguntas basadas en un supuesto.</p>
             </div>
-            
+
             <div id="supuestos-list" class="menu-grid">
                 <!-- Inyectado por JS -->
             </div>
@@ -208,17 +222,17 @@
             <div class="supuesto-context-panel" id="supuesto-context-panel">
                 <!-- Texto del supuesto inyectado por JS -->
             </div>
-            
+
             <div class="supuesto-questions-panel">
                 <div class="progress-bar-container">
                     <div id="supuesto-progress-bar"></div>
                 </div>
-                
+
                 <div class="question-container">
                     <span id="supuesto-question-badge" class="badge">Pregunta 1 de 20</span>
                     <h2 id="supuesto-question-text">¿Pregunta?</h2>
                 </div>
-                
+
                 <div id="supuesto-options-container" class="options-grid">
                     <!-- Opciones inyectadas por JS -->
                 </div>
@@ -227,6 +241,21 @@
                 <button id="supuesto-next-btn" class="btn-primary hidden" onclick="nextSupuestoQuestion()">Siguiente Pregunta</button>
                 <button id="supuesto-finish-btn" class="btn-primary danger-card hidden" style="margin-top:10px;" onclick="finishSupuestoEarly()">Finalizar Supuesto</button>
             </div>
+        </section>
+
+        <!-- Historial Screen -->
+        <section id="historial-screen" class="screen hidden">
+            <div class="results-header">
+                <h2>📈 Mi Progreso</h2>
+                <p class="feedback">Histórico de tus tests completados en este navegador.</p>
+            </div>
+
+            <div id="historial-summary"></div>
+
+            <div id="historial-list" class="historial-list"></div>
+
+            <button class="btn-primary" onclick="returnToMenu()">Volver al Menú Principal</button>
+            <button class="btn-card danger-card" style="margin-top:10px; text-align:center;" onclick="clearHistorial()">🗑️ Borrar historial</button>
         </section>
     </div>
 
