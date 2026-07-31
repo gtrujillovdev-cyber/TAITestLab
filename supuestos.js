@@ -1,5 +1,127 @@
 const baseDeSupuestos = [
     {
+        "id": "oep_2020_2022_sup1",
+        "titulo": "OEP 2020-2022 - Supuesto I (Desarrollo)",
+        "contextoHTML": "<h3>Contexto</h3><p>Se va a desarrollar un sistema que permitirá a una persona (interesado) otorgar permiso a otra (representante) para que actúe en su nombre ante la Administración en un determinado trámite. El sistema contará con los siguientes módulos:</p><ul><li>Un frontal web (Punto de Acceso General) que recoge todos los trámites de la Administración y donde el interesado puede otorgar la representación.</li><li>Un proceso que tramita las peticiones de representación, envía notificaciones PUSH a los representantes y recaba los consentimientos producidos.</li><li>Un módulo de gestión para el personal funcionario de atención al público.</li></ul><p>Cuando el interesado pulse el botón Otorgar representación en un trámite, el sistema generará un enlace único con caducidad, que será enviado por notificación PUSH al representante.</p><p>En el momento en que el representante acceda al enlace tendrá disponible la acción Obtener PIN y deberá usar la aplicación móvil Cl@ve PIN para obtener un PIN válido.</p><p>El funcionario, en el módulo de gestión, podrá comparar el PIN generado para la operación con el que le ofrece el representante, permitiendo el trámite si estos coinciden.</p><p>Un interesado podrá solicitar representación para tantos trámites como considere y cada trámite podrá ser solicitado por un número cualquiera de interesados, pero una representación solo es válida para un trámite a la vez. Asimismo, cada representante podrá obtener permisos en cualquier número de trámites.</p>",
+        "preguntas": [
+            {
+                "pregunta": "En el diagrama de clases la relación existente entre “Solicitud Representación” y “Trámite”, ¿qué multiplicidades serían compatibles con los requisitos planteados en el enunciado?",
+                "opciones": ["a) '1' en el recuadro “SR>T” y '1' en el recuadro “T>SR”.", "b) '1' en el recuadro “SR>T” y '0..N' en el recuadro “T>SR”.", "c) '0..N' en el recuadro “SR>T” y '1' en el recuadro “T>SR”.", "d) '1..N' en el recuadro “SR>T” y '0..N' en el recuadro “T>SR”."],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "En Java SE 17, ¿con qué visibilidad se deben generar los atributos de la clase Data Access Object Solicitudes si se quiere tener acceso directamente desde cualquier otro objeto, sin mediación de métodos?",
+                "opciones": ["a) Se usará el modificador \"public\".", "b) Se usará el modificador \"protected\".", "c) No se usará ningún modificador.", "d) Se usará el modificador \"private\"."],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "En Java SE 17, ¿cuál de los siguientes tipos de colección no admite duplicados?",
+                "opciones": ["a) List", "b) Stack", "c) Collection", "d) Set"],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "Para crear una tabla llamada Usuario, ¿qué sentencia SQL debemos ejecutar?",
+                "opciones": ["a) ALTER TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));", "b) INSERT TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));", "c) CREATE TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));", "d) DROP TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Si fuese el motor de Base de Datos ORACLE, indique cuál de los siguientes es un lenguaje de procedimiento cuya sintaxis permite insertar sentencias SQL y se almacena compilado dentro de la base de datos:",
+                "opciones": ["a) TRANSACT SQL", "b) PL/SQL", "c) FORTRAN", "d) COBOL"],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Se ha heredado una librería compilada que realiza la conexión a un importante servicio de comprobación de Cl@ve PIN, ¿qué patrón de diseño permite reutilizar este objeto?",
+                "opciones": ["a) Adaptador (Adapter)", "b) Singleton", "c) Chain of responsibility (Cadena de responsabilidad)", "d) Iterador (Iterator)"],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "La última versión del estándar de UML es:",
+                "opciones": ["a) 2.5", "b) 2.4.1", "c) 2.4", "d) 3.0"],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "En UML un diagrama de componentes:",
+                "opciones": ["a) Describe la estructura del sistema mostrando las clases del sistema, sus atributos y relaciones entre ellas.", "b) Describe cómo un sistema de software se divide en componentes y muestra las dependencias entre ellos.", "c) Sirve para modelar el hardware utilizado en las implementaciones del sistema, los componentes implementados en el hardware y las asociaciones entre componentes en un momento específico.", "d) Muestra una vista completa o parcial de la estructura de un sistema modelado en un momento específico."],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "¿Qué framework se puede usar para aplicaciones de escritorio nativas .NET?",
+                "opciones": ["a) .NET MAUI", "b) Blazor Hybrid", "c) JavaFX", "d) WebView"],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "¿Cuál es la normativa que define los requisitos de accesibilidad de los sitios web y aplicaciones móviles de los organismos del sector público?",
+                "opciones": ["a) Orden Ministerial 1112/2018, de 7 de septiembre.", "b) Ley Orgánica 1112/2018, de 7 de septiembre.", "c) Ley 1112/2018, de 7 de septiembre.", "d) Real Decreto 1112/2018, de 7 de septiembre."],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "En nuestra aplicación Java, ¿qué paquetes usaríamos para establecer la conexión a la base de datos de NOTIFICACION?",
+                "opciones": ["a) java.database", "b) javax.naming y javax.sql", "c) javax.io y javax.servlet", "d) javax.servlet"],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Se quiere desarrollar un microservicio para que el personal funcionario pueda consultar el estado de una notificación enviada. ¿Qué especificación de la comunidad, alineada con Jakarta EE Core Profile, es la indicada para desarrollarlo?",
+                "opciones": ["a) Jakarta Authentication", "b) Jakarta Batch", "c) Microprofile", "d) Jakarta Connectors"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "En el equipo de desarrollo se ha decidido usar Selenium WebDriver para:",
+                "opciones": ["a) Mejorar la accesibilidad de las páginas web facilitando audios a partir del texto.", "b) Automatizar la ejecución de pruebas en el navegador.", "c) Minimizar el tiempo de carga de la página web.", "d) Diseñar páginas web adaptables."],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "¿Cuál es una herramienta de análisis de seguridad y calidad de código?",
+                "opciones": ["a) SonarQube", "b) SonarCode", "c) SonarCuality", "d) SonarSrc"],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "¿Qué tecnología de las siguientes es adecuada para implementar la recepción de notificaciones nativas en los teléfonos inteligentes del representante y del interesado?",
+                "opciones": ["a) WebView", "b) Mobile push", "c) CDMA", "d) Wi-Fi"],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "¿Cuál de los siguientes lenguajes de estilos emplearía si le piden modificar el color de un botón en el frontal web?",
+                "opciones": ["a) XML", "b) SGML", "c) XSL", "d) CSS"],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "¿Cómo se conoce el conjunto de pautas, componentes y herramientas que respaldan las mejores prácticas de diseño de la interfaz de usuario, perteneciente a Google?",
+                "opciones": ["a) WCAG 2.1", "b) WAI-ARIA", "c) Material Design", "d) Inclusive Design"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "¿A qué corresponde el ataque conocido por el acrónimo CSRF, que permite al atacante forzar al usuario a ejecutar acciones no deseadas en la aplicación web en la que está actualmente autenticado?",
+                "opciones": ["a) Cross Site Request Forgery", "b) Cross Site Repeat Forgery", "c) Cross Site Reduction Forgery", "d) Cross Send Request Forgery"],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "Señale el software que permite automatizar la construcción y despliegue de un proyecto utilizando el concepto de pipelines:",
+                "opciones": ["a) Jenkins", "b) RabbitMQ", "c) Apache Kafka", "d) Subversion"],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "(Pregunta de reserva) ¿Qué característica o atributo de seguridad de las cookies permite que el navegador solo envíe la cookie al servidor si ésta se originó en el mismo sitio web al que estamos intentando contactar?",
+                "opciones": ["a) Domain", "b) SameSite", "c) Secure", "d) HttpOnly"],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "(Pregunta de reserva) En PHP, señale qué variable de entorno se puede usar para almacenar datos del inicio de sesión de un usuario:",
+                "opciones": ["a) $_SESSION", "b) $SESSION", "c) $_GLOBAL", "d) $GLOBAL"],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "(Pregunta de reserva) ¿Qué conjunto de herramientas de presentación y comportamiento ofrece componentes para trabajar en la parte dinámica del frontal web HTML?",
+                "opciones": ["a) NumPy", "b) ActiveMQ", "c) Bootstrap", "d) TensorFlow"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "(Pregunta de reserva) ¿Qué método estático usaría para convertir una cadena JSON en un valor u objeto javascript?",
+                "opciones": ["a) JSON.parse()", "b) JSON.stringify()", "c) let obj = JSON", "d) let obj = New JSON"],
+                "respuestaCorrecta": 0
+            }
+        ]
+    },
+    {
         "id": "oep_2020_2022_sup2",
         "titulo": "OEP 2020-2022 - Supuesto II (Redes y Sistemas)",
         "contextoHTML": "<h3>Contexto</h3><p>La Subdirección General de Informática del Organismo en el que recientemente Vd. ha tomado posesión y a través de su departamento de Sistemas, Comunicaciones y Seguridad, ha decidido acometer un cambio de diseño en la infraestructura de la red informática del departamento y Vd. debe colaborar en su implantación.</p><p>Se parte de la situación inicial donde hay una única red con el siguiente direccionamiento IP 10.20.30.0/24 donde residen:</p><ul><li>Los equipos informáticos de los usuarios</li><li>Las aplicaciones informáticas</li><li>Las Bases de Datos Oracle y MySql</li><li>La conexión a Internet del departamento</li></ul><p>Después de varios estudios se concluye que se debe realizar una segmentación de la red actual en cuatro subredes:</p><ul><li>Primera Subred para los PCs de usuario</li><li>Segunda Subred para las Bases de Datos</li><li>Tercera Subred para las Aplicaciones</li><li>Cuarta Subred para utilizarla como DMZ</li></ul><p>Se instalará una pareja de Firewalls o Cortafuegos formando un clúster donde se implementarán las reglas necesarias para las conectividades y encaminamientos entre Subredes.</p><p><em>Nota aclaratoria: los PCs de Usuario tienen sistema operativo Windows 10 y tanto los servidores para Aplicaciones, Base de Datos y DMZ tienen sistema operativo Linux RedHat RHEL7.4</em></p>",

@@ -159,7 +159,7 @@ Todas las preguntas —tanto las de elaboración propia sobre el temario como la
 
 ```javascript
 {
-    "id": 190,                     // identificador único y estable (siguiente número libre)
+    "id": 268,                     // identificador único y estable (siguiente número libre)
     "bloque": "IV",                // "I" | "II" | "III" | "IV"
     "tema": 7,                     // número de tema dentro del bloque, o null si no aplica
                                     // a un único tema (p.ej. preguntas de examen oficial)
@@ -222,12 +222,28 @@ El esquema de datos de `preguntas.js` no ha cambiado.
 Se han añadido 25 preguntas oficiales más de la OEP 2020-2022 (AGE) —las
 que faltaban de la Primera Parte y de las preguntas de reserva del
 `Cuestionario_TAI-L_OEP2020-2021-2022.pdf` ya incluido en
-`Examenes_Oficiales_OEP/OEP_2020`—, elevando el banco a **190 preguntas**.
+`Examenes_Oficiales_OEP/OEP_2020`—, elevando el banco a 190 preguntas.
+
+Posteriormente se ha incorporado el cuestionario completo de la **OPEP
+2025 del SAS** (Técnico/a Especialista en Informática, turno libre): 75
+preguntas del cuestionario teórico-práctico + 3 de reserva, con
+`"oposiciones":["SAS"]`, elevando el banco a **268 preguntas**. También se
+ha añadido el **Supuesto I (Desarrollo)** de la OEP 2020-2022 (AGE) —19
+preguntas + 4 de reserva sobre un sistema de representación ante la
+Administración con Java/Jakarta EE, SQL y UML— a `supuestos.js`, que pasa
+a tener **4 supuestos prácticos**.
+
 Quedan pendientes de incorporar (los PDF no se pudieron descargar de forma
 automática; hace falta descargarlos manualmente, ver
-`Examenes_Oficiales_OEP/*/DESCARGA_MANUAL.md`): OEP 2019 (AGE), OEP
-2023-2024 (AGE, modelos A y B) y el cuestionario de la OPEP 2025 del SAS
-(solo se dispone de la plantilla de respuestas, falta el cuestionario).
+`Examenes_Oficiales_OEP/*/DESCARGA_MANUAL.md`): OEP 2019 (AGE) y OEP
+2023-2024 (AGE, modelos A y B). El cuestionario de la OPEP 2025 del SAS
+ya está incorporado en su totalidad (turno libre). El cuestionario del
+examen TAI 2018 (`Examenes_Oficiales/2018/Cuestionario_TAI_2018.pdf`) se
+localizó, pero es un PDF escaneado sin capa de texto: la extracción
+automática (`pdftotext`, `pypdf`) devuelve vacío y el entorno no dispone
+de los paquetes de idioma de Tesseract (`tesseract-ocr-spa`) ni de acceso
+de administrador para instalarlos, por lo que el OCR queda pendiente de
+hacerse manualmente.
 
 ---
 *Mucha suerte y a por la plaza.* 🎯
