@@ -2,26 +2,7 @@ const baseDeSupuestos = [
     {
         "id": "oep_2020_2022_sup2",
         "titulo": "OEP 2020-2022 - Supuesto II (Redes y Sistemas)",
-        "contextoHTML": `
-            <h3>Contexto</h3>
-            <p>La Subdirección General de Informática del Organismo en el que recientemente Vd. ha tomado posesión y a través de su departamento de Sistemas, Comunicaciones y Seguridad, ha decidido acometer un cambio de diseño en la infraestructura de la red informática del departamento y Vd. debe colaborar en su implantación.</p>
-            <p>Se parte de la situación inicial donde hay una única red con el siguiente direccionamiento IP 10.20.30.0/24 donde residen:</p>
-            <ul>
-                <li>Los equipos informáticos de los usuarios</li>
-                <li>Las aplicaciones informáticas</li>
-                <li>Las Bases de Datos Oracle y MySql</li>
-                <li>La conexión a Internet del departamento</li>
-            </ul>
-            <p>Después de varios estudios se concluye que se debe realizar una segmentación de la red actual en cuatro subredes:</p>
-            <ul>
-                <li>Primera Subred para los PCs de usuario</li>
-                <li>Segunda Subred para las Bases de Datos</li>
-                <li>Tercera Subred para las Aplicaciones</li>
-                <li>Cuarta Subred para utilizarla como DMZ</li>
-            </ul>
-            <p>Se instalará una pareja de Firewalls o Cortafuegos formando un clúster donde se implementarán las reglas necesarias para las conectividades y encaminamientos entre Subredes.</p>
-            <p><em>Nota aclaratoria: los PCs de Usuario tienen sistema operativo Windows 10 y tanto los servidores para Aplicaciones, Base de Datos y DMZ tienen sistema operativo Linux RedHat RHEL7.4</em></p>
-        `,
+        "contextoHTML": "<h3>Contexto</h3><p>La Subdirección General de Informática del Organismo en el que recientemente Vd. ha tomado posesión y a través de su departamento de Sistemas, Comunicaciones y Seguridad, ha decidido acometer un cambio de diseño en la infraestructura de la red informática del departamento y Vd. debe colaborar en su implantación.</p><p>Se parte de la situación inicial donde hay una única red con el siguiente direccionamiento IP 10.20.30.0/24 donde residen:</p><ul><li>Los equipos informáticos de los usuarios</li><li>Las aplicaciones informáticas</li><li>Las Bases de Datos Oracle y MySql</li><li>La conexión a Internet del departamento</li></ul><p>Después de varios estudios se concluye que se debe realizar una segmentación de la red actual en cuatro subredes:</p><ul><li>Primera Subred para los PCs de usuario</li><li>Segunda Subred para las Bases de Datos</li><li>Tercera Subred para las Aplicaciones</li><li>Cuarta Subred para utilizarla como DMZ</li></ul><p>Se instalará una pareja de Firewalls o Cortafuegos formando un clúster donde se implementarán las reglas necesarias para las conectividades y encaminamientos entre Subredes.</p><p><em>Nota aclaratoria: los PCs de Usuario tienen sistema operativo Windows 10 y tanto los servidores para Aplicaciones, Base de Datos y DMZ tienen sistema operativo Linux RedHat RHEL7.4</em></p>",
         "preguntas": [
             {
                 "pregunta": "En los PCs de los usuarios hay que purgar la memoria caché de la resolución DNS. ¿Cuál de los siguientes comandos habría que lanzar desde la consola de PowerShell?",
@@ -65,6 +46,58 @@ const baseDeSupuestos = [
                     "b) 10.20.30.1 y 10.20.30.62",
                     "c) 10.20.30.0 y 10.20.30.63",
                     "d) 10.20.30.64 y 10.20.30.127"
+                ],
+                "respuestaCorrecta": 2
+            }
+        ]
+    },
+    {
+        "id": "supuesto_redes_01",
+        "titulo": "Supuesto Práctico 01: Subnetting y Arquitectura de Red Base",
+        "contextoHTML": "<h3>Contexto</h3><p>El Ministerio de Cultura ha adquirido un nuevo edificio para albergar una delegación provincial. El responsable de sistemas de información ha recibido el rango de direccionamiento privado <strong>192.168.10.0/24</strong> para diseñar la red de la nueva sede.</p><p>Se han identificado los siguientes requisitos de segmentación para garantizar la seguridad y organizar los dominios de difusión:</p><ul><li><strong>Red A (VLAN 10 - Empleados):</strong> Necesita alojar a 60 equipos informáticos y portátiles.</li><li><strong>Red B (VLAN 20 - Servidores):</strong> Necesita alojar 25 servidores internos (Bases de Datos, Directorio Activo, Intranet).</li><li><strong>Red C (VLAN 30 - Invitados):</strong> Red Wi-Fi aislada para visitantes con un máximo de 10 dispositivos simultáneos.</li></ul><p>Toda la infraestructura convergerá en un router central de sede, que hará de <em>Default Gateway</em> para todas las subredes y que conectará mediante VPN IPsec con los servicios centrales de Madrid. Se va a implementar una arquitectura \"Router on a stick\" utilizando enlaces troncales (Trunk) bajo el estándar 802.1Q.</p>",
+        "preguntas": [
+            {
+                "pregunta": "Teniendo en cuenta la necesidad de optimizar el direccionamiento IP de partida (192.168.10.0/24) mediante VLSM, ¿qué máscara de subred es la más restrictiva que se le podría aplicar a la Red A (VLAN 10 - Empleados) cumpliendo con el requisito de 60 equipos?",
+                "opciones": ["a) /25", "b) /26", "c) /27", "d) /28"],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Si se le asigna a la Red B (Servidores) el prefijo de red inmediatamente contiguo al bloque de la Red A, asumiendo que la Red A utiliza el prefijo óptimo calculado y comenzó en la dirección 192.168.10.0, ¿cuál será la dirección de red de la VLAN 20?",
+                "opciones": ["a) 192.168.10.32", "b) 192.168.10.64", "c) 192.168.10.128", "d) 192.168.10.192"],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "El estándar empleado para etiquetar las tramas Ethernet y que el tráfico de la VLAN 10 y VLAN 20 pueda viajar multiplexado por el mismo enlace físico hacia el router central se denomina:",
+                "opciones": ["a) IEEE 802.1X", "b) IEEE 802.11ac", "c) IEEE 802.1Q", "d) IEEE 802.3af"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Cuando un ordenador de la VLAN 10 intenta acceder al servidor de la Intranet situado en la VLAN 20 por primera vez, sabiendo únicamente su dirección IP destino, ¿qué protocolo utilizará para averiguar la dirección MAC física y a quién le preguntará?",
+                "opciones": [
+                    "a) Utilizará DNS preguntando directamente al servidor de la Intranet.",
+                    "b) Utilizará ARP preguntando por la MAC de su Default Gateway (el router).",
+                    "c) Utilizará ARP preguntando por la MAC del servidor de la Intranet a través del switch local.",
+                    "d) Utilizará DHCP para que le asigne dinámicamente la dirección MAC del servidor."
+                ],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "El router de sede implementará una VPN IPsec para comunicarse con Madrid. ¿En qué nivel del modelo OSI opera el protocolo IPsec y, por tanto, garantiza la confidencialidad de la comunicación?",
+                "opciones": ["a) En el Nivel 2 (Enlace de Datos).", "b) En el Nivel 3 (Red).", "c) En el Nivel 4 (Transporte).", "d) En el Nivel 7 (Aplicación)."],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Se ha detectado un comportamiento anómalo en un servidor web de la Intranet. Para capturar los paquetes de red desde la interfaz eth0 del propio servidor en formato crudo para su posterior análisis con Wireshark, el administrador ejecutará en Linux:",
+                "opciones": ["a) netstat -anp > captura.pcap", "b) ip link show eth0 -o captura.pcap", "c) tcpdump -i eth0 -w captura.pcap", "d) nmap -sS -p80 localhost"],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Si en la red de Empleados (VLAN 10) un equipo se autoconfigura con la dirección IPv4 169.254.34.12, ¿qué situación está ocurriendo en la red?",
+                "opciones": [
+                    "a) Ha conseguido una dirección reservada por el administrador manualmente.",
+                    "b) Existe un servidor DHCP falso que le ha otorgado una dirección pública externa (Rogue DHCP).",
+                    "c) El equipo no ha podido contactar con ningún servidor DHCP y se ha asignado una dirección APIPA.",
+                    "d) El protocolo ARP ha fallado y el equipo asume la dirección del router principal."
                 ],
                 "respuestaCorrecta": 2
             }
