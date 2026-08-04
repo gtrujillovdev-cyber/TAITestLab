@@ -31,7 +31,7 @@
         supuestos.forEach(s => {
             const btn = document.createElement('button');
             btn.className = 'btn-card';
-            btn.innerHTML = `<h3>${s.titulo}</h3><p>${s.preguntas.length} preguntas basadas en el caso práctico.</p>`;
+            btn.innerHTML = `<h3>${TAI.utils.escapeHtml(s.titulo)}</h3><p>${s.preguntas.length} preguntas basadas en el caso práctico.</p>`;
             btn.addEventListener('click', () => router.navigate('supuesto', { id: s.id }));
             list.appendChild(btn);
         });

@@ -140,7 +140,7 @@
         wrap.innerHTML = `
             <div class="quiz-topbar">
                 <span class="badge" id="question-counter"></span>
-                ${isCountdown || !isCountdown ? '<span class="badge timer-badge" id="timer">00:00</span>' : ''}
+                <span class="badge timer-badge" id="timer">00:00</span>
             </div>
             <div class="progress-bar-container"><div id="progress-bar"></div></div>
             <div class="question-container">

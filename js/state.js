@@ -26,9 +26,6 @@
         // tener que volver a calcular todo ni serializarlo en la URL).
         lastResult: null,
 
-        // Supuesto seleccionado actualmente (para /supuesto/:id).
-        activeSupuestoId: null,
-
         saveSettings() {
             store.setSettings(state.settings);
         }

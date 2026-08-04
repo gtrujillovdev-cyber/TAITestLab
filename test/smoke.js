@@ -196,6 +196,14 @@ async function run() {
     // COMPLETAMENTE NUEVO (como haría un navegador real al recargar, que
     // descarta toda la memoria de la pestaña), pero reutilizando el mismo
     // localStorage y la misma URL (#/quiz), que sí sobreviven a un F5.
+    //
+    // A diferencia de una pestaña real, este contexto "viejo" sigue vivo
+    // en el mismo proceso Node: si no se detiene aquí, su setInterval del
+    // cronómetro del examen seguiría disparándose en segundo plano cada
+    // segundo durante el resto de la ejecución del script (ralentizando
+    // los tests y dejando el proceso "colgado" al final), así que se para
+    // explícitamente para simular que la pestaña ha dejado de existir.
+    ctx.TAI.views.quiz.onLeave();
     const reloadedCtx = createWindowSandbox({ localStorage: ctx.localStorage, hash: ctx.location.hash });
     vm.createContext(reloadedCtx);
     loadAll(reloadedCtx);
