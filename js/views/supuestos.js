@@ -239,6 +239,10 @@
             document.removeEventListener('keydown', keyHandler);
             keyHandler = null;
         }
+        // Si se abandona el supuesto sin pasar por requestExit() (atrás/
+        // adelante del navegador, hash editado a mano...), la navegación
+        // no debe quedarse encajada en modo "enfocado" en el resto de la app.
+        state.quizActive = false;
     }
 
     TAI.views.supuestos = { render: renderMenu };

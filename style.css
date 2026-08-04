@@ -910,6 +910,10 @@ body { align-items: stretch; }
     gap: var(--space-3);
     margin: var(--space-4) 0;
 }
+/* El min-width de .custom-select es para el layout flex de
+   .theme-selector-container; dentro de este grid provoca que las columnas
+   se desborden del viewport en móviles estrechos (~390-480px). */
+.bank-filters .custom-select { min-width: 0; }
 .bank-search-input { flex: none; }
 @media (max-width: 768px) {
     .bank-filters { grid-template-columns: 1fr 1fr; }

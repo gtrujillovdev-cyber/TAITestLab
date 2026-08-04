@@ -181,6 +181,11 @@
             document.removeEventListener('keydown', keyHandler);
             keyHandler = null;
         }
+        // Si se abandona #/quiz sin pasar por requestExit() (p.ej. atrás/
+        // adelante del navegador, o editando el hash a mano), el examen
+        // sigue autoguardado, pero la navegación no debe quedarse encajada
+        // en modo "enfocado" en el resto de la app.
+        state.quizActive = false;
     }
 
     function isModalOpen() {
