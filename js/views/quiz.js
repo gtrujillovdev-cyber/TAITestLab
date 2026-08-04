@@ -265,6 +265,7 @@
 
     function renderQuestion() {
         const q = currentExam[currentQuestionIndex];
+        store.markQuestionSeen(q.id);
         els.counter.textContent = `Pregunta ${currentQuestionIndex + 1} de ${currentExam.length}`;
         const progressPct = (currentQuestionIndex / currentExam.length) * 100;
         els.progressBar.style.width = `${progressPct}%`;

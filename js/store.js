@@ -61,7 +61,8 @@
         HISTORY: 'testHistory',
         SETTINGS: 'appSettings',       // nueva, aditiva
         EXAM_IN_PROGRESS: 'examInProgress', // nueva, aditiva (autoguardado)
-        ONBOARDING_SEEN: 'onboardingSeen'   // nueva, aditiva
+        ONBOARDING_SEEN: 'onboardingSeen',  // nueva, aditiva
+        SEEN_QUESTIONS: 'seenQuestionIds'   // nueva, aditiva (contador de cobertura del banco)
     };
 
     TAI.store = {
@@ -104,6 +105,20 @@
         },
         markOnboardingSeen() {
             safeSet(KEYS.ONBOARDING_SEEN, true);
+        },
+
+        // Ids (de baseDeDatos) que ya le han salido al usuario en algún test,
+        // para poder mostrar "cuántas preguntas del banco ya te han salido".
+        getSeenQuestionIds() {
+            return safeGet(KEYS.SEEN_QUESTIONS, []);
+        },
+        markQuestionSeen(id) {
+            if (id === undefined || id === null) return;
+            const seen = safeGet(KEYS.SEEN_QUESTIONS, []);
+            if (!seen.includes(id)) {
+                seen.push(id);
+                safeSet(KEYS.SEEN_QUESTIONS, seen);
+            }
         }
     };
 })(window);

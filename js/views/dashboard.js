@@ -19,6 +19,8 @@
         const notaMedia = history.length ? (history.reduce((a, h) => a + h.nota, 0) / history.length) : 0;
         const mejorNota = history.length ? Math.max(...history.map(h => h.nota)) : 0;
         const racha = utils.computeStreak(history);
+        const totalBanco = (typeof baseDeDatos !== 'undefined' && Array.isArray(baseDeDatos)) ? baseDeDatos.length : 0;
+        const vistas = store.getSeenQuestionIds().length;
 
         const wrap = document.createElement('div');
         wrap.className = 'view-dashboard';
@@ -48,6 +50,7 @@
                 ${statBox(mejorNota.toFixed(2), 'Mejor nota')}
                 ${statBox(failed.length, 'Fallos pendientes', failed.length ? 'error' : 'neutral')}
                 ${statBox(racha, racha === 1 ? 'Día seguido' : 'Días seguidos', 'neutral')}
+                ${statBox(`${vistas}/${totalBanco}`, 'Preguntas vistas', 'neutral')}
             </div>
             <h2 class="section-title">Accesos rápidos</h2>
             <div class="menu-grid" id="dashboard-shortcuts">

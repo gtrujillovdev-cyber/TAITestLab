@@ -305,6 +305,14 @@ async function run() {
     assert(qa(ctx, '.historial-item').length > 0, 'el historial de tests se renderiza');
     assert(qa(ctx, '#progress-chart').length === 1, 'el canvas del gráfico de evolución se crea sin excepciones');
 
+    section('Contador de preguntas vistas del banco (Dashboard)');
+    const seenCount = ctx.TAI.store.getSeenQuestionIds().length;
+    assert(seenCount > 0, 'markQuestionSeen registra preguntas vistas tras completar tests');
+    assert(seenCount <= ctx.baseDeDatos.length, 'el contador de vistas nunca supera el total del banco');
+    ctx.TAI.router.navigate('dashboard');
+    const statLabels = qa(ctx, '.dashboard-stats .stat-label').map((el) => text(el));
+    assert(statLabels.includes('Preguntas vistas'), 'el Dashboard muestra el stat "Preguntas vistas"');
+
     section('Componentes propios: sin alert()/confirm() nativos');
     const appJsExists = fs.existsSync(path.join(ROOT, 'app.js'));
     const jsFiles = SCRIPT_ORDER.filter((f) => f.startsWith('js/'));
