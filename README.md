@@ -167,19 +167,25 @@ Todas las preguntas —tanto las de elaboración propia sobre el temario como la
     "pregunta": "En el modelo OSI, ¿qué capa se encarga del enrutamiento de paquetes?",
     "opciones": ["Capa de Enlace", "Capa de Red", "Capa de Transporte", "Capa de Sesión"],
     "respuestaIndex": 1,           // índice (0-based) de la opción correcta -> "Capa de Red"
-    "oposiciones": ["AGE"]         // administraciones a las que aplica, o null si es genérica
+    "oposiciones": ["AGE"],        // administraciones a las que aplica, o null si es genérica
                                     // (valores válidos: "AGE", "SAS", "Junta de Andalucía",
                                     // "Diputación de Sevilla")
+    "explicacion": "La capa de Red (nivel 3 OSI) es responsable del direccionamiento lógico
+                     y el enrutamiento de paquetes entre redes distintas (p.ej. mediante IP)."
+                                    // OPCIONAL. Texto breve (1-3 frases) que justifica la
+                                    // respuesta correcta, idealmente con referencia al
+                                    // artículo/norma o concepto técnico concreto. Si no existe,
+                                    // simplemente no se muestra nada (retrocompatible).
 }
 ```
 
 **Importante:** las opciones se escriben en texto plano, **sin** prefijo `"a) "`, `"b) "`, etc. La aplicación genera las letras (A/B/C/D) automáticamente al mostrarlas, y las baraja en cada intento; lo que determina la respuesta correcta es siempre `respuestaIndex`, no el orden en que se muestran.
 
-Simplemente añade nuevas preguntas siguiendo esta estructura y la aplicación las detectará e integrará automáticamente en los filtros, el Banco de Preguntas y los test aleatorios.
+Simplemente añade nuevas preguntas siguiendo esta estructura y la aplicación las detectará e integrará automáticamente en los filtros, el Banco de Preguntas y los test aleatorios. El campo `explicacion` se muestra automáticamente (si existe) tras responder en modo estudio, en el repaso de fallos de Resultados y en el Banco de Preguntas; no requiere ningún cambio adicional.
 
 ## 📝 Cómo añadir Supuestos Prácticos
 
-Los supuestos viven en `supuestos.js` y usan su propio esquema (opciones ya prefijadas `"a) "..."d) "` + `respuestaCorrecta` como índice), ya que su orden no se baraja:
+Los supuestos viven en `supuestos.js` y usan su propio esquema (opciones ya prefijadas `"a) "..."d) "` + `respuestaCorrecta` como índice, y `explicacion` opcional igual que en `preguntas.js`), ya que su orden no se baraja:
 
 ```javascript
 {
@@ -190,7 +196,8 @@ Los supuestos viven en `supuestos.js` y usan su propio esquema (opciones ya pref
         {
             "pregunta": "Enunciado de la pregunta",
             "opciones": ["a) Opción 1", "b) Opción 2", "c) Opción 3", "d) Opción 4"],
-            "respuestaCorrecta": 0
+            "respuestaCorrecta": 0,
+            "explicacion": "Texto breve opcional que justifica la respuesta."
         }
     ]
 }

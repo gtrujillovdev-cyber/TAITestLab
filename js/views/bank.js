@@ -63,6 +63,9 @@
                 : `<span class="badge">Tema ${q.tema}</span>`;
             const optionsHTML = q.opciones.map((opt, i) =>
                 `<li class="${i === q.respuestaIndex ? 'correct-option' : ''}">${utils.escapeHtml(opt)}</li>`).join('');
+            const explicacionHTML = q.explicacion
+                ? `<p class="explicacion-box">💡 ${utils.escapeHtml(q.explicacion)}</p>`
+                : '';
             item.innerHTML = `
                 <div class="viewer-question-header">
                     ${q.id !== undefined ? `<span class="badge">#${q.id}</span>` : ''}
@@ -71,6 +74,7 @@
                 </div>
                 <h3 style="margin-top: 10px;">${utils.escapeHtml(q.pregunta)}</h3>
                 <ul class="viewer-options">${optionsHTML}</ul>
+                ${explicacionHTML}
             `;
             frag.appendChild(item);
         });

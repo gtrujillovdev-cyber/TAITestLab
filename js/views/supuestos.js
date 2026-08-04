@@ -197,6 +197,13 @@
             allBtns[q.respuestaCorrecta].classList.add('correct-insitu');
         }
 
+        if (q.explicacion) {
+            const expEl = document.createElement('p');
+            expEl.className = 'explicacion-box';
+            expEl.innerHTML = `💡 ${TAI.utils.escapeHtml(q.explicacion)}`;
+            feedback.appendChild(expEl);
+        }
+
         if (qIndex < currentSupuesto.preguntas.length - 1) {
             nextBtn.classList.remove('hidden');
         }

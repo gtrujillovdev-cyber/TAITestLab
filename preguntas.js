@@ -8057,5 +8057,1246 @@ const baseDeDatos = [
         "oposiciones": [
             "AGE"
         ]
+    },
+    {
+        "id": 473,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la respuesta correcta en relación con la digitalización de imágenes:",
+        "opciones": [
+            "La resolución del escáner se mide en puntos por pulgada (ppp) o píxeles por pulgada (ppi).",
+            "A mayor número de píxeles tendremos mayor resolución y menor tamaño de los ficheros donde se almacenan las imágenes.",
+            "La profundidad del bit es la capacidad de reproducir los píxeles en tonos grises.",
+            "Sólo los formatos TIFF y JPEG sirven para guardar una imagen digitalizada. El formato PDF se emplea para guardar imágenes de textos únicamente."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 474,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la respuesta correcta referente al tipo abstracto de datos (TAD) Pila:",
+        "opciones": [
+            "Basada en el principio FIFO (first-in, first-out).",
+            "Se puede implementar usando arrays.",
+            "No se puede implementar usando una estructura dinámica.",
+            "Las operaciones de apilar (push) y desapilar (pop) se realizan en cualquier posición."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 475,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la respuesta INCORRECTA sobre el lenguaje Swift:",
+        "opciones": [
+            "Fue creado por Apple.",
+            "Se distribuye bajo licencia de código abierto Apache 2.0.",
+            "Se utiliza exclusivamente para la construcción de aplicaciones para iOS.",
+            "Algunas de las variables más comunes son String, Int, Double y Bool."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 476,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál es la última versión de .NET con soporte a largo plazo?",
+        "opciones": [
+            ".NET 4.5",
+            ".NET 3.1",
+            ".NET 8.0",
+            ".NET 2000"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 477,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué hará el siguiente código de JavaScript console.log(10==='10')?",
+        "opciones": [
+            "Imprimirá true.",
+            "Imprimirá false.",
+            "Dará error.",
+            "Imprimirá '1010'."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 478,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué término hace referencia a la realización de un análisis estático del código fuente de una aplicación para identificar vulnerabilidades de seguridad antes de que se implemente en un entorno de producción real?",
+        "opciones": [
+            "SAST.",
+            "OWASP.",
+            "DAST.",
+            "SART."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 479,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En el contexto de las metodologías de desarrollo de software, ¿cuál de los siguientes es un principio del Manifiesto Ágil?",
+        "opciones": [
+            "Son bienvenidos los requisitos cambiantes, incluso si llegan tarde al desarrollo.",
+            "Las personas del negocio y los desarrolladores deben coordinarse en una reunión semanal.",
+            "La documentación entregada es la principal medida del progreso.",
+            "Las mejores arquitecturas, requisitos y diseños emergen de equipos bien jerarquizados."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 480,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Según el estándar IEEE 754-2008, un número en coma flotante de doble precisión es:",
+        "opciones": [
+            "Una aproximación de 64 bits de un número real.",
+            "Una aproximación de 32 bits de un número real.",
+            "Un número decimal empaquetado con una coma decimal implícita.",
+            "Un entero de cuatro bytes con una precisión de 10 dígitos."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 481,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la respuesta INCORRECTA referente a los eventos en SQL:",
+        "opciones": [
+            "Es una tarea que se ejecuta de forma automática en un momento temporal previamente programado.",
+            "Se definen como CREATE EVENT nombre_evento.",
+            "La temporalidad de los eventos se indica en la cláusula ON SCHEDULE.",
+            "Una vez que el evento se ha ejecutado hay que eliminarlo manualmente."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 482,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Uno de los expertos más reconocidos en usabilidad web, Jakob Nielsen, estableció 10 principios clave que todo diseñador web debe tener en cuenta. ¿Cuál de los siguientes NO es uno de ellos?",
+        "opciones": [
+            "Visibilidad del estado del sistema.",
+            "Control y libertad del usuario.",
+            "Reconocimiento después que recuerdo.",
+            "Ayuda y documentación."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 483,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué mecanismo de solución a bucles de enrutamiento consiste en implementar un temporizador para que la distancia al destino deje de ser infinita y, en caso de que expirado el temporizador la distancia siga siendo infinita, eliminar la ruta de la tabla de enrutamiento?",
+        "opciones": [
+            "Poison reverse.",
+            "Triggered Updates.",
+            "Split horizon.",
+            "Hold down."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 484,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué puerto utiliza Telnet?",
+        "opciones": [
+            "23",
+            "25",
+            "21",
+            "20"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 485,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "El fenómeno que se produce cuando la señal eléctrica transmitida por un par induce corrientes en otros pares vecinos, se conoce como:",
+        "opciones": [
+            "Atenuación.",
+            "Jitter.",
+            "Diafonía.",
+            "Desajuste de impedancia."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 486,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En Linux, ¿Qué comando usaremos para ver la información relativa a una interfaz de red en particular (por ejemplo, 'eth0')?",
+        "opciones": [
+            "ethtoolsshd eth0",
+            "dhclient eth0",
+            "ifconfig eth0",
+            "tcpdump eth0"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 487,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En sistemas operativos, cuando hablamos de Registro de Instrucción, ¿a qué nos estamos refiriendo?",
+        "opciones": [
+            "Al registro que contiene la última instrucción leída.",
+            "Al registro que contiene el identificador único asociado al proceso de la instrucción.",
+            "Al registro que contiene la dirección de la siguiente instrucción del programa que se ejecutará.",
+            "Al registro que contiene el número de procesos que están corriendo en paralelo."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 488,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique cuál de los siguientes NO es un protocolo de acceso al correo electrónico:",
+        "opciones": [
+            "IMAP",
+            "POP3.",
+            "SNTP.",
+            "SMTP."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 489,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique cuál NO es uno de los beneficios de la arquitectura de microservicios:",
+        "opciones": [
+            "Permite un escalado flexible.",
+            "Admite la integración y la entrega continuas.",
+            "El enfoque de diseño único, sin posibilidad de elegir la tecnología.",
+            "Mejora la resistencia a los errores, permitiendo degradar una funcionalidad sin bloquear toda la aplicación."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 490,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la respuesta correcta sobre el instrumento para medir la eficiencia de los CPD, conocido como variable PUE (Power Usage Effectiveness):",
+        "opciones": [
+            "Sirve para comparar el total de energía consumida por el CPD con la cantidad de energía que realmente consume el equipamiento de TI (tecnologías de la información).",
+            "Sirve para establecer un orden de mayor a menor consumo de energía de los equipos conectados en un CPD en base al estándar IEEE P1574.",
+            "Sirve para medir la eficiencia energética de un equipo concreto de entre todos los conectados en un CPD.",
+            "Sirve para comparar la energía consumida por el CPD con la cantidad de energía consumida por los equipos que no son TI (sistemas de refrigeración, etc.)."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 491,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la respuesta correcta sobre el significado del conjunto de códigos de respuesta 3xx del protocolo HTTP:",
+        "opciones": [
+            "Peticiones correctas: esta clase de código indica que la petición fue recibida correctamente, entendida y aceptada.",
+            "Errores del cliente: la solicitud contiene sintaxis incorrecta o no puede procesarse.",
+            "Errores de servidor: el servidor falló al completar una solicitud aparentemente válida.",
+            "Redirecciones: el cliente tiene que tomar una acción adicional para completar la petición."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 492,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la respuesta INCORRECTA sobre la correspondencia entre las capas del modelo OSI y el modelo TCP/IP:",
+        "opciones": [
+            "La capa de sesión del modelo OSI está incluida en la capa de aplicación del modelo TCP/IP.",
+            "La capa de acceso de red del modelo TCP/IP se corresponde con la capa de red del modelo OSI.",
+            "La capa de presentación del modelo OSI está incluida en la capa de aplicación del modelo TCP/IP.",
+            "La capa de transporte del modelo TCP/IP se corresponde con la capa de transporte del modelo OSI."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 493,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Referente a la Infraestructura Convergente (CI), señale la respuesta correcta:",
+        "opciones": [
+            "Es una solución que requiere de una gestión compleja y poco optimizada de los recursos.",
+            "Es una solución definida por hardware que combina cómputo, redes, almacenamiento, administración de sistemas y software en un paquete preconfigurado que funciona como un sistema singular.",
+            "Es una solución difícil de escalar, requiere planificación previa.",
+            "Aumenta en gran medida los costos asociados con la energía, la refrigeración y el cableado en el centro de datos."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 494,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Sobre el protocolo RSVP, es correcto decir:",
+        "opciones": [
+            "Desarrollado en la RFC 4566, está destinado a describir sesiones multimedia con el propósito de anunciar la sesión, invitar a la misma y otras formas de inicialización de sesiones multimedia.",
+            "Desarrollado en la RFC 7826, es un protocolo de nivel de aplicación para controlar la entrega de datos con propiedades en tiempo real.",
+            "Desarrollado en la RFC 2205, es un protocolo de configuración de reserva de recursos diseñado para servicios integrados de Internet.",
+            "Desarrollado en la RFC 2974, posibilita el anuncio de sesiones multimedia en la modalidad multicast."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 495,
+        "bloque": "I",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Según establece la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales, ¿quién NO puede ponerse en contacto con los prestadores de servicios de la sociedad de la información para acceder a los contenidos de la persona fallecida?",
+        "opciones": [
+            "En caso de fallecimiento de personas con discapacidad, estas facultades podrán ejercerse por quienes hubiesen sido designados para el ejercicio de las funciones de apoyo.",
+            "El albacea testamentario así como aquella persona o institución a la que el fallecido hubiese designado expresamente para ello.",
+            "En caso de personas fallecidas mayores de edad, estas facultades no podrán ejercerse por sus representantes legales.",
+            "Las personas vinculadas al fallecido por razones familiares o de hecho."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 496,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de las siguientes respuestas se corresponden con el número 450 estando este representado en base decimal?",
+        "opciones": [
+            "111000010 en binario.",
+            "764 en octal.",
+            "1F4 en hexadecimal.",
+            "407 en octal."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 497,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la respuesta correcta respecto al lenguaje de programación F#:",
+        "opciones": [
+            "El literal tipo sbyte es un número natural de 8 bits sin signo.",
+            "La palabra clave let enlaza un nombre a un valor o función.",
+            "Para realizar comentarios en el código de múltiples líneas se utiliza //* para iniciar el comentario y *// para cerrarlo.",
+            "La expresión \"let immutable x=1\" es correcta."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 498,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la opción correcta sobre un \"repositorio bare\" en el sistema de control de versiones Git:",
+        "opciones": [
+            "Un repositorio bare es un mecanismo para lanzar scripts de usuario cuando suceden ciertas acciones importantes.",
+            "Un repositorio bare se suele usar para crear un repositorio central de Git remoto.",
+            "No existen repositorios bare en Git.",
+            "Un repositorio bare se suele usar para automatizar la copia de seguridad del repositorio local de trabajo."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 499,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "La unidad de medida de la potencia de un microprocesador, FLOPS, indica:",
+        "opciones": [
+            "El número de accesos a memoria por segundo que es capaz de realizar.",
+            "El número de instrucciones por segundo que puede procesar.",
+            "El número de operaciones de coma flotante por segundo que puede realizar.",
+            "La frecuencia de reloj (número de pulsos por segundo)."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 500,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cómo se denomina a la agrupación de 4 bits?",
+        "opciones": [
+            "Byte",
+            "Half-byte",
+            "Nibble",
+            "Quartet"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 501,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Cuál es la respuesta correcta con respecto al formato de imagen JPG:",
+        "opciones": [
+            "Es editable, cada vez que guardamos un JPEG nuevo, la imagen va ganando calidad.",
+            "Es un estándar internacional.",
+            "Los archivos almacenados en este formato tienden a ser archivos pesados de gran tamaño.",
+            "Se trata de un formato de imagen que permite transparencias."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 502,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Cuál de las siguientes afirmaciones NO es correcta:",
+        "opciones": [
+            "El primer y el último nodo de una lista doblemente enlazada son accesibles inmediatamente.",
+            "En una lista doblemente enlazada el doble enlace de los nodos permite recorrer la lista en cualquier dirección.",
+            "En una lista simple enlazada cada nodo tiene un único campo de enlace.",
+            "En una lista simple enlazada el primer y el último nodo están unidos juntos."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 503,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "OpenDocument V.1.0 (ODF) fue aprobado por las organizaciones ISO e IEC como estándar internacional:",
+        "opciones": [
+            "ISO/IEC 14977:1996",
+            "ISO/IEC 18372:2004",
+            "ISO/IEC 26300:2006",
+            "ISO/IEC 40210:2011"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 504,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Según describe METRICA v3 referente al Modelo Entidad/Relación Extendido, el número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando se llama:",
+        "opciones": [
+            "Agregación.",
+            "Cardinalidad.",
+            "Especialización.",
+            "Tipo de correspondencia."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 505,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Relacionado con las bases de datos, cuál es el significado del término CRUD:",
+        "opciones": [
+            "Create, Read, Update and Delete.",
+            "Create, Read, Used and Drop.",
+            "Create, Reload, Update and Delete.",
+            "Create, Rename, Used and Delete."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 506,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "La cláusula que se utiliza para especificar el criterio de ordenación de la respuesta a una consulta en SQL es:",
+        "opciones": [
+            "ORDER",
+            "ORDER BY",
+            "ORDER TO",
+            "ORDER WHERE"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 507,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de las siguientes características NO se corresponde con el modelo orientado a objetos?",
+        "opciones": [
+            "Abstracción.",
+            "Durabilidad.",
+            "Encapsulamiento.",
+            "Modularidad."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 508,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué es ADO.NET?",
+        "opciones": [
+            "La versión para C# del entorno gráfico de desarrollo ADO Python.",
+            "La web oficial de la Asociación de Deportes Olímpicos.",
+            "Un componente de Java para omitir la arquitectura nativa de acceso a bases de datos.",
+            "Un componente del framework .NET para comunicación con bases de datos."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 509,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la respuesta correcta relativa al lenguaje Java 2:",
+        "opciones": [
+            "El nombre de una variable puede empezar por un número.",
+            "Los comentarios multilínea empiezan con //",
+            "Los nombres de las variables pueden contener el carácter $",
+            "Puedo utilizar como nombre de variable la palabra static"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 510,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En una arquitectura cliente/servidor, cuál de las siguientes afirmaciones es INCORRECTA en el ámbito de las arquitecturas multinivel:",
+        "opciones": [
+            "Escalabilidad: facilita añadir recursos para soportar mayor número de clientes.",
+            "Extensibilidad: facilita añadir nuevas funcionalidades al sistema sin afectar a los clientes existentes.",
+            "Mayor flexibilidad y modularidad.",
+            "Menor coste de comunicaciones ya que consumen menos ancho de banda."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 511,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de estos elementos permiten definir la presentación y estilos de una página web?",
+        "opciones": [
+            "CSI",
+            "CSS",
+            "OSS/BSS",
+            "XSS"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 512,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Cuál es una de las restricciones básicas que introduce XHTML referente a la sintaxis de sus etiquetas:",
+        "opciones": [
+            "Los atributos se pueden minimizar.",
+            "Los elementos anidados no tienen que cerrarse ordenadamente.",
+            "Los nombres de las etiquetas y de los atributos se pueden escribir en letras mayúsculas o minúsculas.",
+            "Para elementos vacíos, se requieren etiquetas finales."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 513,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique cuántos son los principios generales de usabilidad Web definidos por Jakob Nielsen:",
+        "opciones": [
+            "10",
+            "4",
+            "7",
+            "8"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 514,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En cuanto a las conexiones de acceso remoto, ¿cuál NO sería una recomendación para mitigar el riesgo?",
+        "opciones": [
+            "El canal de comunicación debe ser cifrado y terminar en un firewall.",
+            "La conexión debe solicitar un segundo factor de autenticación.",
+            "Los datos de la conexión deben quedar registrados y estar disponibles para su consulta.",
+            "Los privilegios de acceso remoto a recursos por parte del teletrabajador serán los mismos que cuando se trabaja en local."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 515,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Entre las funciones de un Sistema Operativo NO se encuentra:",
+        "opciones": [
+            "Administrar la CPU a través de un algoritmo de programación.",
+            "Constituir el conjunto de software y hardware necesario para el funcionamiento del ordenador.",
+            "Controlar las autorizaciones de uso para los usuarios.",
+            "Ejecutar rutinas de tratamiento de interrupciones en el caso de activación de una señal."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 516,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de los siguientes NO es un algoritmo de planificación utilizado en sistemas Windows y Linux?",
+        "opciones": [
+            "Algoritmo de agrupación",
+            "FCFS",
+            "Round Robin",
+            "SJF"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 517,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la opción FALSA respecto a la virtualización del escritorio:",
+        "opciones": [
+            "El acceso a los escritorios virtuales se puede hacer desde múltiples plataformas y dispositivos.",
+            "Existen distintos tipos de fabricantes que ofrecen soluciones VDI.",
+            "Ofrece a los usuarios acceso remoto a escritorios completos, por lo que requiere acceder desde un hardware potente para poder ejecutarlo.",
+            "Optimiza aspectos como la aceleración de los gráficos, mejorando la experiencia del usuario."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 518,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la respuesta correcta acerca del concepto de Kubernetes:",
+        "opciones": [
+            "Dictamina las soluciones de registros, monitoreo o alerta que se deben usar.",
+            "Hace deployment de código fuente y compila tu aplicación.",
+            "Limita el tipo de aplicaciones que soporta.",
+            "No provee ni adopta un sistema exhaustivo de mantenimiento, administración o corrección automática de errores."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 519,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Dentro de la topología de las redes de área local, aquella que se caracteriza por existir un enlace punto a punto directo entre los Equipos Terminal de Datos (DTE) vecinos que operan en un solo sentido, se denomina:",
+        "opciones": [
+            "Topología de anillo.",
+            "Topología de bus.",
+            "Topología de árbol.",
+            "Topología en estrella."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 520,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Los protocolos AAA se descomponen en tres procesos entrelazados. Señale la respuesta correcta:",
+        "opciones": [
+            "Autenticación, Autorización, Aislamiento.",
+            "Autenticación, Autorización, Contabilización.",
+            "Autenticación, Autorización, Control.",
+            "Autenticación, Autorización, Seguridad."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 521,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué es una red POLAN?",
+        "opciones": [
+            "Es un tipo de red neuronal que se compone de dos partes: un generador y un discriminador.",
+            "Es un tipo de red que permite la conexión de dispositivos en una zona geográfica extensa.",
+            "Es un tipo de red que utiliza fibra óptica pasiva para transportar señales de datos entre el equipamiento central y los dispositivos de usuario, eliminando la necesidad de equipos intermedios.",
+            "Es una red de almacenamiento dedicada que permite a los servidores acceder a dispositivos de almacenamiento."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 522,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de estos tipos de cable NO ofrece ningún tipo de apantallamiento?",
+        "opciones": [
+            "FTP",
+            "Los tres ofrecen apantallamiento.",
+            "STP",
+            "UTP"
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 523,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de los siguientes NO es un protocolo de nivel de Red (OSI nivel 3)?",
+        "opciones": [
+            "ARP",
+            "BGP",
+            "FTP",
+            "RIP"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 524,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué información NO contiene un certificado SSL/TLS?",
+        "opciones": [
+            "El nombre de dominio asociado al certificado emitido.",
+            "Fecha de emisión del certificado.",
+            "La Autoridad certificadora que lo emite.",
+            "La clave privada."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 525,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de las siguientes Guías de Seguridad CCN-STIC trata sobre la \"Seguridad en Redes Privadas Virtuales\"?",
+        "opciones": [
+            "812",
+            "814",
+            "836",
+            "837"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 526,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "De los siguientes protocolos de seguridad, indique cuál es el más empleado por las VPN de nivel de transporte:",
+        "opciones": [
+            "IPSec",
+            "MACsec",
+            "SSH",
+            "TLS"
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 527,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la respuesta INCORRECTA con respecto al ataque KRACK:",
+        "opciones": [
+            "Distinta clave de cifrado es utilizada con valores NONCE que ya han sido utilizados en el pasado.",
+            "El objetivo del ataque es el proceso de negociación del protocolo WPA2.",
+            "Esta vulnerabilidad afecta únicamente al protocolo WPA2.",
+            "Son las siglas de \"Key Reinstallation Attack\"."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 528,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En Linux, ¿qué es LXC?",
+        "opciones": [
+            "Corresponde con las siglas Linux Exchange Container.",
+            "Es una de las últimas versiones de Linux Mint.",
+            "Es una tecnología de virtualización en el nivel de sistema operativo para Linux.",
+            "LXC es una tecnología basada en Docker for Linux."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 529,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de las siguientes herramientas se utiliza para la detección y prevención de intrusiones (HIDS)?",
+        "opciones": [
+            "Checkstyle",
+            "GIT",
+            "OSSEC",
+            "Sonar"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 530,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la respuesta correcta respecto a correspondencia entre los grupos de trabajo de la familia IEEE 802 y su nomenclatura:",
+        "opciones": [
+            "802.1 Ethernet",
+            "802.11 - Wireless LAN",
+            "802.25 Higher Layer LAN Protocols",
+            "802.3 - Wireless Coexistence"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 531,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale cuál es el valor del campo Tipo del protocolo ICMPv6 cuyo mensaje de error es \"Paquete demasiado Grande\":",
+        "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 532,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de los siguientes es un tipo de almacenamiento de datos volátil?",
+        "opciones": [
+            "Memoria de acceso aleatorio dinámico.",
+            "Memoria USB.",
+            "Memoria flash.",
+            "Discos ópticos."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 533,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "El algoritmo de ordenación que consiste en comparar pares de elementos adyacentes e intercambiarlos entre sí, si no están en orden, hasta que todo el conjunto de elementos se encuentre ordenado, es conocido como:",
+        "opciones": [
+            "Selección",
+            "Burbuja",
+            "Inserción",
+            "Quicksort"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 534,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿En Linux, qué tipo de proceso se corresponde con la característica de que, habiendo concluido, aún está presente en la tabla de procesos?",
+        "opciones": [
+            "Proceso zombie.",
+            "Proceso perdido.",
+            "Proceso huérfano.",
+            "Proceso demonio."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 535,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En un entorno UNIX, tenemos los permisos \"rwxr-x-r--\" sobre un determinado fichero. ¿Qué acción o acciones puede hacer un usuario del grupo del propietario del fichero?",
+        "opciones": [
+            "Sólo leer.",
+            "Sólo leer y ejecutar.",
+            "Sólo leer, escribir y ejecutar.",
+            "Sólo ejecutar."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 536,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En los sistemas Linux, el comando pwd permite:",
+        "opciones": [
+            "Mostrar el nombre del directorio de trabajo actual.",
+            "Cambiar la contraseña de un usuario.",
+            "Informar del estado de los procesos.",
+            "Cambiar el directorio de trabajo."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 537,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de los siguientes NO es un tipo de backup?",
+        "opciones": [
+            "Compartimental",
+            "Diferencial",
+            "Incremental",
+            "Completa"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 538,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "El protocolo SMTP es acrónimo de:",
+        "opciones": [
+            "Secure Mail Transfer Protocol.",
+            "Secure Mail Transaction Protocol.",
+            "Simple Mail Transfer Protocol",
+            "Simple Managemet Trace Protocol."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 539,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique cuál de los siguientes es un protocolo orientado a la gestión de los dispositivos de una red:",
+        "opciones": [
+            "SMTP",
+            "SNMP",
+            "HTTP",
+            "IGMPv3"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 540,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En relación a los riesgos de seguridad en aplicaciones, según OWASP, ¿qué tipo de fallo ocurre cuando datos no confiables son enviados a un intérprete como parte de un comando o consulta?",
+        "opciones": [
+            "Secuencia de comandos en sitios cruzados (XSS).",
+            "Exposición de datos sensibles.",
+            "Redirecciones y reenvíos no validados.",
+            "Inyección."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 541,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué tipo de ataque lleva a cabo el virus Ryuk?",
+        "opciones": [
+            "Sniffing",
+            "Ransomware",
+            "Spoofing",
+            "Phishing"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 542,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de los siguientes algoritmos de cifrado es de clave pública?",
+        "opciones": [
+            "RSA",
+            "Blowfish",
+            "IDEA",
+            "Twofish"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 543,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de las siguientes herramientas del CCN-CERT se utiliza para la detección de amenazas complejas en el puesto del usuario?",
+        "opciones": [
+            "MARIA",
+            "CLAUDIA",
+            "GLORIA",
+            "ANA"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 544,
+        "bloque": "IV",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En el contexto de la gestión de dispositivos móviles, qué significan las siglas BYOD:",
+        "opciones": [
+            "Bring Your Own Device.",
+            "Best Year's Open Device.",
+            "Backup Yearly with Online Device.",
+            "Buy Yet-Only Divided Device."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 545,
+        "bloque": "II",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En tecnologías de almacenamiento, el término SAS se corresponde con:",
+        "opciones": [
+            "Serial Attached State.",
+            "Solid Attached SCSI.",
+            "Serial Attached SCSI.",
+            "Solid Advanced SCSI."
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
     }
 ];

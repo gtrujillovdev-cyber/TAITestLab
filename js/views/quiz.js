@@ -324,6 +324,12 @@
                     }
                 });
             }
+            if (currentQ.explicacion) {
+                const expEl = document.createElement('p');
+                expEl.className = 'explicacion-box';
+                expEl.innerHTML = `💡 ${utils.escapeHtml(currentQ.explicacion)}`;
+                els.feedback.appendChild(expEl);
+            }
             persistSnapshot();
         } else {
             if (!isCorrect) saveFailedQuestion(currentQ);

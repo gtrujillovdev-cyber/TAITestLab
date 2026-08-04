@@ -46,10 +46,14 @@
                 const marcadaIndex = result.userAnswers[index];
                 if (marcadaIndex === q.respuestaIndex) return '';
                 const tuTexto = (marcadaIndex !== undefined && q.opciones[marcadaIndex] !== undefined) ? q.opciones[marcadaIndex] : 'En blanco';
+                const explicacionHTML = q.explicacion
+                    ? `<p class="explicacion-box">💡 ${utils.escapeHtml(q.explicacion)}</p>`
+                    : '';
                 return `<div class="error-item">
                     <div class="q">${index + 1}. ${utils.escapeHtml(q.pregunta)}</div>
                     <div class="wrong-ans">❌ Tu respuesta: ${utils.escapeHtml(tuTexto)}</div>
                     <div class="right-ans">✅ Correcta: ${utils.escapeHtml(q.opciones[q.respuestaIndex])}</div>
+                    ${explicacionHTML}
                 </div>`;
             }).join('');
         }

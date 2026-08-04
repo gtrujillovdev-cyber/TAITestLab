@@ -317,6 +317,20 @@ input:checked + .slider:before { transform: translateX(22px); }
 .feedback-insitu.success-bg { background: rgba(16, 185, 129, 0.2); color: var(--success); }
 .feedback-insitu.error-bg { background: rgba(239, 68, 68, 0.2); color: var(--danger); }
 
+.explicacion-box {
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--text-main);
+    background: var(--card-bg);
+    border: 1px solid var(--panel-border);
+    border-left: 3px solid var(--primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-3) var(--space-4);
+    margin-top: var(--space-3);
+}
+
 /* Results */
 .results-header { text-align: center; margin-bottom: var(--space-7); }
 .results-header h2 { font-size: clamp(1.3rem, 1.1rem + 0.8vw, 1.7rem); }

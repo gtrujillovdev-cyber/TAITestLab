@@ -310,6 +310,126 @@ const baseDeSupuestos = [
                     "d) 10.20.30.64 y 10.20.30.127"
                 ],
                 "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Para optimizar el acceso a Internet, se opta por instalar un servidor proxy-caché en la Subred de Aplicaciones. ¿Cuál de las siguientes soluciones puede realizar dicha función?",
+                "opciones": [
+                    "a) CHECK_MK",
+                    "b) GRAFANA",
+                    "c) INFLUXDB",
+                    "d) SQUID"
+                ],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "En la subred de DMZ del Modelo B se quiere implementar un servicio de correo seguro. Cuáles, de entre los siguientes, son los puertos seguros para los protocolos POP, SMTP e IMAP:",
+                "opciones": [
+                    "a) POP:965/SMTP:495/IMAP:993",
+                    "b) POP:993/SMTP:465/IMAP:995",
+                    "c) POP:995/SMTP:465/IMAP:993",
+                    "d) POP:995/SMTP:495/IMAP:963"
+                ],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Para la aplicación AutoFirma 1.8.2 de las estaciones de trabajo de la organización, ¿qué algoritmo de huella para la firma se permite de los siguientes?",
+                "opciones": [
+                    "a) DSA",
+                    "b) ECDSA",
+                    "c) MD5",
+                    "d) SHA384"
+                ],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "En la organización se están planteando instalar puntos de acceso WiFi. ¿Cuál de estos estándares puede funcionar a 2,4 GHz, 5 GHz y 6 GHz?",
+                "opciones": [
+                    "a) 802.11ac",
+                    "b) 802.11ax",
+                    "c) 802.11be",
+                    "d) No existe la banda de los 6 GHz"
+                ],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Desde su equipo necesita conectarse a uno de los servidores mediante SSH y SCP. ¿Qué puerto o puertos estándares deberían tener abiertos en el firewall para realizar esta labor?",
+                "opciones": [
+                    "a) Puerto 21 para SSH y 22 para SCP.",
+                    "b) Puerto 21 tanto para SSH como SCP.",
+                    "c) Puerto 22 para SSH y 21 para SCP.",
+                    "d) Puerto 22 tanto para SSH como SCP."
+                ],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "Si hubiese instalado un IIS, ¿qué comando utilizaría para reiniciarlo?",
+                "opciones": [
+                    "a) IIS RESET",
+                    "b) IISRESET",
+                    "c) RESET IIS",
+                    "d) RESETIIS"
+                ],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "En uno de los servidores de la Subred de Aplicaciones del Modelo B se necesita realizar una captura del tráfico que pasa por la interfaz de red eth1 y guardarlo en el fichero fichero.out. ¿Cuál de las siguientes sentencias es la correcta?",
+                "opciones": [
+                    "a) snoop-d any -o fichero.out",
+                    "b) snoop-d eth1 -w fichero.out",
+                    "c) tcpdump -i any -o fichero.out",
+                    "d) tcpdump -i eth1 -w fichero.out"
+                ],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "En el servidor de la Subred de Aplicaciones quieren servir páginas de otros dominios. ¿Cuál de las siguientes directivas debe utilizar?",
+                "opciones": [
+                    "a) Virtual Machine",
+                    "b) VirtualDomain",
+                    "c) VirtualHost",
+                    "d) VirtualIp"
+                ],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Se quiere crear una nueva vLAN en el organismo. ¿Qué opción de las vLAN hace que las tramas Ethernet incorporen la etiqueta \"vLAN ID\"?",
+                "opciones": [
+                    "a) id",
+                    "b) tagged",
+                    "c) trunk",
+                    "d) untagged"
+                ],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Indique qué herramienta desarrollada por el CCN-CERT, es una plataforma de análisis avanzado de malware:",
+                "opciones": [
+                    "a) ADA",
+                    "b) CADA",
+                    "c) NADA",
+                    "d) SADA"
+                ],
+                "respuestaCorrecta": 0
+            },
+            {
+                "pregunta": "En el clúster de Firewalls del modelo B se quiere implementar un módulo de seguridad para filtrar y monitorear el tráfico HTTP. ¿Cuál de los siguientes módulos debe implementarse?",
+                "opciones": [
+                    "a) VFN - Virtual Firewall Network",
+                    "b) WAF - Web Application Firewall",
+                    "c) WAT - Web Administration Tool",
+                    "d) WFL7 - Web Firewall Layer 7"
+                ],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "En la Subred de PCs de Usuario del Modelo B necesitamos saber la tabla de enrutamiento de los equipos. ¿Cuál de los siguientes comandos permite ver esa información?",
+                "opciones": [
+                    "a) ip route ls",
+                    "b) ip route print",
+                    "c) route print",
+                    "d) route show"
+                ],
+                "respuestaCorrecta": 2
             }
         ]
     },
@@ -908,6 +1028,56 @@ const baseDeSupuestos = [
                     "d) ifconfig /cleardns"
                 ],
                 "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Relacionado con los sistemas de backup, le preguntan por una técnica que mejore la eficiencia del almacenamiento y reduzca su coste medio. ¿Cuál propondría?",
+                "opciones": [
+                    "a) RTO",
+                    "b) Deduplicación",
+                    "c) RPO",
+                    "d) Vaulting"
+                ],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "Se está hablando sobre el uso de máquinas virtuales, y le piden indicar cuál de los siguientes NO es un software de virtualización.",
+                "opciones": [
+                    "a) Vmware",
+                    "b) VirtualBox",
+                    "c) Hyper-V",
+                    "d) LVM"
+                ],
+                "respuestaCorrecta": 3
+            },
+            {
+                "pregunta": "En su unidad se ha decidido utilizar Docker. ¿Cuál de los siguientes comandos deberá utilizar para mostrar la información que tiene todo el sistema sobre la instalación de Docker (nº de contenedores, las imágenes...)?",
+                "opciones": [
+                    "a) docker ps",
+                    "b) docker info",
+                    "c) docker inspect",
+                    "d) docker systeminfo"
+                ],
+                "respuestaCorrecta": 1
+            },
+            {
+                "pregunta": "En una reunión se habla del Directorio Activo. Defina en qué consiste este concepto.",
+                "opciones": [
+                    "a) Es el usuario que está logado actualmente en el sistema.",
+                    "b) Es el conjunto de políticas de grupo que se aplican a los usuarios de una red Novell.",
+                    "c) Es un almacén de datos estructurado que permite almacenar información sobre los objetos o recursos de una red para facilitar su localización y administración.",
+                    "d) Es un almacén de datos que contiene información de los programas software instalados en la red por la organización."
+                ],
+                "respuestaCorrecta": 2
+            },
+            {
+                "pregunta": "Debido al elevado volumen de peticiones e incidencias que se esperan durante la integración, se está valorando implantar un sistema de gestión específico. El único requerimiento que tienen es que sea Open Source. ¿Cuál propondría?",
+                "opciones": [
+                    "a) Remedy",
+                    "b) Ticket2.0",
+                    "c) Nagios",
+                    "d) osTicket"
+                ],
+                "respuestaCorrecta": 3
             },
             {
                 "pregunta": "(Pregunta de reserva) Con el objetivo de recabar información sobre los equipos Windows, disponen de un software de inventariado que necesita acceso por el puerto 4433 (TCP) en los equipos destino. ¿Qué comando utilizaría en estos últimos para añadir la regla al firewall?",
