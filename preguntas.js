@@ -109,7 +109,7 @@ const baseDeDatos = [
     {
         "id": 6,
         "bloque": "II",
-        "tema": 1,
+        "tema": 11,
         "origen": "temario",
         "pregunta": "En la arquitectura de ordenadores, ¿qué componente de la CPU se encarga de decodificar las instrucciones?",
         "opciones": [
@@ -124,7 +124,7 @@ const baseDeDatos = [
     {
         "id": 7,
         "bloque": "II",
-        "tema": 2,
+        "tema": null,
         "origen": "temario",
         "pregunta": "¿Cuál de los siguientes es un dispositivo de almacenamiento de estado sólido sin partes mecánicas móviles?",
         "opciones": [
@@ -139,7 +139,7 @@ const baseDeDatos = [
     {
         "id": 8,
         "bloque": "II",
-        "tema": 3,
+        "tema": null,
         "origen": "temario",
         "pregunta": "¿Qué estructura de datos sigue el principio LIFO (Last In, First Out)?",
         "opciones": [
@@ -154,7 +154,7 @@ const baseDeDatos = [
     {
         "id": 9,
         "bloque": "II",
-        "tema": 4,
+        "tema": 15,
         "origen": "temario",
         "pregunta": "En sistemas Linux, ¿qué directorio se utiliza habitualmente para almacenar los archivos de configuración del sistema?",
         "opciones": [
@@ -169,7 +169,7 @@ const baseDeDatos = [
     {
         "id": 10,
         "bloque": "II",
-        "tema": 5,
+        "tema": null,
         "origen": "temario",
         "pregunta": "¿Qué tipo de bases de datos son MongoDB o Cassandra?",
         "opciones": [
@@ -184,7 +184,7 @@ const baseDeDatos = [
     {
         "id": 11,
         "bloque": "III",
-        "tema": 1,
+        "tema": 19,
         "origen": "temario",
         "pregunta": "En el modelo E-R, si una entidad A se relaciona con muchas entidades de B, y una entidad B solo se relaciona con una de A, la cardinalidad es:",
         "opciones": [
@@ -199,7 +199,7 @@ const baseDeDatos = [
     {
         "id": 12,
         "bloque": "III",
-        "tema": 3,
+        "tema": 20,
         "origen": "temario",
         "pregunta": "En SQL, ¿qué comando pertenece al DDL (Data Definition Language) y sirve para eliminar una tabla entera?",
         "opciones": [
@@ -214,7 +214,7 @@ const baseDeDatos = [
     {
         "id": 13,
         "bloque": "III",
-        "tema": 4,
+        "tema": 23,
         "origen": "temario",
         "pregunta": "En Programación Orientada a Objetos, ¿cómo se llama el mecanismo por el cual una clase hereda las propiedades de otra?",
         "opciones": [
@@ -229,7 +229,7 @@ const baseDeDatos = [
     {
         "id": 14,
         "bloque": "III",
-        "tema": 7,
+        "tema": 24,
         "origen": "temario",
         "pregunta": "¿Qué lenguaje de marcas se utiliza primordialmente para definir la estructura y el contenido de una página web?",
         "opciones": [
@@ -244,7 +244,7 @@ const baseDeDatos = [
     {
         "id": 15,
         "bloque": "III",
-        "tema": 8,
+        "tema": 24,
         "origen": "temario",
         "pregunta": "¿Qué acrónimo representa las pautas de accesibilidad para el contenido web publicadas por el W3C?",
         "opciones": [
@@ -259,7 +259,7 @@ const baseDeDatos = [
     {
         "id": 16,
         "bloque": "III",
-        "tema": 9,
+        "tema": 18,
         "origen": "temario",
         "pregunta": "¿Cómo se llama el tipo de mantenimiento de software que tiene como objetivo corregir errores o 'bugs'?",
         "opciones": [
@@ -274,7 +274,7 @@ const baseDeDatos = [
     {
         "id": 17,
         "bloque": "IV",
-        "tema": 2,
+        "tema": null,
         "origen": "temario",
         "pregunta": "¿Qué tecnología permite que múltiples sistemas operativos se ejecuten simultáneamente en una misma máquina física?",
         "opciones": [
@@ -289,7 +289,7 @@ const baseDeDatos = [
     {
         "id": 18,
         "bloque": "IV",
-        "tema": 5,
+        "tema": 32,
         "origen": "temario",
         "pregunta": "En criptografía, ¿qué tipo de clave utiliza el algoritmo RSA?",
         "opciones": [
@@ -304,7 +304,7 @@ const baseDeDatos = [
     {
         "id": 19,
         "bloque": "IV",
-        "tema": 7,
+        "tema": 28,
         "origen": "temario",
         "pregunta": "En el modelo OSI, ¿qué capa se encarga del enrutamiento de paquetes y utiliza direcciones IP?",
         "opciones": [
@@ -319,7 +319,7 @@ const baseDeDatos = [
     {
         "id": 20,
         "bloque": "IV",
-        "tema": 8,
+        "tema": 29,
         "origen": "temario",
         "pregunta": "¿Qué protocolo seguro se utiliza para la transferencia de hipertexto en la Web moderna?",
         "opciones": [
@@ -334,7 +334,7 @@ const baseDeDatos = [
     {
         "id": 21,
         "bloque": "IV",
-        "tema": 9,
+        "tema": 33,
         "origen": "temario",
         "pregunta": "¿Qué tecnología permite crear un canal cifrado y seguro (túnel) a través de Internet para conectar un usuario con su red corporativa?",
         "opciones": [
@@ -349,7 +349,7 @@ const baseDeDatos = [
     {
         "id": 22,
         "bloque": "IV",
-        "tema": 10,
+        "tema": 30,
         "origen": "temario",
         "pregunta": "¿Qué topología de red LAN conecta todos los nodos a un dispositivo central (como un Switch)?",
         "opciones": [
@@ -446,7 +446,7 @@ const baseDeDatos = [
     {
         "id": 27,
         "bloque": "II",
-        "tema": 1,
+        "tema": 13,
         "origen": "temario",
         "pregunta": "Un byte está compuesto por:",
         "opciones": [
@@ -467,7 +467,7 @@ const baseDeDatos = [
     {
         "id": 28,
         "bloque": "II",
-        "tema": 2,
+        "tema": 12,
         "origen": "temario",
         "pregunta": "¿Cuál es la velocidad máxima teórica de un puerto USB 3.0?",
         "opciones": [
@@ -488,7 +488,7 @@ const baseDeDatos = [
     {
         "id": 29,
         "bloque": "II",
-        "tema": 4,
+        "tema": 15,
         "origen": "temario",
         "pregunta": "En Unix/Linux, ¿qué comando muestra los procesos en ejecución interactiva y en tiempo real?",
         "opciones": [
@@ -509,7 +509,7 @@ const baseDeDatos = [
     {
         "id": 30,
         "bloque": "II",
-        "tema": 4,
+        "tema": 16,
         "origen": "temario",
         "pregunta": "En Windows, ¿qué sistema de archivos es el más habitual hoy en día, permitiendo cifrado y cuotas de disco?",
         "opciones": [
@@ -530,7 +530,7 @@ const baseDeDatos = [
     {
         "id": 31,
         "bloque": "III",
-        "tema": 1,
+        "tema": 20,
         "origen": "temario",
         "pregunta": "En el modelo relacional, la regla de integridad referencial asegura que:",
         "opciones": [
@@ -551,7 +551,7 @@ const baseDeDatos = [
     {
         "id": 32,
         "bloque": "III",
-        "tema": 3,
+        "tema": 20,
         "origen": "temario",
         "pregunta": "¿Qué sentencia SQL se utiliza para dar privilegios a un usuario sobre una base de datos?",
         "opciones": [
@@ -572,7 +572,7 @@ const baseDeDatos = [
     {
         "id": 33,
         "bloque": "III",
-        "tema": 4,
+        "tema": 23,
         "origen": "temario",
         "pregunta": "¿En qué paradigma de programación se basa el encapsulamiento?",
         "opciones": [
@@ -593,7 +593,7 @@ const baseDeDatos = [
     {
         "id": 34,
         "bloque": "III",
-        "tema": 5,
+        "tema": 22,
         "origen": "temario",
         "pregunta": "En Java, ¿qué palabra reservada se usa para heredar de una clase?",
         "opciones": [
@@ -614,7 +614,7 @@ const baseDeDatos = [
     {
         "id": 35,
         "bloque": "III",
-        "tema": 9,
+        "tema": 24,
         "origen": "temario",
         "pregunta": "¿Qué comando en Git se usa para subir los cambios del repositorio local al remoto?",
         "opciones": [
@@ -635,7 +635,7 @@ const baseDeDatos = [
     {
         "id": 36,
         "bloque": "III",
-        "tema": 8,
+        "tema": 25,
         "origen": "temario",
         "pregunta": "Según las pautas WCAG, asegurar que el texto tiene contraste suficiente con su fondo se asocia al principio:",
         "opciones": [
@@ -656,7 +656,7 @@ const baseDeDatos = [
     {
         "id": 37,
         "bloque": "IV",
-        "tema": 7,
+        "tema": 28,
         "origen": "temario",
         "pregunta": "En la pila de protocolos TCP/IP, ¿en qué capa se ubica el protocolo UDP?",
         "opciones": [
@@ -677,7 +677,7 @@ const baseDeDatos = [
     {
         "id": 38,
         "bloque": "IV",
-        "tema": 8,
+        "tema": 29,
         "origen": "temario",
         "pregunta": "¿Qué puerto estándar utiliza el protocolo SMTP para la transmisión de correo saliente?",
         "opciones": [
@@ -698,7 +698,7 @@ const baseDeDatos = [
     {
         "id": 39,
         "bloque": "IV",
-        "tema": 3,
+        "tema": 29,
         "origen": "temario",
         "pregunta": "¿Qué puerto por defecto usa el protocolo POP3?",
         "opciones": [
@@ -719,7 +719,7 @@ const baseDeDatos = [
     {
         "id": 40,
         "bloque": "IV",
-        "tema": 10,
+        "tema": 30,
         "origen": "temario",
         "pregunta": "El estándar IEEE 802.11 define las especificaciones para redes:",
         "opciones": [
@@ -740,7 +740,7 @@ const baseDeDatos = [
     {
         "id": 41,
         "bloque": "IV",
-        "tema": 5,
+        "tema": null,
         "origen": "temario",
         "pregunta": "En un CPD, los sistemas de alimentación ininterrumpida (SAI/UPS) se instalan principalmente para garantizar la:",
         "opciones": [
@@ -761,7 +761,7 @@ const baseDeDatos = [
     {
         "id": 42,
         "bloque": "IV",
-        "tema": 6,
+        "tema": 26,
         "origen": "temario",
         "pregunta": "¿Cuál de las siguientes es una fibra óptica en la que la luz se propaga en un solo camino, permitiendo mayores distancias?",
         "opciones": [
@@ -782,7 +782,7 @@ const baseDeDatos = [
     {
         "id": 43,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "De acuerdo con el artículo 64 de la Constitución Española de 1978 (en adelante CE), los actos del Rey, excepto la propuesta y el nombramiento del Presidente del Gobierno, y la disolución de las Cámaras prevista en el artículo 99, serán refrendados por:",
         "opciones": [
@@ -799,7 +799,7 @@ const baseDeDatos = [
     {
         "id": 44,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "La suspensión de los derechos y libertades se encuentra regulada en la CE en:",
         "opciones": [
@@ -833,7 +833,7 @@ const baseDeDatos = [
     {
         "id": 46,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "De acuerdo con el artículo 78 de la CE, expirado el mandato de las Cortes Generales o en caso de disolución de las mismas, las Diputaciones Permanentes seguirán ejerciendo sus funciones hasta:",
         "opciones": [
@@ -850,7 +850,7 @@ const baseDeDatos = [
     {
         "id": 47,
         "bloque": "I",
-        "tema": null,
+        "tema": 8,
         "origen": "oficial",
         "pregunta": "Según establece el artículo 24 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, el plazo máximo para resolver y notificar la resolución de una reclamación ante el Consejo de Transparencia y Buen Gobierno será de:",
         "opciones": [
@@ -884,7 +884,7 @@ const baseDeDatos = [
     {
         "id": 49,
         "bloque": "I",
-        "tema": null,
+        "tema": 6,
         "origen": "oficial",
         "pregunta": "Conforme establece el artículo 18 de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, todas las resoluciones de compatibilidad para desempeñar un segundo puesto o actividad en el sector público o el ejercicio de actividades privadas se inscribirán:",
         "opciones": [
@@ -918,7 +918,7 @@ const baseDeDatos = [
     {
         "id": 51,
         "bloque": "I",
-        "tema": null,
+        "tema": 7,
         "origen": "oficial",
         "pregunta": "Conforme el artículo 49 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, para impulsar la adopción voluntaria de planes de igualdad, el Gobierno establecerá:",
         "opciones": [
@@ -953,7 +953,7 @@ const baseDeDatos = [
     {
         "id": 53,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "De acuerdo con el artículo 4 de la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza, el periodo de vigencia de los certificados cualificados:",
         "opciones": [
@@ -970,7 +970,7 @@ const baseDeDatos = [
     {
         "id": 54,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Indique según el título X de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de los siguientes NO es un derecho digital?",
         "opciones": [
@@ -988,7 +988,7 @@ const baseDeDatos = [
     {
         "id": 55,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta sobre lo que establece la Norma Técnica de Interoperabilidad de Protocolos de Intermediación de Datos:",
         "opciones": [
@@ -1006,7 +1006,7 @@ const baseDeDatos = [
     {
         "id": 56,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Señale qué afirmación es correcta con respecto a las soluciones de Ciberseguridad proporcionadas por el Centro Criptológico Nacional (CCN):",
         "opciones": [
@@ -1024,7 +1024,7 @@ const baseDeDatos = [
     {
         "id": 57,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta referente a los servicios comunes en materia de administración electrónica:",
         "opciones": [
@@ -1042,7 +1042,7 @@ const baseDeDatos = [
     {
         "id": 58,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "La CE regula la institución del Defensor del Pueblo como:",
         "opciones": [
@@ -1059,7 +1059,7 @@ const baseDeDatos = [
     {
         "id": 59,
         "bloque": "III",
-        "tema": null,
+        "tema": 25,
         "origen": "oficial",
         "pregunta": "¿Qué es WCAG?",
         "opciones": [
@@ -1077,7 +1077,7 @@ const baseDeDatos = [
     {
         "id": 60,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes es el nombre de un conector usado para carga y datos creado por el fabricante Apple?",
         "opciones": [
@@ -1131,7 +1131,7 @@ const baseDeDatos = [
     {
         "id": 63,
         "bloque": "II",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "La ALU es una parte de:",
         "opciones": [
@@ -1149,7 +1149,7 @@ const baseDeDatos = [
     {
         "id": 64,
         "bloque": "II",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta sobre el modelo CISC:",
         "opciones": [
@@ -1167,7 +1167,7 @@ const baseDeDatos = [
     {
         "id": 65,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "En relación con los sistemas RAID señale la respuesta INCORRECTA:",
         "opciones": [
@@ -1185,7 +1185,7 @@ const baseDeDatos = [
     {
         "id": 66,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes es una tecnología de almacenamiento en disco mediante bus serie?",
         "opciones": [
@@ -1203,7 +1203,7 @@ const baseDeDatos = [
     {
         "id": 67,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Respecto a la norma USB indique la respuesta INCORRECTA:",
         "opciones": [
@@ -1347,7 +1347,7 @@ const baseDeDatos = [
     {
         "id": 75,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta relativa al Modelo Entidad/Relación Extendido según establece METRICA v3:",
         "opciones": [
@@ -1401,7 +1401,7 @@ const baseDeDatos = [
     {
         "id": 78,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "C++ permite especificar más de una función con el mismo nombre en el mismo ámbito. ¿Cómo se denominan estas funciones?",
         "opciones": [
@@ -1437,7 +1437,7 @@ const baseDeDatos = [
     {
         "id": 80,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta sobre los tipos de controladores (drivers) JDBC:",
         "opciones": [
@@ -1473,7 +1473,7 @@ const baseDeDatos = [
     {
         "id": 82,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Seleccione la respuesta correcta sobre .NET:",
         "opciones": [
@@ -1491,7 +1491,7 @@ const baseDeDatos = [
     {
         "id": 83,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA referente al objeto POCO en .NET:",
         "opciones": [
@@ -1527,7 +1527,7 @@ const baseDeDatos = [
     {
         "id": 85,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "Señale la afirmación correcta con respecto a WSIL:",
         "opciones": [
@@ -1545,7 +1545,7 @@ const baseDeDatos = [
     {
         "id": 86,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "Para detectar, eliminar y/o mitigar las debilidades de una aplicación se pueden realizar diferentes análisis de seguridad durante el ciclo de vida del desarrollo de software, entre los que NO se encuentra:",
         "opciones": [
@@ -1563,7 +1563,7 @@ const baseDeDatos = [
     {
         "id": 87,
         "bloque": "III",
-        "tema": null,
+        "tema": 25,
         "origen": "oficial",
         "pregunta": "El principio de la accesibilidad web que exige que los componentes y la navegación de la interfaz de usuario se puedan utilizar por cualquier persona usuaria es:",
         "opciones": [
@@ -1581,7 +1581,7 @@ const baseDeDatos = [
     {
         "id": 88,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "Según METRICA v3, ¿qué tipo de pruebas son las que tienen como objetivo verificar el correcto ensamblaje entre los distintos componentes para comprobar que interactúan correctamente a través de sus interfaces, cubren la funcionalidad establecida y se ajustan a los requisitos no funcionales especificados?",
         "opciones": [
@@ -1599,7 +1599,7 @@ const baseDeDatos = [
     {
         "id": 89,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "Según establece METRICA v3, ¿qué participantes están presentes en la tarea de “Elaboración de los Manuales de Usuario”?",
         "opciones": [
@@ -1617,7 +1617,7 @@ const baseDeDatos = [
     {
         "id": 90,
         "bloque": "II",
-        "tema": null,
+        "tema": 14,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA sobre el kernel de un Sistema Operativo:",
         "opciones": [
@@ -1635,7 +1635,7 @@ const baseDeDatos = [
     {
         "id": 91,
         "bloque": "II",
-        "tema": null,
+        "tema": 15,
         "origen": "oficial",
         "pregunta": "En un sistema UNIX, cuál es la respuesta INCORRECTA:",
         "opciones": [
@@ -1653,7 +1653,7 @@ const baseDeDatos = [
     {
         "id": 92,
         "bloque": "II",
-        "tema": null,
+        "tema": 14,
         "origen": "oficial",
         "pregunta": "Respecto a la virtualización de máquinas, indique la opción FALSA:",
         "opciones": [
@@ -1671,7 +1671,7 @@ const baseDeDatos = [
     {
         "id": 93,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Una copia de seguridad (backup) diferencial:",
         "opciones": [
@@ -1689,7 +1689,7 @@ const baseDeDatos = [
     {
         "id": 94,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Seleccione la respuesta INCORRECTA sobre la firma electrónica:",
         "opciones": [
@@ -1707,7 +1707,7 @@ const baseDeDatos = [
     {
         "id": 95,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "Cuál es la respuesta INCORRECTA acerca de la fibra óptica plástica (POF):",
         "opciones": [
@@ -1725,7 +1725,7 @@ const baseDeDatos = [
     {
         "id": 96,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál es el prefijo de dirección de Multicast en IPv6?",
         "opciones": [
@@ -1743,7 +1743,7 @@ const baseDeDatos = [
     {
         "id": 97,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "Seleccione la respuesta correcta sobre los niveles y servicios del modelo OSI:",
         "opciones": [
@@ -1761,7 +1761,7 @@ const baseDeDatos = [
     {
         "id": 98,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Qué parte de un certificado de sitio web necesita un navegador para establecer una conexión segura HTTPS?",
         "opciones": [
@@ -1779,7 +1779,7 @@ const baseDeDatos = [
     {
         "id": 99,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "¿Qué es un portal cautivo?",
         "opciones": [
@@ -1797,7 +1797,7 @@ const baseDeDatos = [
     {
         "id": 100,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "¿Qué significa CSMA/CD?",
         "opciones": [
@@ -1815,7 +1815,7 @@ const baseDeDatos = [
     {
         "id": 101,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "En el diagrama de clases la relación existente entre “Solicitud Representación” y “Trámite”, ¿qué multiplicidades serían compatibles con los requisitos planteados en el enunciado?",
         "opciones": [
@@ -1833,7 +1833,7 @@ const baseDeDatos = [
     {
         "id": 102,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En Java SE 17, ¿con qué visibilidad se deben generar los atributos de la clase Data Access Object Solicitudes si se quiere tener acceso directamente desde cualquier otro objeto, sin mediación de métodos?",
         "opciones": [
@@ -1869,7 +1869,7 @@ const baseDeDatos = [
     {
         "id": 104,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "Se ha heredado una librería compilada que realiza la conexión a un importante servicio de comprobación de Cl@ve PIN, ¿qué patrón de diseño permite reutilizar este objeto?",
         "opciones": [
@@ -1887,7 +1887,7 @@ const baseDeDatos = [
     {
         "id": 105,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "En UML un diagrama de componentes:",
         "opciones": [
@@ -1905,7 +1905,7 @@ const baseDeDatos = [
     {
         "id": 106,
         "bloque": "III",
-        "tema": null,
+        "tema": 18,
         "origen": "oficial",
         "pregunta": "En el equipo de desarrollo se ha decidido usar Selenium WebDriver para:",
         "opciones": [
@@ -1923,7 +1923,7 @@ const baseDeDatos = [
     {
         "id": 108,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "Una vez implementado \"teletrabajo\" mediante VPN, se quiere dotar de mayor seguridad mediante el envío de un código por SMS al teléfono móvil del trabajador. ¿Cómo se denomina a este tipo de validación?",
         "opciones": [
@@ -1941,7 +1941,7 @@ const baseDeDatos = [
     {
         "id": 109,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "Los dispositivos de interconexión de redes de nuestro sistema, son compatibles con POE++. Señale la afirmación correcta con respecto a este término:",
         "opciones": [
@@ -1959,7 +1959,7 @@ const baseDeDatos = [
     {
         "id": 110,
         "bloque": "I",
-        "tema": null,
+        "tema": 8,
         "origen": "oficial",
         "pregunta": "¿Cuál es el plazo máximo para dictar y notificar la resolución expresa en un procedimiento administrativo, según la Ley 39/2015, si la norma reguladora no fija uno distinto?",
         "opciones": [
@@ -1978,7 +1978,7 @@ const baseDeDatos = [
     {
         "id": 111,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "En la Constitución Española de 1978, ¿qué Título está dedicado a la Corona?",
         "opciones": [
@@ -1998,7 +1998,7 @@ const baseDeDatos = [
     {
         "id": 112,
         "bloque": "I",
-        "tema": null,
+        "tema": 6,
         "origen": "oficial",
         "pregunta": "Según el TREBEP, las vacaciones de los funcionarios públicos retribuidas tendrán una duración mínima de:",
         "opciones": [
@@ -2016,7 +2016,7 @@ const baseDeDatos = [
     {
         "id": 113,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "¿A qué capa del modelo OSI pertenece el protocolo IP?",
         "opciones": [
@@ -2036,7 +2036,7 @@ const baseDeDatos = [
     {
         "id": 114,
         "bloque": "II",
-        "tema": null,
+        "tema": 15,
         "origen": "oficial",
         "pregunta": "En Linux, ¿qué comando se utiliza para cambiar los permisos de un archivo?",
         "opciones": [
@@ -2056,7 +2056,7 @@ const baseDeDatos = [
     {
         "id": 115,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "¿Qué tipo de diagrama UML se utiliza para modelar el comportamiento dinámico de un sistema mostrando la interacción entre objetos en un orden temporal?",
         "opciones": [
@@ -2094,7 +2094,7 @@ const baseDeDatos = [
     {
         "id": 117,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "En el contexto de bases de datos relacionales, ¿qué es la cardinalidad de una relación?",
         "opciones": [
@@ -2114,7 +2114,7 @@ const baseDeDatos = [
     {
         "id": 118,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "¿Qué nivel de RAID proporciona espejado (mirroring) sin paridad ni striping?",
         "opciones": [
@@ -2153,7 +2153,7 @@ const baseDeDatos = [
     {
         "id": 120,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes metodologías pertenece al enfoque ágil de desarrollo de software?",
         "opciones": [
@@ -2172,7 +2172,7 @@ const baseDeDatos = [
     {
         "id": 121,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En Java, ¿qué modificador de acceso permite que un miembro de una clase sea accesible solo dentro de su propio paquete y por subclases en otros paquetes?",
         "opciones": [
@@ -2190,7 +2190,7 @@ const baseDeDatos = [
     {
         "id": 122,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Qué puerto utiliza por defecto el protocolo HTTPS?",
         "opciones": [
@@ -2230,7 +2230,7 @@ const baseDeDatos = [
     {
         "id": 124,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál es la dirección de loopback estándar en IPv4?",
         "opciones": [
@@ -2249,7 +2249,7 @@ const baseDeDatos = [
     {
         "id": 125,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Según la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales, ¿a qué edad se adquiere la capacidad para prestar consentimiento para el tratamiento de datos personales?",
         "opciones": [
@@ -2269,7 +2269,7 @@ const baseDeDatos = [
     {
         "id": 126,
         "bloque": "II",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "¿Qué componente de la CPU se encarga de realizar operaciones aritméticas y lógicas?",
         "opciones": [
@@ -2307,7 +2307,7 @@ const baseDeDatos = [
     {
         "id": 128,
         "bloque": "II",
-        "tema": null,
+        "tema": 16,
         "origen": "oficial",
         "pregunta": "En Active Directory, ¿cuál es la unidad contenedora más pequeña a la que se le pueden asignar directivas de grupo (GPO) o delegar autoridad administrativa?",
         "opciones": [
@@ -2325,7 +2325,7 @@ const baseDeDatos = [
     {
         "id": 129,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Qué protocolo se utiliza fundamentalmente para la transferencia de archivos en internet?",
         "opciones": [
@@ -2365,7 +2365,7 @@ const baseDeDatos = [
     {
         "id": 131,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "En Java, ¿cuál de las siguientes interfaces pertenece al Framework de Colecciones y NO permite elementos duplicados?",
         "opciones": [
@@ -2383,7 +2383,7 @@ const baseDeDatos = [
     {
         "id": 132,
         "bloque": "II",
-        "tema": null,
+        "tema": 15,
         "origen": "oficial",
         "pregunta": "¿Qué sistema de archivos es el más utilizado por defecto en las distribuciones modernas de Linux?",
         "opciones": [
@@ -2403,7 +2403,7 @@ const baseDeDatos = [
     {
         "id": 133,
         "bloque": "II",
-        "tema": null,
+        "tema": 16,
         "origen": "oficial",
         "pregunta": "En Windows Server, ¿qué tecnología permite implementar políticas de seguridad, distribuir software y administrar configuraciones de usuario a través del Active Directory?",
         "opciones": [
@@ -2442,7 +2442,7 @@ const baseDeDatos = [
     {
         "id": 135,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "Al definir la arquitectura de una aplicación web JEE, ¿qué patrón de diseño se utiliza habitualmente para separar los datos de la interfaz de usuario y del control de la lógica de negocio?",
         "opciones": [
@@ -2481,7 +2481,7 @@ const baseDeDatos = [
     {
         "id": 137,
         "bloque": "II",
-        "tema": null,
+        "tema": 15,
         "origen": "oficial",
         "pregunta": "¿Qué comando de Linux se utiliza para buscar patrones de texto dentro de los archivos?",
         "opciones": [
@@ -2500,7 +2500,7 @@ const baseDeDatos = [
     {
         "id": 138,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál es la longitud, en bits, de una dirección IPv6?",
         "opciones": [
@@ -2520,7 +2520,7 @@ const baseDeDatos = [
     {
         "id": 139,
         "bloque": "III",
-        "tema": null,
+        "tema": 25,
         "origen": "oficial",
         "pregunta": "Según las pautas de accesibilidad para el contenido web (WCAG), el criterio de proporcionar alternativas textuales para todo contenido no textual se asocia al principio de:",
         "opciones": [
@@ -2557,7 +2557,7 @@ const baseDeDatos = [
     {
         "id": 141,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "En las redes Ethernet, ¿qué protocolo se encarga de resolver direcciones IP a direcciones MAC físicas?",
         "opciones": [
@@ -2577,7 +2577,7 @@ const baseDeDatos = [
     {
         "id": 142,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Qué estructura de datos utiliza el principio LIFO (Last In, First Out)?",
         "opciones": [
@@ -2596,7 +2596,7 @@ const baseDeDatos = [
     {
         "id": 143,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "En la metodología SCRUM, el evento donde el equipo sincroniza sus actividades diarias y crea un plan para las siguientes 24 horas recibe el nombre de:",
         "opciones": [
@@ -2634,7 +2634,7 @@ const baseDeDatos = [
     {
         "id": 145,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es un tipo válido de diagrama estructural en UML 2.x?",
         "opciones": [
@@ -2653,7 +2653,7 @@ const baseDeDatos = [
     {
         "id": 146,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "En el modelo OSI, ¿cuál es la función principal de la Capa de Transporte (Capa 4)?",
         "opciones": [
@@ -2692,7 +2692,7 @@ const baseDeDatos = [
     {
         "id": 148,
         "bloque": "III",
-        "tema": null,
+        "tema": 18,
         "origen": "oficial",
         "pregunta": "Respecto a las pruebas de software, aquellas pruebas funcionales en las que el probador no tiene conocimiento del código fuente interno del sistema se denominan:",
         "opciones": [
@@ -2711,7 +2711,7 @@ const baseDeDatos = [
     {
         "id": 149,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Qué protocolo estándar de red se utiliza para la gestión y monitorización de dispositivos en redes IP (ej. routers, switches, servidores)?",
         "opciones": [
@@ -2730,7 +2730,7 @@ const baseDeDatos = [
     {
         "id": 150,
         "bloque": "II",
-        "tema": null,
+        "tema": 13,
         "origen": "oficial",
         "pregunta": "Si un microprocesador tiene un bus de direcciones de 32 bits, ¿cuál es la cantidad máxima de memoria RAM física que puede direccionar de forma directa?",
         "opciones": [
@@ -2749,7 +2749,7 @@ const baseDeDatos = [
     {
         "id": 151,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En Java, el proceso de ocultar los detalles de implementación de un objeto y exponer solo una interfaz pública y segura se denomina:",
         "opciones": [
@@ -2768,7 +2768,7 @@ const baseDeDatos = [
     {
         "id": 152,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "En ciberseguridad, un ataque que intenta hacer que un servidor o recurso de red no esté disponible para sus usuarios legítimos se conoce como:",
         "opciones": [
@@ -2805,7 +2805,7 @@ const baseDeDatos = [
     {
         "id": 154,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "¿Qué tipo de firma electrónica, según el reglamento europeo eIDAS, se crea mediante dispositivos cualificados de creación de firmas y se basa en un certificado cualificado?",
         "opciones": [
@@ -2988,7 +2988,7 @@ const baseDeDatos = [
     {
         "id": 164,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "Según la normativa de administración electrónica (Ley 39/2015 y Ley 40/2015), ¿qué es el Esquema Nacional de Interoperabilidad (ENI)?",
         "opciones": [
@@ -3009,7 +3009,7 @@ const baseDeDatos = [
     {
         "id": 165,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "Según el artículo 68 de la CE, ¿cuál es la circunscripción electoral en nuestro sistema electoral?",
         "opciones": [
@@ -3026,7 +3026,7 @@ const baseDeDatos = [
     {
         "id": 166,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Según establece el artículo 34 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, los responsables y encargados de tratamiento comunicarán a la Agencia Española de Protección de Datos, las designaciones, nombramientos y ceses de los delegados de protección de datos en el plazo de:",
         "opciones": [
@@ -3044,7 +3044,7 @@ const baseDeDatos = [
     {
         "id": 167,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Según el Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad, ¿cuál de las siguientes medidas de seguridad afecta a la dimensión de Confidencialidad?",
         "opciones": [
@@ -3080,7 +3080,7 @@ const baseDeDatos = [
     {
         "id": 169,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes términos hace referencia a patrones generales de software para asignación de responsabilidades en el diseño orientado a objetos?",
         "opciones": [
@@ -3098,7 +3098,7 @@ const baseDeDatos = [
     {
         "id": 170,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "Según METRICA v3, ¿cuál es diagrama que describe en detalle un determinado escenario de un caso de uso?",
         "opciones": [
@@ -3116,7 +3116,7 @@ const baseDeDatos = [
     {
         "id": 171,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Indique cuál de las siguientes NO es una librería de Java proporcionada por la Apache Foundation:",
         "opciones": [
@@ -3170,7 +3170,7 @@ const baseDeDatos = [
     {
         "id": 174,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Qué término está relacionado con XML-binary Optimized Packaging (XOP)?",
         "opciones": [
@@ -3188,7 +3188,7 @@ const baseDeDatos = [
     {
         "id": 175,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es un framework para javascript?",
         "opciones": [
@@ -3206,7 +3206,7 @@ const baseDeDatos = [
     {
         "id": 176,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes herramientas NO es un software para el control de versiones?",
         "opciones": [
@@ -3242,7 +3242,7 @@ const baseDeDatos = [
     {
         "id": 178,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es un protocolo de correo electrónico?",
         "opciones": [
@@ -3260,7 +3260,7 @@ const baseDeDatos = [
     {
         "id": 179,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "De los siguientes protocolos, ¿cuál se utiliza para administrar dispositivos de una red?",
         "opciones": [
@@ -3278,7 +3278,7 @@ const baseDeDatos = [
     {
         "id": 180,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Cuál es el comando usado por el administrador SNMP que se utiliza para recuperar datos voluminosos de una tabla MIB grande?",
         "opciones": [
@@ -3296,7 +3296,7 @@ const baseDeDatos = [
     {
         "id": 181,
         "bloque": "IV",
-        "tema": null,
+        "tema": 32,
         "origen": "oficial",
         "pregunta": "¿Qué es ECDSA?",
         "opciones": [
@@ -3314,7 +3314,7 @@ const baseDeDatos = [
     {
         "id": 182,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál de estos equipos de interconexión trabaja a nivel de red (nivel 3 del modelo OSI)?",
         "opciones": [
@@ -3332,7 +3332,7 @@ const baseDeDatos = [
     {
         "id": 183,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes organismos está especializado en telecomunicaciones de la Organización de las Naciones Unidas (ONU), encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras?",
         "opciones": [
@@ -3350,7 +3350,7 @@ const baseDeDatos = [
     {
         "id": 184,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "Entre los protocolos que puede usar una VPN para proporcionar cifrado NO se encuentra:",
         "opciones": [
@@ -3368,7 +3368,7 @@ const baseDeDatos = [
     {
         "id": 185,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "¿A qué se corresponden las siglas de Red SOHO?",
         "opciones": [
@@ -3422,7 +3422,7 @@ const baseDeDatos = [
     {
         "id": 188,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes lenguajes está relacionado con el desarrollo en backend?",
         "opciones": [
@@ -3440,7 +3440,7 @@ const baseDeDatos = [
     {
         "id": 189,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "Indique cuáles son los diferentes tipos de configuración contemplados para WPS:",
         "opciones": [
@@ -3608,7 +3608,7 @@ const baseDeDatos = [
     {
         "id": 200,
         "bloque": "II",
-        "tema": 12,
+        "tema": 13,
         "origen": "temario",
         "pregunta": "¿Qué número decimal corresponde al binario 1011?",
         "opciones": [
@@ -3623,7 +3623,7 @@ const baseDeDatos = [
     {
         "id": 201,
         "bloque": "II",
-        "tema": 12,
+        "tema": 13,
         "origen": "temario",
         "pregunta": "¿Cuántos caracteres puede representar el estándar ASCII original de 7 bits?",
         "opciones": [
@@ -3638,7 +3638,7 @@ const baseDeDatos = [
     {
         "id": 202,
         "bloque": "II",
-        "tema": 13,
+        "tema": null,
         "origen": "temario",
         "pregunta": "En la seguridad de la información, asegurar que los datos no sean modificados por entidades no autorizadas se conoce como:",
         "opciones": [
@@ -3653,7 +3653,7 @@ const baseDeDatos = [
     {
         "id": 203,
         "bloque": "II",
-        "tema": 13,
+        "tema": null,
         "origen": "temario",
         "pregunta": "En criptografía asimétrica, para que alguien te envíe un mensaje cifrado de forma segura, ¿qué clave debe usar?",
         "opciones": [
@@ -3668,7 +3668,7 @@ const baseDeDatos = [
     {
         "id": 204,
         "bloque": "II",
-        "tema": 14,
+        "tema": 11,
         "origen": "temario",
         "pregunta": "¿Qué componente de la Arquitectura de Von Neumann dirige el funcionamiento de las demás unidades decodificando instrucciones?",
         "opciones": [
@@ -3683,7 +3683,7 @@ const baseDeDatos = [
     {
         "id": 205,
         "bloque": "II",
-        "tema": 16,
+        "tema": 14,
         "origen": "temario",
         "pregunta": "En planificación de procesos, ¿qué algoritmo asigna a cada proceso un intervalo de tiempo de CPU equitativo llamado 'quantum'?",
         "opciones": [
@@ -3698,7 +3698,7 @@ const baseDeDatos = [
     {
         "id": 206,
         "bloque": "II",
-        "tema": 17,
+        "tema": 16,
         "origen": "temario",
         "pregunta": "¿Qué comando de la consola de Windows (CMD) se utiliza para comprobar la conectividad de red con otro equipo enviando paquetes ICMP?",
         "opciones": [
@@ -3713,7 +3713,7 @@ const baseDeDatos = [
     {
         "id": 207,
         "bloque": "II",
-        "tema": 18,
+        "tema": 15,
         "origen": "temario",
         "pregunta": "Si un archivo en Linux tiene permisos '755', ¿qué permisos tiene el usuario propietario?",
         "opciones": [
@@ -3728,7 +3728,7 @@ const baseDeDatos = [
     {
         "id": 208,
         "bloque": "II",
-        "tema": 19,
+        "tema": null,
         "origen": "temario",
         "pregunta": "¿Qué propiedad de las transacciones (ACID) garantiza que si una transacción tiene éxito, los cambios sobrevivirán a cualquier fallo del sistema?",
         "opciones": [
@@ -3743,7 +3743,7 @@ const baseDeDatos = [
     {
         "id": 209,
         "bloque": "II",
-        "tema": 20,
+        "tema": null,
         "origen": "temario",
         "pregunta": "En el modelo relacional, una Clave Primaria (Primary Key)...",
         "opciones": [
@@ -3758,7 +3758,7 @@ const baseDeDatos = [
     {
         "id": 210,
         "bloque": "III",
-        "tema": 21,
+        "tema": 17,
         "origen": "temario",
         "pregunta": "En la metodología ágil Scrum, ¿quién es el responsable de priorizar y gestionar el Product Backlog?",
         "opciones": [
@@ -3773,7 +3773,7 @@ const baseDeDatos = [
     {
         "id": 211,
         "bloque": "III",
-        "tema": 22,
+        "tema": 23,
         "origen": "temario",
         "pregunta": "En UML, ¿cuál de los siguientes es un diagrama de comportamiento o dinámico?",
         "opciones": [
@@ -3788,7 +3788,7 @@ const baseDeDatos = [
     {
         "id": 212,
         "bloque": "III",
-        "tema": 23,
+        "tema": 19,
         "origen": "temario",
         "pregunta": "Al pasar del Modelo E-R al Relacional, las relaciones Muchos a Muchos (N:M)...",
         "opciones": [
@@ -3803,7 +3803,7 @@ const baseDeDatos = [
     {
         "id": 213,
         "bloque": "III",
-        "tema": 24,
+        "tema": 17,
         "origen": "temario",
         "pregunta": "En el diseño de sistemas, ¿cuál es el objetivo ideal de cohesión y acoplamiento?",
         "opciones": [
@@ -3818,7 +3818,7 @@ const baseDeDatos = [
     {
         "id": 214,
         "bloque": "III",
-        "tema": 25,
+        "tema": 22,
         "origen": "temario",
         "pregunta": "¿Qué característica distingue a un lenguaje de programación interpretado?",
         "opciones": [
@@ -3833,7 +3833,7 @@ const baseDeDatos = [
     {
         "id": 215,
         "bloque": "III",
-        "tema": 26,
+        "tema": 18,
         "origen": "temario",
         "pregunta": "¿Cómo se denominan las pruebas de software que asumen que el probador desconoce la estructura interna del código (se basan en entradas y salidas)?",
         "opciones": [
@@ -3848,7 +3848,7 @@ const baseDeDatos = [
     {
         "id": 216,
         "bloque": "III",
-        "tema": 27,
+        "tema": 18,
         "origen": "temario",
         "pregunta": "¿Qué tipo de mantenimiento se aplica cuando se modifica el software para mejorar su estructura interna sin cambiar su funcionalidad (ej. refactorización)?",
         "opciones": [
@@ -3863,7 +3863,7 @@ const baseDeDatos = [
     {
         "id": 217,
         "bloque": "III",
-        "tema": 28,
+        "tema": 25,
         "origen": "temario",
         "pregunta": "¿Qué acrónimo define los cuatro principios básicos de accesibilidad web de las WCAG 2.1?",
         "opciones": [
@@ -3878,7 +3878,7 @@ const baseDeDatos = [
     {
         "id": 218,
         "bloque": "IV",
-        "tema": 29,
+        "tema": 27,
         "origen": "temario",
         "pregunta": "¿Cuántas capas tiene el Modelo OSI de la ISO?",
         "opciones": [
@@ -3908,7 +3908,7 @@ const baseDeDatos = [
     {
         "id": 220,
         "bloque": "IV",
-        "tema": 31,
+        "tema": 28,
         "origen": "temario",
         "pregunta": "¿Qué protocolo se utiliza en redes IP para traducir una dirección IP lógica a una dirección MAC física?",
         "opciones": [
@@ -3923,7 +3923,7 @@ const baseDeDatos = [
     {
         "id": 221,
         "bloque": "IV",
-        "tema": 31,
+        "tema": 29,
         "origen": "temario",
         "pregunta": "¿Qué puerto utiliza habitualmente el servicio web seguro HTTPS?",
         "opciones": [
@@ -3938,7 +3938,7 @@ const baseDeDatos = [
     {
         "id": 222,
         "bloque": "IV",
-        "tema": 32,
+        "tema": 33,
         "origen": "temario",
         "pregunta": "¿Qué diferencia principal existe entre un IDS y un IPS en seguridad perimetral?",
         "opciones": [
@@ -3953,7 +3953,7 @@ const baseDeDatos = [
     {
         "id": 223,
         "bloque": "IV",
-        "tema": 33,
+        "tema": 29,
         "origen": "temario",
         "pregunta": "¿Qué protocolo/formato de mensajes utilizan los servicios web SOAP exclusivamente?",
         "opciones": [
@@ -4036,7 +4036,7 @@ const baseDeDatos = [
     {
         "id": 228,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "Según la Constitución Española, la ley que limita el uso de la informática para proteger el honor y la intimidad personal y familiar, mencionada en el artículo 18:",
         "opciones": [
@@ -4121,7 +4121,7 @@ const baseDeDatos = [
     {
         "id": 233,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "¿En qué dirección de correo deberá un profesional del SAS informar de que ha recibido un correo sospechoso de phishing?",
         "opciones": [
@@ -4228,7 +4228,7 @@ const baseDeDatos = [
     {
         "id": 239,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Qué comando permite verificar el estado de un repositorio en Git?",
         "opciones": [
@@ -4246,7 +4246,7 @@ const baseDeDatos = [
     {
         "id": 240,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes es una de las principales características de Java?",
         "opciones": [
@@ -4264,7 +4264,7 @@ const baseDeDatos = [
     {
         "id": 241,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Qué es la máquina JVM en el contexto del lenguaje de programación Java?",
         "opciones": [
@@ -4282,7 +4282,7 @@ const baseDeDatos = [
     {
         "id": 242,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes es una de las principales características de Python?",
         "opciones": [
@@ -4300,7 +4300,7 @@ const baseDeDatos = [
     {
         "id": 243,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Qué operador se utiliza para la concatenación de 2 cadenas de caracteres en Python?",
         "opciones": [
@@ -4318,7 +4318,7 @@ const baseDeDatos = [
     {
         "id": 244,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes siglas corresponden al Lenguaje de Marcado de Hipertexto?",
         "opciones": [
@@ -4354,7 +4354,7 @@ const baseDeDatos = [
     {
         "id": 246,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Qué atributo se debe emplear en un elemento <a> para indicar el enlace web al que va dirigido?",
         "opciones": [
@@ -4426,7 +4426,7 @@ const baseDeDatos = [
     {
         "id": 250,
         "bloque": "II",
-        "tema": null,
+        "tema": 16,
         "origen": "oficial",
         "pregunta": "¿Cuál es la combinación de teclas para bloquear un equipo como medida de seguridad en el sistema operativo Microsoft Windows?",
         "opciones": [
@@ -4444,7 +4444,7 @@ const baseDeDatos = [
     {
         "id": 251,
         "bloque": "II",
-        "tema": null,
+        "tema": 16,
         "origen": "oficial",
         "pregunta": "Microsoft dejará de ofrecer actualizaciones de seguridad desde Windows Update, asistencia técnica y correcciones de seguridad de forma gratuita para Windows 10 después del:",
         "opciones": [
@@ -4462,7 +4462,7 @@ const baseDeDatos = [
     {
         "id": 252,
         "bloque": "II",
-        "tema": null,
+        "tema": 16,
         "origen": "oficial",
         "pregunta": "En general, en el sistema operativo Microsoft Windows, para pegar sin formato se utiliza la combinación de teclas:",
         "opciones": [
@@ -4516,7 +4516,7 @@ const baseDeDatos = [
     {
         "id": 255,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "En las redes de telecomunicaciones, ¿cómo se clasifica una red MAN?",
         "opciones": [
@@ -4534,7 +4534,7 @@ const baseDeDatos = [
     {
         "id": 256,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "Dadas las siguientes direcciones IP y máscara de subred, determine si ambas IPs pertenecen a la misma subred: - IP1: 10.0.1.5 - IP2: 10.0.2.10 - Máscara de subred: 255.255.255.0",
         "opciones": [
@@ -4552,7 +4552,7 @@ const baseDeDatos = [
     {
         "id": 257,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "¿En qué capa del modelo OSI opera principalmente un switch?",
         "opciones": [
@@ -4570,7 +4570,7 @@ const baseDeDatos = [
     {
         "id": 258,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "¿En qué capa del modelo OSI opera principalmente un router?",
         "opciones": [
@@ -4640,7 +4640,7 @@ const baseDeDatos = [
     {
         "id": 262,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál es el objetivo principal de la Calidad de Servicio (QoS) en redes IP?",
         "opciones": [
@@ -4658,7 +4658,7 @@ const baseDeDatos = [
     {
         "id": 263,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes protocolos se utiliza específicamente para establecer y controlar sesiones de comunicación de audio y vídeo en redes IP?",
         "opciones": [
@@ -4694,7 +4694,7 @@ const baseDeDatos = [
     {
         "id": 265,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes protocolos es utilizado por las redes VPN para cifrar los datos transmitidos?",
         "opciones": [
@@ -4712,7 +4712,7 @@ const baseDeDatos = [
     {
         "id": 266,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "¿Cuál es el propósito principal de una Red Privada Virtual, cuyas siglas en inglés son VPN?",
         "opciones": [
@@ -4747,7 +4747,7 @@ const baseDeDatos = [
     {
         "id": 268,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "¿Cuál es el propósito principal de la Red SARA en España?",
         "opciones": [
@@ -4765,7 +4765,7 @@ const baseDeDatos = [
     {
         "id": 269,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "¿Cuál es la función principal de un firewall?",
         "opciones": [
@@ -4783,7 +4783,7 @@ const baseDeDatos = [
     {
         "id": 270,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "¿Qué es un CERT en el ámbito de la seguridad informática?",
         "opciones": [
@@ -4801,7 +4801,7 @@ const baseDeDatos = [
     {
         "id": 271,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "¿Cuál es el principal objetivo del modelo de referencia ANSI/SPARC en el contexto de las bases de datos?",
         "opciones": [
@@ -4819,7 +4819,7 @@ const baseDeDatos = [
     {
         "id": 272,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "¿Dónde se encontraría la definición de un tipo de datos \"integer\" según el modelo de referencia ANSI/SPARC para Bases de Datos?",
         "opciones": [
@@ -4837,7 +4837,7 @@ const baseDeDatos = [
     {
         "id": 273,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "¿Qué es la normalización en un Sistema Gestor de Bases de Dato (SGBD)?",
         "opciones": [
@@ -4855,7 +4855,7 @@ const baseDeDatos = [
     {
         "id": 274,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes Sistemas Gestores de Bases de datos (SGBD) NO es relacional?",
         "opciones": [
@@ -4873,7 +4873,7 @@ const baseDeDatos = [
     {
         "id": 275,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "De los siguientes, ¿cuál es un Sistema Gestor de Bases de Datos (SGBD)?",
         "opciones": [
@@ -4891,7 +4891,7 @@ const baseDeDatos = [
     {
         "id": 276,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes Sistemas Gestores de Bases de Datos (SGBD) es de código abierto?",
         "opciones": [
@@ -4909,7 +4909,7 @@ const baseDeDatos = [
     {
         "id": 277,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "¿Qué es una transacción en un Sistema Gestor de Bases de Datos (SGBD)?",
         "opciones": [
@@ -4945,7 +4945,7 @@ const baseDeDatos = [
     {
         "id": 279,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "¿Cuál es el objetivo principal de la herramienta PILAR?",
         "opciones": [
@@ -4963,7 +4963,7 @@ const baseDeDatos = [
     {
         "id": 280,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "¿Cuál es el principal objetivo de la metodología MAGERIT?",
         "opciones": [
@@ -4999,7 +4999,7 @@ const baseDeDatos = [
     {
         "id": 282,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Según el Reglamento (UE) 2016/679 RGPD, ¿qué derecho tiene una persona física en relación con sus datos personales?",
         "opciones": [
@@ -5377,7 +5377,7 @@ const baseDeDatos = [
     {
         "id": 303,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Qué elemento HTML se puede utilizar para incluir gráficos mediante scripts de JavaScript?",
         "opciones": [
@@ -5431,7 +5431,7 @@ const baseDeDatos = [
     {
         "id": 306,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "En relación a los derechos y deberes de los ciudadanos, el artículo 30 de la Constitución Española indica que:",
         "opciones": [
@@ -5448,7 +5448,7 @@ const baseDeDatos = [
     {
         "id": 307,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "Según el artículo 62 de la Constitución Española, ¿a quién corresponde expedir los decretos acordados en el Consejo de Ministros?",
         "opciones": [
@@ -5465,7 +5465,7 @@ const baseDeDatos = [
     {
         "id": 308,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "Según el artículo 159 de la Constitución Española, el Tribunal Constitucional se compone de:",
         "opciones": [
@@ -5482,7 +5482,7 @@ const baseDeDatos = [
     {
         "id": 309,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "Según el artículo 68 de la Constitución Española, indique de cuántos diputados se compone el Congreso:",
         "opciones": [
@@ -5499,7 +5499,7 @@ const baseDeDatos = [
     {
         "id": 310,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "Según se expone en el artículo 113 de la Constitución Española, la moción de censura deberá ser propuesta por:",
         "opciones": [
@@ -5516,7 +5516,7 @@ const baseDeDatos = [
     {
         "id": 311,
         "bloque": "I",
-        "tema": null,
+        "tema": 4,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es uno de los 17 Objetivos de Desarrollo Sostenibles de la Agenda 2030?",
         "opciones": [
@@ -5550,7 +5550,7 @@ const baseDeDatos = [
     {
         "id": 313,
         "bloque": "I",
-        "tema": null,
+        "tema": 4,
         "origen": "oficial",
         "pregunta": "Indique cuál es el Título de la Constitución Española relativo a la Organización Territorial del Estado:",
         "opciones": [
@@ -5567,7 +5567,7 @@ const baseDeDatos = [
     {
         "id": 314,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "De acuerdo con el artículo 103.1 de la Constitución Española, la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de:",
         "opciones": [
@@ -5584,7 +5584,7 @@ const baseDeDatos = [
     {
         "id": 315,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "Según lo establecido en el artículo 82 de la Constitución Española, cuando se trate de refundir varios textos legales en uno solo, la delegación legislativa de las Cortes Generales en el Gobierno deberá otorgarse mediante:",
         "opciones": [
@@ -5601,7 +5601,7 @@ const baseDeDatos = [
     {
         "id": 316,
         "bloque": "I",
-        "tema": null,
+        "tema": 7,
         "origen": "oficial",
         "pregunta": "En el artículo 51 de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, se definen criterios de actuación de las Administraciones públicas. ¿Cuál de los siguientes es uno de ellos?",
         "opciones": [
@@ -5619,7 +5619,7 @@ const baseDeDatos = [
     {
         "id": 317,
         "bloque": "I",
-        "tema": null,
+        "tema": 7,
         "origen": "oficial",
         "pregunta": "Según el artículo 8 de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye:",
         "opciones": [
@@ -5654,7 +5654,7 @@ const baseDeDatos = [
     {
         "id": 319,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "En relación al DNIe v3.0, indique la respuesta correcta:",
         "opciones": [
@@ -5690,7 +5690,7 @@ const baseDeDatos = [
     {
         "id": 321,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "¿Qué algoritmos criptográficos soporta el DNIe v3.0?",
         "opciones": [
@@ -5708,7 +5708,7 @@ const baseDeDatos = [
     {
         "id": 322,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Con respecto a la prescripción de las sanciones referidas a la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales, señale cuál de estas afirmaciones es correcta:",
         "opciones": [
@@ -5726,7 +5726,7 @@ const baseDeDatos = [
     {
         "id": 323,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta en relación al ámbito de aplicación material del Reglamento (UE) 2016/679 en lo que respecta al tratamiento de datos personales:",
         "opciones": [
@@ -5744,7 +5744,7 @@ const baseDeDatos = [
     {
         "id": 324,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Según el Esquema Nacional de Seguridad, ¿cuál de las siguientes medidas de seguridad afecta a la dimensión de Trazabilidad?",
         "opciones": [
@@ -5762,7 +5762,7 @@ const baseDeDatos = [
     {
         "id": 325,
         "bloque": "I",
-        "tema": null,
+        "tema": 8,
         "origen": "oficial",
         "pregunta": "Conforme al artículo 30 de la Ley 39/2015, de Procedimiento Administrativo Común de las Administraciones Públicas, el cómputo de plazos señalados en días, siempre que por Ley o en el Derecho de la Unión Europea no se exprese otro cómputo, se entienden como:",
         "opciones": [
@@ -5779,7 +5779,7 @@ const baseDeDatos = [
     {
         "id": 326,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "La guía de auditoría, que identifica los requisitos a cumplir en conformidad con el Esquema Nacional de Interoperabilidad (ENI), contiene un conjunto de controles apropiados para evaluar el cumplimiento de lo previsto en el ENI, agrupados en tres categorías:",
         "opciones": [
@@ -5797,7 +5797,7 @@ const baseDeDatos = [
     {
         "id": 327,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes NO es una Norma Técnica de Interoperabilidad?",
         "opciones": [
@@ -5815,7 +5815,7 @@ const baseDeDatos = [
     {
         "id": 328,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "Dentro de los servicios horizontales de Administración Electrónica, indique la afirmación correcta respecto a la funcionalidad principal del producto eVisor:",
         "opciones": [
@@ -5850,7 +5850,7 @@ const baseDeDatos = [
     {
         "id": 330,
         "bloque": "II",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "¿Qué es la arquitectura ARM?",
         "opciones": [
@@ -5868,7 +5868,7 @@ const baseDeDatos = [
     {
         "id": 331,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Indique la velocidad máxima de transferencia del USB 4.0:",
         "opciones": [
@@ -5886,7 +5886,7 @@ const baseDeDatos = [
     {
         "id": 332,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Indique cuál de las siguientes es una tecnología de interfaz hardware:",
         "opciones": [
@@ -5904,7 +5904,7 @@ const baseDeDatos = [
     {
         "id": 333,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "En relación con el almacenamiento, ¿qué es un SSD?",
         "opciones": [
@@ -5940,7 +5940,7 @@ const baseDeDatos = [
     {
         "id": 335,
         "bloque": "II",
-        "tema": null,
+        "tema": 13,
         "origen": "oficial",
         "pregunta": "Si un árbol binario lo recorremos siguiendo el orden siguiente: raíz, subárbol izquierdo, subárbol derecho, ¿cuál de los siguientes tipos de recorrido estamos utilizando?",
         "opciones": [
@@ -5994,7 +5994,7 @@ const baseDeDatos = [
     {
         "id": 338,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es un ORM (Mapeador Objeto-Relacional)?",
         "opciones": [
@@ -6012,7 +6012,7 @@ const baseDeDatos = [
     {
         "id": 339,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes opciones NO se corresponde con una de las 12 Reglas de Codd?",
         "opciones": [
@@ -6030,7 +6030,7 @@ const baseDeDatos = [
     {
         "id": 340,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "Indique la definición correcta en referencia a los diagramas de flujo de datos de Métrica v3:",
         "opciones": [
@@ -6048,7 +6048,7 @@ const baseDeDatos = [
     {
         "id": 341,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "Una tabla se encuentra en Tercera Forma Normal (3FN) si:",
         "opciones": [
@@ -6066,7 +6066,7 @@ const baseDeDatos = [
     {
         "id": 342,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "Según Métrica v3, en la teoría de la normalización se define el término de Dependencia Funcional como:",
         "opciones": [
@@ -6120,7 +6120,7 @@ const baseDeDatos = [
     {
         "id": 345,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En Java, una clase declarada como 'abstract':",
         "opciones": [
@@ -6138,7 +6138,7 @@ const baseDeDatos = [
     {
         "id": 346,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En la declaración de una clase en java, ¿mediante qué cláusula es posible definir un listado de uno o varios interfaces para la clase en cuestión?",
         "opciones": [
@@ -6156,7 +6156,7 @@ const baseDeDatos = [
     {
         "id": 347,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "Teniendo una base de datos relacional, con una tabla \"Empleados\" con campos {Id, Nombre, Puesto, Salario,....}, indique cuál sería una forma válida de comenzar la creación de un Trigger en ANSI SQL, si lo que se quiere validar es un cambio de valor del campo \"Salario\":",
         "opciones": [
@@ -6174,7 +6174,7 @@ const baseDeDatos = [
     {
         "id": 348,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "Si utilizamos el gestor de base de datos Oracle (v.10g), ¿qué podríamos hacer si dentro de una transacción de la base de datos se quiere establecer un punto de recuperación?",
         "opciones": [
@@ -6192,7 +6192,7 @@ const baseDeDatos = [
     {
         "id": 349,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "Respecto a los patrones de diseño GoF (Gang of Four), indique cuál de las siguientes definiciones se corresponde con el patrón Decorator:",
         "opciones": [
@@ -6210,7 +6210,7 @@ const baseDeDatos = [
     {
         "id": 350,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "Cuál de las siguientes afirmaciones NO se corresponde con el lenguaje UML:",
         "opciones": [
@@ -6228,7 +6228,7 @@ const baseDeDatos = [
     {
         "id": 351,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En JAVA, siendo x=6 e y=3 (ambas variables de tipo int), la operación x^y da como resultado:",
         "opciones": [
@@ -6246,7 +6246,7 @@ const baseDeDatos = [
     {
         "id": 352,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "En el entorno de programación .Net, indique que es un NuGet:",
         "opciones": [
@@ -6264,7 +6264,7 @@ const baseDeDatos = [
     {
         "id": 353,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "Indique cuál de las siguientes opciones corresponde a una API de Java para el procesamiento de documentos en formato XML.",
         "opciones": [
@@ -6282,7 +6282,7 @@ const baseDeDatos = [
     {
         "id": 354,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál NO es una característica de los servicios REST?",
         "opciones": [
@@ -6300,7 +6300,7 @@ const baseDeDatos = [
     {
         "id": 355,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Indique, de entre las siguientes afirmaciones, cuál es relativa a Ruby on Rails (RoR):",
         "opciones": [
@@ -6318,7 +6318,7 @@ const baseDeDatos = [
     {
         "id": 356,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En una sentencia \"if\" en el lenguaje de programación Python, ¿cómo se identifica el bloque de código a ejecutar si la condición se cumple?",
         "opciones": [
@@ -6336,7 +6336,7 @@ const baseDeDatos = [
     {
         "id": 357,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "En el lenguaje XML, ¿cuál de las siguientes sentencias sería correcta para añadir comentarios?",
         "opciones": [
@@ -6390,7 +6390,7 @@ const baseDeDatos = [
     {
         "id": 360,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "Según Métrica v3, ¿qué tipo de pruebas consiste en determinar que los tiempos de respuesta están dentro de los intervalos establecidos en las especificaciones del sistema?",
         "opciones": [
@@ -6408,7 +6408,7 @@ const baseDeDatos = [
     {
         "id": 361,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "En el software para control de versiones GIT, hacer un 'commit' es:",
         "opciones": [
@@ -6426,7 +6426,7 @@ const baseDeDatos = [
     {
         "id": 362,
         "bloque": "III",
-        "tema": null,
+        "tema": 18,
         "origen": "oficial",
         "pregunta": "Señale cuál de las siguientes herramientas de software libre se utiliza para realizar pruebas de carga y de estrés, permitiendo simular escenarios de concurrencia de usuarios:",
         "opciones": [
@@ -6516,7 +6516,7 @@ const baseDeDatos = [
     {
         "id": 367,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "Considerando que tanto en el punto de origen como en el punto de destino disponemos de un ordenador de usuario con un cliente de correo electrónico instalado y un servidor de correo electrónico, ¿qué papel juegan los protocolos SMTP, POP3 e IMAP durante el envío de uno de estos correos electrónicos?",
         "opciones": [
@@ -6534,7 +6534,7 @@ const baseDeDatos = [
     {
         "id": 368,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "En las arquitecturas de microservicios las funcionalidades se implementan mediante la composición de distintos microservicios. Existen dos estrategias para gestionar esta composición, que son:",
         "opciones": [
@@ -6570,7 +6570,7 @@ const baseDeDatos = [
     {
         "id": 370,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Cuál es la última versión del protocolo de administración de red SNMP?",
         "opciones": [
@@ -6624,7 +6624,7 @@ const baseDeDatos = [
     {
         "id": 373,
         "bloque": "IV",
-        "tema": null,
+        "tema": 32,
         "origen": "oficial",
         "pregunta": "¿Cuál es la última versión estable del protocolo TLS?",
         "opciones": [
@@ -6642,7 +6642,7 @@ const baseDeDatos = [
     {
         "id": 374,
         "bloque": "IV",
-        "tema": null,
+        "tema": 32,
         "origen": "oficial",
         "pregunta": "Señale cuál de los siguientes NO es un algoritmo asimétrico:",
         "opciones": [
@@ -6660,7 +6660,7 @@ const baseDeDatos = [
     {
         "id": 375,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "Sobre redes inalámbricas, indique cuál de las siguientes afirmaciones es INCORRECTA:",
         "opciones": [
@@ -6678,7 +6678,7 @@ const baseDeDatos = [
     {
         "id": 376,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "El estándar comercializado con el nombre de Wi-Fi 6 se corresponde con el estándar de IEEE:",
         "opciones": [
@@ -6696,7 +6696,7 @@ const baseDeDatos = [
     {
         "id": 377,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál es el prefijo para las direcciones multicast en el protocolo IPv6?",
         "opciones": [
@@ -6714,7 +6714,7 @@ const baseDeDatos = [
     {
         "id": 378,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "De los siguientes protocolos de enrutamiento, ¿cuál utiliza un algoritmo de vector de distancia?",
         "opciones": [
@@ -6732,7 +6732,7 @@ const baseDeDatos = [
     {
         "id": 379,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "En el protocolo HTTP, el código de error que indica que el servicio no está disponible es el:",
         "opciones": [
@@ -6750,7 +6750,7 @@ const baseDeDatos = [
     {
         "id": 380,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes registros DNS proporciona información sobre las características básicas del dominio y de la zona en la que se encuentra?",
         "opciones": [
@@ -6768,7 +6768,7 @@ const baseDeDatos = [
     {
         "id": 381,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "¿Qué modalidad de gestión de dispositivos móviles se basa en permitir al usuario usar su propio dispositivo personal para tareas profesionales o educativas?",
         "opciones": [
@@ -6786,7 +6786,7 @@ const baseDeDatos = [
     {
         "id": 382,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "La herramienta del CCN-CERT que permite realizar análisis estático de código dañino a través de múltiples motores antivirus y antimalware para plataformas Windows y Linux es:",
         "opciones": [
@@ -6804,7 +6804,7 @@ const baseDeDatos = [
     {
         "id": 383,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "En relación con las VPN de nivel de enlace, ¿cuál de los siguientes protocolos NO se utiliza para la implementación de dicha VPN?",
         "opciones": [
@@ -6822,7 +6822,7 @@ const baseDeDatos = [
     {
         "id": 384,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "¿Qué es una red Scatternet?",
         "opciones": [
@@ -6840,7 +6840,7 @@ const baseDeDatos = [
     {
         "id": 385,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "En relación a TCP y UDP indique cuál de las siguientes características NO es correcta:",
         "opciones": [
@@ -6894,7 +6894,7 @@ const baseDeDatos = [
     {
         "id": 388,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "En JAVA podemos utilizar el interface PreparedStatement para:",
         "opciones": [
@@ -6930,7 +6930,7 @@ const baseDeDatos = [
     {
         "id": 390,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "Indique cuál de las siguientes característica de JavaScript es INCORRECTA:",
         "opciones": [
@@ -6948,7 +6948,7 @@ const baseDeDatos = [
     {
         "id": 391,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes derechos recogidos en el Capítulo Segundo del Título I de la Constitución Española NO forma parte de los Derechos Fundamentales y Libertades Públicas (Artículos 15 a 29)?",
         "opciones": [
@@ -6965,7 +6965,7 @@ const baseDeDatos = [
     {
         "id": 392,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "Según el Título I, Capítulo Cuarto, “De las garantías de las libertades y derechos fundamentales” de la Constitución Española de 1978, señale la opción correcta:",
         "opciones": [
@@ -6982,7 +6982,7 @@ const baseDeDatos = [
     {
         "id": 393,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA de acuerdo con el Título II, artículo 62 de la Constitución Española de 1978. Corresponde al Rey:",
         "opciones": [
@@ -6999,7 +6999,7 @@ const baseDeDatos = [
     {
         "id": 394,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "¿Quién puede ser elegido Defensor del Pueblo, según la Ley Orgánica 3/1981, de 6 de abril?",
         "opciones": [
@@ -7016,7 +7016,7 @@ const baseDeDatos = [
     {
         "id": 395,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "Según el artículo 71 de la Constitución Española de 1978, ¿quién es el competente en las causas contra Diputados y Senadores?",
         "opciones": [
@@ -7033,7 +7033,7 @@ const baseDeDatos = [
     {
         "id": 396,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "Según el Título III \"De las Cortes Generales\" de la Constitución Española de 1978, las Cámaras podrán:",
         "opciones": [
@@ -7050,7 +7050,7 @@ const baseDeDatos = [
     {
         "id": 397,
         "bloque": "I",
-        "tema": null,
+        "tema": 2,
         "origen": "oficial",
         "pregunta": "Según lo establecido en el artículo 159 de la Constitución Española de 1978, los miembros del Tribunal Constitucional serán designados por períodos de:",
         "opciones": [
@@ -7084,7 +7084,7 @@ const baseDeDatos = [
     {
         "id": 399,
         "bloque": "I",
-        "tema": null,
+        "tema": 1,
         "origen": "oficial",
         "pregunta": "La Constitución Española de 1978 en su artículo 113 establece que:",
         "opciones": [
@@ -7101,7 +7101,7 @@ const baseDeDatos = [
     {
         "id": 400,
         "bloque": "I",
-        "tema": null,
+        "tema": 8,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA sobre el uso obligatorio de firma requerida a los interesados por parte de las Administraciones Públicas que recoge el artículo 11 de Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas:",
         "opciones": [
@@ -7118,7 +7118,7 @@ const baseDeDatos = [
     {
         "id": 401,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "Tal y como se recoge en la Resolución de 14 de diciembre de 2015, de la Dirección de Tecnologías de la Información y las Comunicaciones, por la que se establecen las prescripciones técnicas necesarias para el desarrollo y aplicación del sistema Cl@ve, señale la respuesta correcta:",
         "opciones": [
@@ -7153,7 +7153,7 @@ const baseDeDatos = [
     {
         "id": 403,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta sobre la vigencia que tienen los certificados electrónicos reconocidos incorporados al documento nacional de identidad, según la legislación vigente:",
         "opciones": [
@@ -7189,7 +7189,7 @@ const baseDeDatos = [
     {
         "id": 405,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "¿Qué principio relativo al tratamiento de datos personales definido en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos) se refiere a que los datos serán adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que son tratados?",
         "opciones": [
@@ -7207,7 +7207,7 @@ const baseDeDatos = [
     {
         "id": 406,
         "bloque": "I",
-        "tema": null,
+        "tema": 9,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta respecto a las notificaciones según la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas:",
         "opciones": [
@@ -7224,7 +7224,7 @@ const baseDeDatos = [
     {
         "id": 407,
         "bloque": "I",
-        "tema": null,
+        "tema": 10,
         "origen": "oficial",
         "pregunta": "De acuerdo con el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, ¿cuál de las siguientes opciones forma parte del contenido mínimo que debe contener una sede electrónica?",
         "opciones": [
@@ -7242,7 +7242,7 @@ const baseDeDatos = [
     {
         "id": 408,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Marque la respuesta correcta relacionada con el nodo eIDAS español:",
         "opciones": [
@@ -7260,7 +7260,7 @@ const baseDeDatos = [
     {
         "id": 409,
         "bloque": "II",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "¿Qué es la taxonomía de Flynn?",
         "opciones": [
@@ -7278,7 +7278,7 @@ const baseDeDatos = [
     {
         "id": 410,
         "bloque": "II",
-        "tema": null,
+        "tema": 13,
         "origen": "oficial",
         "pregunta": "Indique, de las siguientes palabras, cuál indica además un número hexadecimal válido:",
         "opciones": [
@@ -7296,7 +7296,7 @@ const baseDeDatos = [
     {
         "id": 411,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Señale cuál de las siguientes es un formato de interfaz SSD:",
         "opciones": [
@@ -7314,7 +7314,7 @@ const baseDeDatos = [
     {
         "id": 412,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Con respecto a los árboles 2-3-4, señale la respuesta correcta:",
         "opciones": [
@@ -7332,7 +7332,7 @@ const baseDeDatos = [
     {
         "id": 413,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta referente al tipo abstracto de datos (TAD) Cola:",
         "opciones": [
@@ -7404,7 +7404,7 @@ const baseDeDatos = [
     {
         "id": 417,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "¿Cuál es la característica diferenciadora de las claves foráneas en una base de datos relacional?",
         "opciones": [
@@ -7422,7 +7422,7 @@ const baseDeDatos = [
     {
         "id": 418,
         "bloque": "III",
-        "tema": null,
+        "tema": 21,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes es un Sistema de Gestión de Bases de Datos Orientadas a Objetos (SGDBOO)?",
         "opciones": [
@@ -7440,7 +7440,7 @@ const baseDeDatos = [
     {
         "id": 419,
         "bloque": "III",
-        "tema": null,
+        "tema": 21,
         "origen": "oficial",
         "pregunta": "¿Qué es el lenguaje OQL en el contexto de las bases de datos orientadas a objetos?",
         "opciones": [
@@ -7458,7 +7458,7 @@ const baseDeDatos = [
     {
         "id": 420,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "De acuerdo con Métrica v3, en el Modelo Entidad/Relación Extendido, ¿cuál es el término que representa la participación en la relación de cada una de las entidades afectadas?",
         "opciones": [
@@ -7476,7 +7476,7 @@ const baseDeDatos = [
     {
         "id": 421,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta sobre la normalización de bases de datos en Métrica v3:",
         "opciones": [
@@ -7494,7 +7494,7 @@ const baseDeDatos = [
     {
         "id": 422,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "Señale, de entre las siguientes opciones, el mecanismo en el Modelo Entidad/Relación Extendido que recoge Métrica v3 consistente en relacionar dos tipos de entidades que normalmente son de dominios independientes, pero coyunturalmente se asocian:",
         "opciones": [
@@ -7512,7 +7512,7 @@ const baseDeDatos = [
     {
         "id": 423,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Para las variables a=1, b=2, c=3, d=1 ¿cuál es la operación lógica que da un resultado true?",
         "opciones": [
@@ -7566,7 +7566,7 @@ const baseDeDatos = [
     {
         "id": 426,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "Referente a los comandos DML del lenguaje SQL, señale la respuesta correcta:",
         "opciones": [
@@ -7584,7 +7584,7 @@ const baseDeDatos = [
     {
         "id": 427,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "Referente al comando DROP de SQL, es correcto decir:",
         "opciones": [
@@ -7602,7 +7602,7 @@ const baseDeDatos = [
     {
         "id": 428,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA referente a los disparadores o triggers de una base de datos:",
         "opciones": [
@@ -7620,7 +7620,7 @@ const baseDeDatos = [
     {
         "id": 429,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "En diseño y programación orientada a objetos, una relación de generalización entre clases:",
         "opciones": [
@@ -7638,7 +7638,7 @@ const baseDeDatos = [
     {
         "id": 430,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA respecto al Lenguaje de Modelado Unificado (UML):",
         "opciones": [
@@ -7656,7 +7656,7 @@ const baseDeDatos = [
     {
         "id": 431,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA. El patrón de diseño “Composite”:",
         "opciones": [
@@ -7674,7 +7674,7 @@ const baseDeDatos = [
     {
         "id": 432,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Qué es .NET MAUI?",
         "opciones": [
@@ -7692,7 +7692,7 @@ const baseDeDatos = [
     {
         "id": 433,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "En el ámbito de ASP.NET Core, señale la respuesta correcta respecto a Razor:",
         "opciones": [
@@ -7710,7 +7710,7 @@ const baseDeDatos = [
     {
         "id": 434,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "La persistencia en Jakarta EE se gestiona principalmente a través de la especificación Jakarta Persistence API (JPA). Indique la respuesta correcta:",
         "opciones": [
@@ -7746,7 +7746,7 @@ const baseDeDatos = [
     {
         "id": 436,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "Señale la opción correcta sobre la arquitectura de servicios web REST:",
         "opciones": [
@@ -7764,7 +7764,7 @@ const baseDeDatos = [
     {
         "id": 437,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes es una diferencia entre HTML y XHTML?",
         "opciones": [
@@ -7782,7 +7782,7 @@ const baseDeDatos = [
     {
         "id": 438,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Qué evento de HTML utilizaría para producir un efecto al situar el puntero del ratón sobre un elemento?",
         "opciones": [
@@ -7818,7 +7818,7 @@ const baseDeDatos = [
     {
         "id": 440,
         "bloque": "III",
-        "tema": null,
+        "tema": 25,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta referente al término ATAG:",
         "opciones": [
@@ -7854,7 +7854,7 @@ const baseDeDatos = [
     {
         "id": 442,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "Según establece Métrica V3, en la construcción de un sistema de información, las pruebas que permiten verificar que los componentes o subsistemas interactúan correctamente a través de sus interfaces, tanto internas como externas, cubren la funcionalidad establecida y se ajustan a los requisitos especificados en las verificaciones correspondientes son:",
         "opciones": [
@@ -7908,7 +7908,7 @@ const baseDeDatos = [
     {
         "id": 445,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "¿Cuánta carga útil puede almacenar un jumboframe?",
         "opciones": [
@@ -7926,7 +7926,7 @@ const baseDeDatos = [
     {
         "id": 446,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Qué protocolo hay que utilizar para obtener una dirección física a partir de una dirección lógica?",
         "opciones": [
@@ -7944,7 +7944,7 @@ const baseDeDatos = [
     {
         "id": 447,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "¿Qué topología de red consiste en conectar todos los nodos directamente a un nodo central?",
         "opciones": [
@@ -8016,7 +8016,7 @@ const baseDeDatos = [
     {
         "id": 451,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Cuál es una ventaja del uso del protocolo IMAP en lugar de POP3?",
         "opciones": [
@@ -8052,7 +8052,7 @@ const baseDeDatos = [
     {
         "id": 453,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "Indique la respuesta INCORRECTA respecto a PoE (Power over Ethernet):",
         "opciones": [
@@ -8070,7 +8070,7 @@ const baseDeDatos = [
     {
         "id": 454,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "La norma IEEE 802.11 se refiere a:",
         "opciones": [
@@ -8106,7 +8106,7 @@ const baseDeDatos = [
     {
         "id": 456,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta sobre el formato de firma digital CAdES:",
         "opciones": [
@@ -8124,7 +8124,7 @@ const baseDeDatos = [
     {
         "id": 457,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta sobre tipos de ataque a un sistema de información:",
         "opciones": [
@@ -8142,7 +8142,7 @@ const baseDeDatos = [
     {
         "id": 458,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "Señale cuál de las siguientes tecnologías NO es una tecnología LPWAN:",
         "opciones": [
@@ -8160,7 +8160,7 @@ const baseDeDatos = [
     {
         "id": 459,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes respuestas es correcta respecto al modelo OSI de ISO?",
         "opciones": [
@@ -8178,7 +8178,7 @@ const baseDeDatos = [
     {
         "id": 460,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "¿Cuál es la respuesta correcta con respecto modelo TCP/IP?",
         "opciones": [
@@ -8196,7 +8196,7 @@ const baseDeDatos = [
     {
         "id": 461,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "Relativa al direccionamiento IPv4, indique la respuesta INCORRECTA:",
         "opciones": [
@@ -8214,7 +8214,7 @@ const baseDeDatos = [
     {
         "id": 462,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Qué código de respuesta HTTP se devuelve si el usuario que hace la petición NO tiene autorización para obtener la información?",
         "opciones": [
@@ -8232,7 +8232,7 @@ const baseDeDatos = [
     {
         "id": 463,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta sobre el IETF (Internet Engineering Task Force):",
         "opciones": [
@@ -8250,7 +8250,7 @@ const baseDeDatos = [
     {
         "id": 464,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "Sobre tipos de transferencia de archivos en el servicio FTP (File Transfer Protocol), es CORRECTO decir que:",
         "opciones": [
@@ -8268,7 +8268,7 @@ const baseDeDatos = [
     {
         "id": 465,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes ataques consiste en suplantar a una entidad legítima por medio de llamadas telefónicas?",
         "opciones": [
@@ -8286,7 +8286,7 @@ const baseDeDatos = [
     {
         "id": 466,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "La creación de un señuelo atractivo para potenciales atacantes con el objetivo de aprender sus ataques y poder prevenirlos o defenderlos en el futuro se hace mediante un:",
         "opciones": [
@@ -8304,7 +8304,7 @@ const baseDeDatos = [
     {
         "id": 467,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "La herramienta del CCN que proporciona visibilidad y control sobre la red es:",
         "opciones": [
@@ -8322,7 +8322,7 @@ const baseDeDatos = [
     {
         "id": 468,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Señale cuál es una resolución válida para una pantalla:",
         "opciones": [
@@ -8340,7 +8340,7 @@ const baseDeDatos = [
     {
         "id": 469,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "¿Cuál es un tipo de panel de una pantalla LCD?",
         "opciones": [
@@ -8358,7 +8358,7 @@ const baseDeDatos = [
     {
         "id": 470,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "El protocolo de IEEE para Rapid Spanning Tree Protocol es:",
         "opciones": [
@@ -8376,7 +8376,7 @@ const baseDeDatos = [
     {
         "id": 471,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "En CSS3, ¿cuál de las siguientes unidades de medida NO es relativa?",
         "opciones": [
@@ -8412,7 +8412,7 @@ const baseDeDatos = [
     {
         "id": 473,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta en relación con la digitalización de imágenes:",
         "opciones": [
@@ -8430,7 +8430,7 @@ const baseDeDatos = [
     {
         "id": 474,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Señale la respuesta correcta referente al tipo abstracto de datos (TAD) Pila:",
         "opciones": [
@@ -8448,7 +8448,7 @@ const baseDeDatos = [
     {
         "id": 475,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA sobre el lenguaje Swift:",
         "opciones": [
@@ -8466,7 +8466,7 @@ const baseDeDatos = [
     {
         "id": 476,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Cuál es la última versión de .NET con soporte a largo plazo?",
         "opciones": [
@@ -8484,7 +8484,7 @@ const baseDeDatos = [
     {
         "id": 477,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Qué hará el siguiente código de JavaScript console.log(10==='10')?",
         "opciones": [
@@ -8502,7 +8502,7 @@ const baseDeDatos = [
     {
         "id": 478,
         "bloque": "III",
-        "tema": null,
+        "tema": 18,
         "origen": "oficial",
         "pregunta": "¿Qué término hace referencia a la realización de un análisis estático del código fuente de una aplicación para identificar vulnerabilidades de seguridad antes de que se implemente en un entorno de producción real?",
         "opciones": [
@@ -8520,7 +8520,7 @@ const baseDeDatos = [
     {
         "id": 479,
         "bloque": "III",
-        "tema": null,
+        "tema": 17,
         "origen": "oficial",
         "pregunta": "En el contexto de las metodologías de desarrollo de software, ¿cuál de los siguientes es un principio del Manifiesto Ágil?",
         "opciones": [
@@ -8538,7 +8538,7 @@ const baseDeDatos = [
     {
         "id": 480,
         "bloque": "II",
-        "tema": null,
+        "tema": 13,
         "origen": "oficial",
         "pregunta": "Según el estándar IEEE 754-2008, un número en coma flotante de doble precisión es:",
         "opciones": [
@@ -8556,7 +8556,7 @@ const baseDeDatos = [
     {
         "id": 481,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA referente a los eventos en SQL:",
         "opciones": [
@@ -8574,7 +8574,7 @@ const baseDeDatos = [
     {
         "id": 482,
         "bloque": "III",
-        "tema": null,
+        "tema": 25,
         "origen": "oficial",
         "pregunta": "Uno de los expertos más reconocidos en usabilidad web, Jakob Nielsen, estableció 10 principios clave que todo diseñador web debe tener en cuenta. ¿Cuál de los siguientes NO es uno de ellos?",
         "opciones": [
@@ -8592,7 +8592,7 @@ const baseDeDatos = [
     {
         "id": 483,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Qué mecanismo de solución a bucles de enrutamiento consiste en implementar un temporizador para que la distancia al destino deje de ser infinita y, en caso de que expirado el temporizador la distancia siga siendo infinita, eliminar la ruta de la tabla de enrutamiento?",
         "opciones": [
@@ -8610,7 +8610,7 @@ const baseDeDatos = [
     {
         "id": 484,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "¿Qué puerto utiliza Telnet?",
         "opciones": [
@@ -8628,7 +8628,7 @@ const baseDeDatos = [
     {
         "id": 485,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "El fenómeno que se produce cuando la señal eléctrica transmitida por un par induce corrientes en otros pares vecinos, se conoce como:",
         "opciones": [
@@ -8664,7 +8664,7 @@ const baseDeDatos = [
     {
         "id": 487,
         "bloque": "II",
-        "tema": null,
+        "tema": 14,
         "origen": "oficial",
         "pregunta": "En sistemas operativos, cuando hablamos de Registro de Instrucción, ¿a qué nos estamos refiriendo?",
         "opciones": [
@@ -8682,7 +8682,7 @@ const baseDeDatos = [
     {
         "id": 488,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "Indique cuál de los siguientes NO es un protocolo de acceso al correo electrónico:",
         "opciones": [
@@ -8700,7 +8700,7 @@ const baseDeDatos = [
     {
         "id": 489,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "Indique cuál NO es uno de los beneficios de la arquitectura de microservicios:",
         "opciones": [
@@ -8736,7 +8736,7 @@ const baseDeDatos = [
     {
         "id": 491,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta sobre el significado del conjunto de códigos de respuesta 3xx del protocolo HTTP:",
         "opciones": [
@@ -8754,7 +8754,7 @@ const baseDeDatos = [
     {
         "id": 492,
         "bloque": "IV",
-        "tema": null,
+        "tema": 27,
         "origen": "oficial",
         "pregunta": "Indique la respuesta INCORRECTA sobre la correspondencia entre las capas del modelo OSI y el modelo TCP/IP:",
         "opciones": [
@@ -8790,7 +8790,7 @@ const baseDeDatos = [
     {
         "id": 494,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "Sobre el protocolo RSVP, es correcto decir:",
         "opciones": [
@@ -8808,7 +8808,7 @@ const baseDeDatos = [
     {
         "id": 495,
         "bloque": "I",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "Según establece la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales, ¿quién NO puede ponerse en contacto con los prestadores de servicios de la sociedad de la información para acceder a los contenidos de la persona fallecida?",
         "opciones": [
@@ -8844,7 +8844,7 @@ const baseDeDatos = [
     {
         "id": 497,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta respecto al lenguaje de programación F#:",
         "opciones": [
@@ -8862,7 +8862,7 @@ const baseDeDatos = [
     {
         "id": 498,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "Indique la opción correcta sobre un \"repositorio bare\" en el sistema de control de versiones Git:",
         "opciones": [
@@ -8880,7 +8880,7 @@ const baseDeDatos = [
     {
         "id": 499,
         "bloque": "II",
-        "tema": null,
+        "tema": 11,
         "origen": "oficial",
         "pregunta": "La unidad de medida de la potencia de un microprocesador, FLOPS, indica:",
         "opciones": [
@@ -8898,7 +8898,7 @@ const baseDeDatos = [
     {
         "id": 500,
         "bloque": "II",
-        "tema": null,
+        "tema": 13,
         "origen": "oficial",
         "pregunta": "¿Cómo se denomina a la agrupación de 4 bits?",
         "opciones": [
@@ -8916,7 +8916,7 @@ const baseDeDatos = [
     {
         "id": 501,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "Cuál es la respuesta correcta con respecto al formato de imagen JPG:",
         "opciones": [
@@ -8970,7 +8970,7 @@ const baseDeDatos = [
     {
         "id": 504,
         "bloque": "III",
-        "tema": null,
+        "tema": 19,
         "origen": "oficial",
         "pregunta": "Según describe METRICA v3 referente al Modelo Entidad/Relación Extendido, el número máximo de ocurrencias de cada tipo de entidad que pueden intervenir en una ocurrencia de la relación que se está tratando se llama:",
         "opciones": [
@@ -8988,7 +8988,7 @@ const baseDeDatos = [
     {
         "id": 505,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "Relacionado con las bases de datos, cuál es el significado del término CRUD:",
         "opciones": [
@@ -9006,7 +9006,7 @@ const baseDeDatos = [
     {
         "id": 506,
         "bloque": "III",
-        "tema": null,
+        "tema": 20,
         "origen": "oficial",
         "pregunta": "La cláusula que se utiliza para especificar el criterio de ordenación de la respuesta a una consulta en SQL es:",
         "opciones": [
@@ -9024,7 +9024,7 @@ const baseDeDatos = [
     {
         "id": 507,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes características NO se corresponde con el modelo orientado a objetos?",
         "opciones": [
@@ -9042,7 +9042,7 @@ const baseDeDatos = [
     {
         "id": 508,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "¿Qué es ADO.NET?",
         "opciones": [
@@ -9060,7 +9060,7 @@ const baseDeDatos = [
     {
         "id": 509,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta relativa al lenguaje Java 2:",
         "opciones": [
@@ -9078,7 +9078,7 @@ const baseDeDatos = [
     {
         "id": 510,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "En una arquitectura cliente/servidor, cuál de las siguientes afirmaciones es INCORRECTA en el ámbito de las arquitecturas multinivel:",
         "opciones": [
@@ -9096,7 +9096,7 @@ const baseDeDatos = [
     {
         "id": 511,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Cuál de estos elementos permiten definir la presentación y estilos de una página web?",
         "opciones": [
@@ -9114,7 +9114,7 @@ const baseDeDatos = [
     {
         "id": 512,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "Cuál es una de las restricciones básicas que introduce XHTML referente a la sintaxis de sus etiquetas:",
         "opciones": [
@@ -9132,7 +9132,7 @@ const baseDeDatos = [
     {
         "id": 513,
         "bloque": "III",
-        "tema": null,
+        "tema": 25,
         "origen": "oficial",
         "pregunta": "Indique cuántos son los principios generales de usabilidad Web definidos por Jakob Nielsen:",
         "opciones": [
@@ -9150,7 +9150,7 @@ const baseDeDatos = [
     {
         "id": 514,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "En cuanto a las conexiones de acceso remoto, ¿cuál NO sería una recomendación para mitigar el riesgo?",
         "opciones": [
@@ -9168,7 +9168,7 @@ const baseDeDatos = [
     {
         "id": 515,
         "bloque": "II",
-        "tema": null,
+        "tema": 14,
         "origen": "oficial",
         "pregunta": "Entre las funciones de un Sistema Operativo NO se encuentra:",
         "opciones": [
@@ -9186,7 +9186,7 @@ const baseDeDatos = [
     {
         "id": 516,
         "bloque": "II",
-        "tema": null,
+        "tema": 16,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es un algoritmo de planificación utilizado en sistemas Windows y Linux?",
         "opciones": [
@@ -9240,7 +9240,7 @@ const baseDeDatos = [
     {
         "id": 519,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "Dentro de la topología de las redes de área local, aquella que se caracteriza por existir un enlace punto a punto directo entre los Equipos Terminal de Datos (DTE) vecinos que operan en un solo sentido, se denomina:",
         "opciones": [
@@ -9258,7 +9258,7 @@ const baseDeDatos = [
     {
         "id": 520,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "Los protocolos AAA se descomponen en tres procesos entrelazados. Señale la respuesta correcta:",
         "opciones": [
@@ -9276,7 +9276,7 @@ const baseDeDatos = [
     {
         "id": 521,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "¿Qué es una red POLAN?",
         "opciones": [
@@ -9294,7 +9294,7 @@ const baseDeDatos = [
     {
         "id": 522,
         "bloque": "IV",
-        "tema": null,
+        "tema": 26,
         "origen": "oficial",
         "pregunta": "¿Cuál de estos tipos de cable NO ofrece ningún tipo de apantallamiento?",
         "opciones": [
@@ -9312,7 +9312,7 @@ const baseDeDatos = [
     {
         "id": 523,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es un protocolo de nivel de Red (OSI nivel 3)?",
         "opciones": [
@@ -9330,7 +9330,7 @@ const baseDeDatos = [
     {
         "id": 524,
         "bloque": "IV",
-        "tema": null,
+        "tema": 32,
         "origen": "oficial",
         "pregunta": "¿Qué información NO contiene un certificado SSL/TLS?",
         "opciones": [
@@ -9348,7 +9348,7 @@ const baseDeDatos = [
     {
         "id": 525,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes Guías de Seguridad CCN-STIC trata sobre la \"Seguridad en Redes Privadas Virtuales\"?",
         "opciones": [
@@ -9366,7 +9366,7 @@ const baseDeDatos = [
     {
         "id": 526,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "De los siguientes protocolos de seguridad, indique cuál es el más empleado por las VPN de nivel de transporte:",
         "opciones": [
@@ -9384,7 +9384,7 @@ const baseDeDatos = [
     {
         "id": 527,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA con respecto al ataque KRACK:",
         "opciones": [
@@ -9420,7 +9420,7 @@ const baseDeDatos = [
     {
         "id": 529,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes herramientas se utiliza para la detección y prevención de intrusiones (HIDS)?",
         "opciones": [
@@ -9438,7 +9438,7 @@ const baseDeDatos = [
     {
         "id": 530,
         "bloque": "IV",
-        "tema": null,
+        "tema": 30,
         "origen": "oficial",
         "pregunta": "Indique la respuesta correcta respecto a correspondencia entre los grupos de trabajo de la familia IEEE 802 y su nomenclatura:",
         "opciones": [
@@ -9456,7 +9456,7 @@ const baseDeDatos = [
     {
         "id": 531,
         "bloque": "IV",
-        "tema": null,
+        "tema": 28,
         "origen": "oficial",
         "pregunta": "Señale cuál es el valor del campo Tipo del protocolo ICMPv6 cuyo mensaje de error es \"Paquete demasiado Grande\":",
         "opciones": [
@@ -9492,7 +9492,7 @@ const baseDeDatos = [
     {
         "id": 533,
         "bloque": "III",
-        "tema": null,
+        "tema": 22,
         "origen": "oficial",
         "pregunta": "El algoritmo de ordenación que consiste en comparar pares de elementos adyacentes e intercambiarlos entre sí, si no están en orden, hasta que todo el conjunto de elementos se encuentre ordenado, es conocido como:",
         "opciones": [
@@ -9510,7 +9510,7 @@ const baseDeDatos = [
     {
         "id": 534,
         "bloque": "II",
-        "tema": null,
+        "tema": 15,
         "origen": "oficial",
         "pregunta": "¿En Linux, qué tipo de proceso se corresponde con la característica de que, habiendo concluido, aún está presente en la tabla de procesos?",
         "opciones": [
@@ -9528,7 +9528,7 @@ const baseDeDatos = [
     {
         "id": 535,
         "bloque": "II",
-        "tema": null,
+        "tema": 15,
         "origen": "oficial",
         "pregunta": "En un entorno UNIX, tenemos los permisos \"rwxr-x-r--\" sobre un determinado fichero. ¿Qué acción o acciones puede hacer un usuario del grupo del propietario del fichero?",
         "opciones": [
@@ -9546,7 +9546,7 @@ const baseDeDatos = [
     {
         "id": 536,
         "bloque": "II",
-        "tema": null,
+        "tema": 15,
         "origen": "oficial",
         "pregunta": "En los sistemas Linux, el comando pwd permite:",
         "opciones": [
@@ -9564,7 +9564,7 @@ const baseDeDatos = [
     {
         "id": 537,
         "bloque": "II",
-        "tema": null,
+        "tema": 12,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes NO es un tipo de backup?",
         "opciones": [
@@ -9582,7 +9582,7 @@ const baseDeDatos = [
     {
         "id": 538,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "El protocolo SMTP es acrónimo de:",
         "opciones": [
@@ -9600,7 +9600,7 @@ const baseDeDatos = [
     {
         "id": 539,
         "bloque": "IV",
-        "tema": null,
+        "tema": 29,
         "origen": "oficial",
         "pregunta": "Indique cuál de los siguientes es un protocolo orientado a la gestión de los dispositivos de una red:",
         "opciones": [
@@ -9618,7 +9618,7 @@ const baseDeDatos = [
     {
         "id": 540,
         "bloque": "III",
-        "tema": null,
+        "tema": 18,
         "origen": "oficial",
         "pregunta": "En relación a los riesgos de seguridad en aplicaciones, según OWASP, ¿qué tipo de fallo ocurre cuando datos no confiables son enviados a un intérprete como parte de un comando o consulta?",
         "opciones": [
@@ -9636,7 +9636,7 @@ const baseDeDatos = [
     {
         "id": 541,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "¿Qué tipo de ataque lleva a cabo el virus Ryuk?",
         "opciones": [
@@ -9654,7 +9654,7 @@ const baseDeDatos = [
     {
         "id": 542,
         "bloque": "IV",
-        "tema": null,
+        "tema": 32,
         "origen": "oficial",
         "pregunta": "¿Cuál de los siguientes algoritmos de cifrado es de clave pública?",
         "opciones": [
@@ -9672,7 +9672,7 @@ const baseDeDatos = [
     {
         "id": 543,
         "bloque": "IV",
-        "tema": null,
+        "tema": 31,
         "origen": "oficial",
         "pregunta": "¿Cuál de las siguientes herramientas del CCN-CERT se utiliza para la detección de amenazas complejas en el puesto del usuario?",
         "opciones": [
@@ -9690,7 +9690,7 @@ const baseDeDatos = [
     {
         "id": 544,
         "bloque": "IV",
-        "tema": null,
+        "tema": 33,
         "origen": "oficial",
         "pregunta": "En el contexto de la gestión de dispositivos móviles, qué significan las siglas BYOD:",
         "opciones": [
@@ -10236,7 +10236,7 @@ const baseDeDatos = [
     {
         "id": 580,
         "bloque": "III",
-        "tema": null,
+        "tema": 24,
         "origen": "oficial",
         "pregunta": "¿Qué hará el siguiente código de JavaScript console.log(10===\"10\")?",
         "opciones": [
@@ -10254,7 +10254,7 @@ const baseDeDatos = [
     {
         "id": 581,
         "bloque": "III",
-        "tema": null,
+        "tema": 23,
         "origen": "oficial",
         "pregunta": "Señale la respuesta INCORRECTA. El patrón de diseño \"Composite\":",
         "opciones": [
@@ -10405,6 +10405,91 @@ const baseDeDatos = [
             "814",
             "815",
             "817"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 590,
+        "bloque": "MIXTO",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En un entorno UNIX, tenemos los permisos \"rwxr-x-r–\" sobre un determinado fichero. ¿Qué acción o acciones puede hacer un usuario del grupo del propietario del fichero?",
+        "opciones": [
+            "Sólo leer.",
+            "Sólo leer y ejecutar.",
+            "Sólo leer, escribir y ejecutar.",
+            "Sólo ejecutar."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 591,
+        "bloque": "MIXTO",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Cuál de los siguientes es un protocolo de nivel de transporte de TCP/IP?",
+        "opciones": [
+            "SMTP",
+            "ARP",
+            "ARP",
+            "UDP"
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 592,
+        "bloque": "MIXTO",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "a) Física, Enlace, Red, Transporte, Sesión, Presentación y Aplicación.",
+        "opciones": [
+            "",
+            "b) Física, Enlace, Red, Transporte, Presentación, Sesión y Aplicación.",
+            "c) Física, Enlace, Transporte, Red, Sesión, Aplicación y Presentación.",
+            "d) Física, Enlace, Red, Transporte, Sesión, Aplicación y Presentación."
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 593,
+        "bloque": "MIXTO",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Reserva 1. La arquitectura de ordenadores Harvard:",
+        "opciones": [
+            "Tiene un único espacio de memoria para datos e instrucciones.",
+            "Tiene dos espacios de memoria separados, uno para datos y otro para instrucciones.",
+            "Es un tipo de arquitectura Von Neumann",
+            "Tiene tres espacios de memoria separados, uno para datos, otro para instrucciones y otro para la memoria no volátil."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 594,
+        "bloque": "MIXTO",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Reserva 4. En tecnologías de almacenamiento, el término SAS se corresponde con:",
+        "opciones": [
+            "Serial Attached State.",
+            "Solid Attached SCSI.",
+            "Serial Attached SCSI.",
+            "Solid Advanced SCSI."
         ],
         "respuestaIndex": 2,
         "oposiciones": [
