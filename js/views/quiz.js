@@ -63,7 +63,7 @@
         if (mode === 'global') numQuestions = 30;
         if (mode === 'oficiales') numQuestions = Math.min(25, pool.length);
         if (mode === 'fallos') numQuestions = pool.length;
-        if (mode === 'theme') numQuestions = 10;
+        if (mode === 'theme') numQuestions = (extra && extra.count > 0) ? extra.count : 10;
         if (mode === 'simulacro') {
             numQuestions = 80;
             isCountdown = true;

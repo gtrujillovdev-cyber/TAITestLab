@@ -38,6 +38,9 @@
                     <select id="theme-select" class="custom-select" disabled>
                         <option value="">-- Selecciona un Tema --</option>
                     </select>
+                    <select id="theme-count-select" class="custom-select" disabled aria-label="Número de preguntas">
+                        <option value="">-- Cantidad --</option>
+                    </select>
                     <button class="btn-primary small-btn" id="btn-theme-test" disabled>Empezar</button>
                 </div>
             </div>
@@ -58,7 +61,42 @@
 
         const blockSelect = wrap.querySelector('#block-select');
         const themeSelect = wrap.querySelector('#theme-select');
+        const countSelect = wrap.querySelector('#theme-count-select');
         const btnThemeTest = wrap.querySelector('#btn-theme-test');
+
+        // Nº de preguntas disponibles para el bloque+tema elegidos, respetando
+        // el mismo filtro de oposiciones que aplicará quiz.js al arrancar el
+        // test (para no ofrecer una cantidad que luego no hay preguntas para
+        // cubrir).
+        function availableCountFor(bloque, tema) {
+            const selectedOpos = (TAI.state && TAI.state.settings.selectedOpos) || [];
+            return (typeof baseDeDatos !== 'undefined' ? baseDeDatos : [])
+                .filter(p => p.bloque === bloque && p.tema === tema)
+                .filter(p => !p.oposiciones || selectedOpos.some(o => p.oposiciones.includes(o)))
+                .length;
+        }
+
+        function updateCountOptions() {
+            const bloque = blockSelect.value;
+            const tema = themeSelect.value ? parseInt(themeSelect.value, 10) : null;
+            countSelect.innerHTML = '';
+            if (!bloque || !tema) {
+                countSelect.innerHTML = '<option value="">-- Cantidad --</option>';
+                countSelect.disabled = true;
+                return;
+            }
+            const max = availableCountFor(bloque, tema);
+            const candidates = [5, 10, 15, 20, 25].filter(n => n < max);
+            candidates.push(max);
+            candidates.forEach(n => {
+                const opt = document.createElement('option');
+                opt.value = n;
+                opt.textContent = (n === max) ? `Todas (${max})` : `${n} preguntas`;
+                countSelect.appendChild(opt);
+            });
+            countSelect.value = candidates.includes(10) ? 10 : max;
+            countSelect.disabled = max === 0;
+        }
 
         blockSelect.addEventListener('change', () => {
             const block = blockSelect.value;
@@ -79,15 +117,25 @@
             } else {
                 themeSelect.disabled = true;
             }
-            btnThemeTest.disabled = !(blockSelect.value && themeSelect.value);
+            updateCountOptions();
+            btnThemeTest.disabled = !(blockSelect.value && themeSelect.value && countSelect.value);
         });
 
         themeSelect.addEventListener('change', () => {
-            btnThemeTest.disabled = !(blockSelect.value && themeSelect.value);
+            updateCountOptions();
+            btnThemeTest.disabled = !(blockSelect.value && themeSelect.value && countSelect.value);
+        });
+
+        countSelect.addEventListener('change', () => {
+            btnThemeTest.disabled = !(blockSelect.value && themeSelect.value && countSelect.value);
         });
 
         btnThemeTest.addEventListener('click', () => {
-            TAI.views.quiz.startTest('theme', { bloque: blockSelect.value, tema: parseInt(themeSelect.value, 10) });
+            TAI.views.quiz.startTest('theme', {
+                bloque: blockSelect.value,
+                tema: parseInt(themeSelect.value, 10),
+                count: parseInt(countSelect.value, 10)
+            });
         });
     }
 

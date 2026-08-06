@@ -9298,5 +9298,617 @@ const baseDeDatos = [
         "oposiciones": [
             "AGE"
         ]
+    },
+    {
+        "id": 546,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿En qué fecha aprobaron las Cortes Generales el texto de la Constitución Española de 1978?",
+        "opciones": [
+            "31 de octubre de 1978",
+            "6 de diciembre de 1978",
+            "27 de diciembre de 1978",
+            "29 de diciembre de 1978"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 547,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Qué acontecimiento del proceso constituyente tuvo lugar el 6 de diciembre de 1978, actual Día de la Constitución?",
+        "opciones": [
+            "La aprobación del texto por las Cortes Generales",
+            "La ratificación de la Constitución en referéndum",
+            "La sanción y promulgación por el Rey",
+            "La entrada en vigor tras su publicación en el BOE"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 548,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿En qué fecha sancionó y promulgó el Rey Juan Carlos I la Constitución Española?",
+        "opciones": [
+            "31 de octubre de 1978",
+            "6 de diciembre de 1978",
+            "27 de diciembre de 1978",
+            "29 de diciembre de 1978"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": null
+    },
+    {
+        "id": 549,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cuál es el orden cronológico correcto de los hitos del proceso constituyente de 1978?",
+        "opciones": [
+            "Aprobación por las Cortes (31/10) → Referéndum (6/12) → Sanción del Rey (27/12) → Publicación en el BOE (29/12)",
+            "Referéndum (6/12) → Aprobación por las Cortes (31/10) → Publicación en el BOE (27/12) → Sanción del Rey (29/12)",
+            "Sanción del Rey (27/12) → Aprobación por las Cortes (31/10) → Referéndum (6/12) → Publicación en el BOE (29/12)",
+            "Aprobación por las Cortes (31/10) → Sanción del Rey (27/12) → Referéndum (6/12) → Publicación en el BOE (29/12)"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 550,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cuántos artículos tiene la Constitución Española de 1978?",
+        "opciones": [
+            "168",
+            "169",
+            "170",
+            "172"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 551,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cuántos Títulos tiene la Constitución, incluyendo el Título Preliminar?",
+        "opciones": [
+            "9",
+            "10",
+            "11",
+            "13"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": null
+    },
+    {
+        "id": 552,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cuántas Disposiciones Adicionales tiene la Constitución Española?",
+        "opciones": [
+            "2",
+            "4",
+            "9",
+            "1"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 553,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cuántas Disposiciones Transitorias tiene la Constitución Española?",
+        "opciones": [
+            "4",
+            "9",
+            "11",
+            "3"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 554,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "La Constitución de 1978 es la segunda más extensa de la historia constitucional española, únicamente superada por la de:",
+        "opciones": [
+            "1812",
+            "1837",
+            "1869",
+            "1931"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 555,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cuál de las siguientes NO es una característica de la Constitución Española de 1978?",
+        "opciones": [
+            "Codificada",
+            "Flexible",
+            "Consensuada",
+            "Rígida"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 556,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "La Parte Dogmática de la Constitución (grandes principios y derechos fundamentales) está formada por:",
+        "opciones": [
+            "El Título Preliminar y el Título I",
+            "Los Títulos II a X",
+            "Solo el Título Preliminar",
+            "El Título I y el Título II"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 557,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Qué Título de la Constitución regula la Corona, y qué artículos comprende?",
+        "opciones": [
+            "Título II, artículos 56 a 65",
+            "Título III, artículos 66 a 96",
+            "Título I, artículos 10 a 55",
+            "Título IV, artículos 97 a 107"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 558,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "Las Cortes Generales se regulan en:",
+        "opciones": [
+            "Título III, artículos 66 a 96",
+            "Título II, artículos 56 a 65",
+            "Título V, artículos 108 a 116",
+            "Título IV, artículos 97 a 107"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 559,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "El Poder Judicial se regula en:",
+        "opciones": [
+            "Título VI, artículos 117 a 127",
+            "Título VII, artículos 128 a 136",
+            "Título IX, artículos 159 a 165",
+            "Título IV, artículos 97 a 107"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 560,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "El Tribunal Constitucional se regula en:",
+        "opciones": [
+            "Título IX, artículos 159 a 165",
+            "Título X, artículos 166 a 169",
+            "Título VI, artículos 117 a 127",
+            "Título VIII, artículos 137 a 158"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 561,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "El artículo 2 de la Constitución reconoce y garantiza:",
+        "opciones": [
+            "El derecho a la autonomía de las nacionalidades y regiones, dentro de la indisoluble unidad de la Nación española",
+            "La oficialidad del castellano en todo el territorio",
+            "Que la soberanía nacional reside en el pueblo español",
+            "Los valores superiores del ordenamiento jurídico"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 562,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "Según el artículo 3 de la Constitución, las demás lenguas españolas distintas del castellano:",
+        "opciones": [
+            "No tienen ningún reconocimiento oficial",
+            "Serán también oficiales en las respectivas Comunidades Autónomas de acuerdo con sus Estatutos",
+            "Son oficiales en todo el territorio nacional",
+            "Solo pueden usarse en el ámbito privado"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 563,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cómo se compone la bandera de España según el artículo 4 de la Constitución?",
+        "opciones": [
+            "Roja, amarilla y roja, siendo la amarilla de doble anchura que cada franja roja",
+            "Tres franjas iguales: roja, amarilla y roja",
+            "Amarilla, roja y amarilla, siendo la roja de doble anchura",
+            "Roja y amarilla únicamente, en franjas iguales"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 564,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Qué artículo de la Constitución establece que la capital del Estado es la villa de Madrid?",
+        "opciones": [
+            "Artículo 4",
+            "Artículo 5",
+            "Artículo 6",
+            "Artículo 8"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 565,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "Según el artículo 8 de la Constitución, las Fuerzas Armadas están constituidas por:",
+        "opciones": [
+            "El Ejército de Tierra, la Armada y el Ejército del Aire",
+            "La Policía Nacional, la Guardia Civil y las Fuerzas Armadas",
+            "Solo el Ejército de Tierra y la Armada",
+            "Las Fuerzas y Cuerpos de Seguridad del Estado"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 566,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "El artículo 9 de la Constitución garantiza, entre otros principios:",
+        "opciones": [
+            "La irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales",
+            "La retroactividad general de todas las normas sancionadoras",
+            "La suspensión automática de derechos en caso de conflicto",
+            "La reforma constitucional sin necesidad de referéndum"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 567,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "Dentro del Capítulo II del Título I, la Sección 1ª (\"De los derechos fundamentales y de las libertades públicas\") comprende los artículos:",
+        "opciones": [
+            "Artículos 15 a 29",
+            "Artículos 14 a 38",
+            "Artículos 30 a 38",
+            "Artículos 11 a 13"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 568,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Qué mecanismo de protección puede utilizarse frente a la vulneración de los derechos reconocidos en los artículos 14 a 29 y el derecho a la objeción de conciencia del artículo 30?",
+        "opciones": [
+            "El recurso de amparo ante el Tribunal Constitucional",
+            "El recurso de inconstitucionalidad",
+            "La cuestión de inconstitucionalidad",
+            "El conflicto de competencias"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 569,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "El Defensor del Pueblo es designado por las Cortes Generales para un mandato de:",
+        "opciones": [
+            "4 años",
+            "5 años",
+            "6 años",
+            "9 años"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 570,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Qué mayoría se exige en el Congreso y el Senado para designar al Defensor del Pueblo?",
+        "opciones": [
+            "Mayoría simple",
+            "Mayoría absoluta",
+            "Mayoría de 3/5",
+            "Mayoría de 2/3"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": null
+    },
+    {
+        "id": 571,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "Durante la vigencia del estado de alarma:",
+        "opciones": [
+            "Se suspenden los derechos fundamentales del artículo 55",
+            "No se suspenden derechos, solo pueden limitarse determinados derechos",
+            "Se disuelven automáticamente las Cortes Generales",
+            "Queda suspendida la Constitución"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 572,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "En un estado de excepción o de sitio puede acordarse, entre otros, la suspensión del derecho reconocido en el artículo:",
+        "opciones": [
+            "Artículo 17 (libertad y seguridad)",
+            "Artículo 14 (igualdad ante la ley)",
+            "Artículo 10 (dignidad de la persona)",
+            "Artículo 9 (principio de legalidad)"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 573,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "¿Cuántos magistrados del Tribunal Constitucional se nombran a propuesta del Consejo General del Poder Judicial?",
+        "opciones": [
+            "4",
+            "2",
+            "3",
+            "0"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 574,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "Los magistrados del Tribunal Constitucional son elegidos por un periodo de:",
+        "opciones": [
+            "5 años, renovándose por mitades cada 2 años y medio",
+            "9 años, renovándose por terceras partes cada 3 años",
+            "6 años, sin posibilidad de renovación",
+            "4 años, coincidiendo con la legislatura"
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": null
+    },
+    {
+        "id": 575,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "El procedimiento de reforma ordinario del artículo 167 exige, con carácter general, una mayoría de:",
+        "opciones": [
+            "3/5 de cada Cámara",
+            "2/3 de cada Cámara",
+            "Mayoría absoluta del Congreso",
+            "Mayoría simple de ambas Cámaras"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 576,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "En el procedimiento de reforma ordinario, el referéndum de ratificación se celebrará si lo solicita, dentro de los 15 días siguientes a la aprobación:",
+        "opciones": [
+            "Una décima parte de los miembros de cualquiera de las Cámaras",
+            "Una cuarta parte de los miembros del Congreso",
+            "La mayoría absoluta del Senado",
+            "El Gobierno de la Nación"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 577,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "El procedimiento de reforma agravado (artículo 168) se exige cuando la revisión afecta a:",
+        "opciones": [
+            "El Título Preliminar, el Título I Capítulo II Sección 1ª, o el Título II",
+            "Cualquier artículo del Título VII (Economía y Hacienda)",
+            "Únicamente al Título X (de la reforma constitucional)",
+            "El Título VIII (organización territorial del Estado)"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 578,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "Tras la aprobación del principio de reforma agravada por mayoría de 2/3 en cada Cámara, el siguiente paso del procedimiento es:",
+        "opciones": [
+            "La disolución inmediata de las Cortes y la convocatoria de elecciones",
+            "La celebración inmediata de un referéndum",
+            "La sanción directa del Rey sin más trámites",
+            "El archivo de la propuesta si no hay unanimidad"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 579,
+        "bloque": "I",
+        "tema": 1,
+        "origen": "temario",
+        "pregunta": "En el procedimiento de reforma agravado del artículo 168, la ratificación mediante referéndum es:",
+        "opciones": [
+            "Obligatoria en todo caso",
+            "Solo si lo solicita una décima parte de una Cámara",
+            "Opcional, a decisión del Gobierno",
+            "Innecesaria si las nuevas Cámaras aprueban por unanimidad"
+        ],
+        "respuestaIndex": 0,
+        "oposiciones": null
+    },
+    {
+        "id": 580,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "¿Qué hará el siguiente código de JavaScript console.log(10===\"10\")?",
+        "opciones": [
+            "Imprimirá true.",
+            "Imprimirá false.",
+            "Dará error.",
+            "Imprimirá \"1010\"."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 581,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Señale la respuesta INCORRECTA. El patrón de diseño \"Composite\":",
+        "opciones": [
+            "Es un patrón de diseño estructural que permite componer objetos en estructuras de árbol.",
+            "Simplifica el tratamiento de los objetos creados que, al poseer de una interfaz común, se tratan todos de la misma manera.",
+            "Sirve para construir objetos complejos a partir de otros más simples y similares entre si.",
+            "Se recomienda su uso cuando se quiere añadir responsabilidades a objetos concretos de manera dinámica y transparente y sin afectar a otros objetos."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 582,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Suponga el siguiente programa escrito en un lenguaje de programación estándar: integer x=0 while x<100 do (x=x+1; print x; x=x-1;)",
+        "opciones": [
+            "Este programa imprime los números enteros del 1 al 100.",
+            "Este programa imprime los números impares del 1 al 100.",
+            "Este programa imprime los números pares del 1 al 100.",
+            "Este programa es un bucle infinito."
+        ],
+        "respuestaIndex": 3,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 583,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "En Linux, ¿Qué comando usaremos para ver la información relativa a una interfaz de red en particular (por ejemplo, \"eth0\")?",
+        "opciones": [
+            "ethtoolsshd eth0",
+            "dhclient eth0",
+            "ifconfig eth0",
+            "tcpdump eth0"
+        ],
+        "respuestaIndex": 2,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 584,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Indique la respuesta INCORRECTA:",
+        "opciones": [
+            "La capa de sesión del modelo OSI está incluida en la capa de aplicación del modelo TCP/IP.",
+            "La capa de acceso de red del modelo TCP/IP se corresponde con la capa de red del modelo OSI.",
+            "La capa de presentación del modelo OSI está incluida en la capa de aplicación del modelo TCP/IP.",
+            "La capa de transporte del modelo TCP/IP se corresponde con la capa de transporte del modelo OSI."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
+    },
+    {
+        "id": 585,
+        "bloque": "III",
+        "tema": null,
+        "origen": "oficial",
+        "pregunta": "Según establece la Ley Orgánica 3/2018 de Protección de Datos Personales... ¿quién NO puede ponerse en contacto con los prestadores... para acceder a los contenidos de la persona fallecida?",
+        "opciones": [
+            "En caso de fallecimiento de personas con discapacidad, estas facultades podrán ejercerse por quienes hubiesen sido designados...",
+            "El albacea testamentario así como aquella persona o institución a la que el fallecido hubiese designado expresamente...",
+            "En caso de personas fallecidas mayores de edad, estas facultades no podrán ejercerse por sus representantes legales...",
+            "Las personas vinculadas al fallecido por razones familiares o de hecho..."
+        ],
+        "respuestaIndex": 1,
+        "oposiciones": [
+            "AGE"
+        ]
     }
 ];

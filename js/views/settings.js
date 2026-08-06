@@ -7,7 +7,7 @@
     TAI.views = TAI.views || {};
     const { state, store } = TAI;
 
-    const ALL_OPOS = ['AGE', 'SAS', 'Junta de Andalucía', 'Diputación de Sevilla'];
+    const ALL_OPOS = ['AGE', 'SAS', 'Junta de Andalucía', 'Diputación de Sevilla', 'Universidad de Sevilla'];
 
     function render(container) {
         const wrap = document.createElement('div');

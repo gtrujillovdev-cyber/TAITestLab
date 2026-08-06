@@ -10,7 +10,7 @@
 
     const DEFAULT_SETTINGS = {
         learningMode: true,
-        selectedOpos: ['AGE', 'SAS', 'Junta de Andalucía', 'Diputación de Sevilla']
+        selectedOpos: ['AGE', 'SAS', 'Junta de Andalucía', 'Diputación de Sevilla', 'Universidad de Sevilla']
     };
 
     const settings = Object.assign({}, DEFAULT_SETTINGS, store.getSettings(DEFAULT_SETTINGS));
