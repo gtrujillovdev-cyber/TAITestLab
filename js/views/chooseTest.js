@@ -94,7 +94,9 @@
                 opt.textContent = (n === max) ? `Todas (${max})` : `${n} preguntas`;
                 countSelect.appendChild(opt);
             });
-            countSelect.value = candidates.includes(10) ? 10 : max;
+            const lastCount = (TAI.state && TAI.state.settings.lastThemeCount) || 10;
+            if (candidates.includes(lastCount)) countSelect.value = lastCount;
+            else countSelect.value = candidates.includes(10) ? 10 : max;
             countSelect.disabled = max === 0;
         }
 
@@ -128,6 +130,10 @@
 
         countSelect.addEventListener('change', () => {
             btnThemeTest.disabled = !(blockSelect.value && themeSelect.value && countSelect.value);
+            if (TAI.state && countSelect.value) {
+                TAI.state.settings.lastThemeCount = parseInt(countSelect.value, 10);
+                TAI.state.saveSettings();
+            }
         });
 
         btnThemeTest.addEventListener('click', () => {

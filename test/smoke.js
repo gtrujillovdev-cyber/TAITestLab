@@ -164,6 +164,47 @@ async function run() {
     await answerQuizToCompletion(ctx, 20);
     assert(ctx.TAI.state.lastResult.exam.every((qq) => qq.bloque === 'I' && qq.tema === 1), 'el modo por tema filtra por bloque y tema exactos');
 
+    section('Test por Tema: selector de cantidad configurable');
+    ctx.TAI.router.navigate('choose-test');
+    q(ctx, '#block-select').value = 'I';
+    q(ctx, '#block-select').dispatchEvent({ type: 'change' });
+    q(ctx, '#theme-select').value = '1';
+    q(ctx, '#theme-select').dispatchEvent({ type: 'change' });
+    const countOptions = qa(ctx, '#theme-count-select option').map((o) => o.value).filter(Boolean);
+    assert(countOptions.length > 1, 'el selector de cantidad ofrece varias opciones (no un valor fijo)');
+    assert(!q(ctx, '#theme-count-select').disabled, 'el selector de cantidad se habilita al elegir bloque y tema');
+    // Elige explícitamente una cantidad distinta del valor por defecto (10)
+    // para comprobar que se respeta y que se recuerda para la próxima vez.
+    const chosenCount = countOptions.find((v) => v !== '10') || countOptions[0];
+    q(ctx, '#theme-count-select').value = chosenCount;
+    q(ctx, '#theme-count-select').dispatchEvent({ type: 'change' });
+    assert(
+        ctx.TAI.store.getSettings(null).lastThemeCount === Number(chosenCount),
+        'elegir una cantidad la guarda como ajuste (lastThemeCount)'
+    );
+    q(ctx, '#btn-theme-test').click();
+    assert(ctx.TAI.router.getCurrentName() === 'quiz', 'el botón "Empezar" arranca el test por tema con la cantidad elegida');
+    assert(
+        text(q(ctx, '#question-counter')).includes(`de ${chosenCount}`),
+        `el test por tema respeta la cantidad elegida (${chosenCount})`
+    );
+    await answerQuizToCompletion(ctx, Number(chosenCount) + 5);
+    assert(ctx.TAI.state.lastResult.exam.length === Number(chosenCount), 'el resultado registra exactamente la cantidad elegida');
+
+    section('Resultados: "Repetir modo" en un test por tema repite bloque+tema+cantidad');
+    assert(ctx.TAI.router.getCurrentName() === 'results', 'tras completar el test por tema se está en #/results');
+    q(ctx, '#results-again').click();
+    assert(ctx.TAI.router.getCurrentName() === 'quiz', '"Repetir modo" vuelve a arrancar un test (no manda a Elegir Test)');
+    assert(
+        text(q(ctx, '#question-counter')).includes(`de ${chosenCount}`),
+        '"Repetir modo" respeta la misma cantidad que el test por tema original'
+    );
+    await answerQuizToCompletion(ctx, Number(chosenCount) + 5);
+    assert(
+        ctx.TAI.state.lastResult.exam.every((qq) => qq.bloque === 'I' && qq.tema === 1),
+        '"Repetir modo" respeta el mismo bloque y tema que el test por tema original'
+    );
+
     section('Modo de test: Repaso de Fallos');
     const sample = ctx.baseDeDatos.slice(0, 4);
     ctx.TAI.store.setFailedQuestions(sample);

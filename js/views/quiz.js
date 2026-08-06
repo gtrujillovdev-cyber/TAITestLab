@@ -21,6 +21,7 @@
     let timeLimitSeconds = 0;
     let isLearningMode = true;
     let currentMode = 'short';
+    let currentThemeParams = null; // { bloque, tema, count } cuando currentMode === 'theme'
     let tickCounter = 0;
 
     let els = {};
@@ -63,7 +64,16 @@
         if (mode === 'global') numQuestions = 30;
         if (mode === 'oficiales') numQuestions = Math.min(25, pool.length);
         if (mode === 'fallos') numQuestions = pool.length;
-        if (mode === 'theme') numQuestions = (extra && extra.count > 0) ? extra.count : 10;
+        if (mode === 'theme') {
+            numQuestions = (extra && extra.count > 0) ? extra.count : 10;
+            currentThemeParams = extra ? { bloque: extra.bloque, tema: extra.tema, count: numQuestions } : null;
+            if (extra && extra.count > 0) {
+                state.settings.lastThemeCount = extra.count;
+                state.saveSettings();
+            }
+        } else {
+            currentThemeParams = null;
+        }
         if (mode === 'simulacro') {
             numQuestions = 80;
             isCountdown = true;
@@ -90,6 +100,7 @@
     function persistSnapshot() {
         store.setExamInProgress({
             mode: currentMode,
+            themeParams: currentThemeParams,
             currentExam,
             currentQuestionIndex,
             userAnswers,
@@ -103,6 +114,7 @@
 
     function loadSnapshot(snap) {
         currentMode = snap.mode;
+        currentThemeParams = snap.themeParams || null;
         currentExam = snap.currentExam || [];
         currentQuestionIndex = snap.currentQuestionIndex || 0;
         userAnswers = snap.userAnswers || [];
@@ -413,7 +425,8 @@
             nota: notaSobre10,
             timeUsed,
             bloques,
-            mode: currentMode
+            mode: currentMode,
+            themeParams: currentThemeParams
         };
 
         store.clearExamInProgress();
@@ -423,6 +436,7 @@
         currentExam = [];
         currentQuestionIndex = 0;
         userAnswers = [];
+        currentThemeParams = null;
 
         router.navigate('results');
     }

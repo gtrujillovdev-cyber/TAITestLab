@@ -90,6 +90,10 @@
 
         wrap.querySelector('#results-home').addEventListener('click', () => router.navigate('dashboard'));
         wrap.querySelector('#results-again').addEventListener('click', () => {
+            if (result.mode === 'theme' && result.themeParams) {
+                TAI.views.quiz.startTest('theme', result.themeParams);
+                return;
+            }
             const mode = result.mode && !result.mode.startsWith('supuesto:') && result.mode !== 'theme' ? result.mode : null;
             if (mode) TAI.views.quiz.startTest(mode);
             else router.navigate('choose-test');
