@@ -19,6 +19,7 @@
         router.register('supuesto', TAI.views.supuesto);
         router.register('progress', TAI.views.progress);
         router.register('help', TAI.views.help);
+        router.register('minigame', TAI.views.minigame);
 
         const viewRoot = document.getElementById('view-root');
         const navRoot = document.getElementById('nav-root');

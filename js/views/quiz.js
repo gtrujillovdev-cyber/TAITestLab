@@ -61,6 +61,10 @@
         timeLimitSeconds = 0;
 
         if (mode === 'short') numQuestions = 10;
+        if (mode === 'feedback') {
+            numQuestions = 10;
+            isLearningMode = true;
+        }
         if (mode === 'global') numQuestions = 30;
         if (mode === 'oficiales') numQuestions = Math.min(25, pool.length);
         if (mode === 'fallos') numQuestions = pool.length;

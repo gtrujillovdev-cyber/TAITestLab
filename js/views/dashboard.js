@@ -58,6 +58,9 @@
                 <button class="btn-card" data-start="global"><h3>🌍 Test Global</h3><p>30 preguntas mezcladas de todos los bloques.</p></button>
                 <button class="btn-card highlight" data-start="simulacro"><h3>🎓 Simulacro Real</h3><p>80 preguntas, 120 min, condiciones de examen.</p></button>
                 <button class="btn-card danger-card" data-start="fallos" ${failed.length ? '' : 'disabled'}><h3>🔥 Repaso de Fallos</h3><p>${failed.length} preguntas falladas pendientes.</p></button>
+                
+                <button class="btn-card" data-start="feedback"><h3>⚡ Feedback Inmediato</h3><p>10 preguntas con corrección y explicación al instante.</p></button>
+                <button class="btn-card" data-navigate="minigame"><h3>🧩 Asociación</h3><p>Empareja conceptos rápidos (Puertos, HTTP).</p></button>
             </div>
             <p class="dashboard-more"><a href="#/choose-test">Ver todos los modos de test →</a></p>
         `;
@@ -89,6 +92,13 @@
             btn.addEventListener('click', () => {
                 if (btn.disabled) return;
                 TAI.views.quiz.startTest(btn.dataset.start);
+            });
+        });
+
+        wrap.querySelectorAll('[data-navigate]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (btn.disabled) return;
+                TAI.router.navigate(btn.dataset.navigate);
             });
         });
     }

@@ -935,3 +935,106 @@ body { align-items: stretch; }
     font-family: monospace;
     font-size: 0.85rem;
 }
+
+/* ==========================================================================
+   Pomodoro Widget
+   ========================================================================== */
+.pomodoro-widget {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 220px;
+    background: var(--card-bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    overflow: hidden;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.pomodoro-widget.minimized {
+    transform: translateY(calc(100% - 40px));
+}
+
+.pomodoro-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid var(--panel-border);
+}
+
+.pomodoro-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.pomodoro-toggle {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0 4px;
+}
+
+.pomodoro-toggle:hover {
+    color: var(--text-primary);
+}
+
+.pomodoro-body {
+    padding: 16px;
+    text-align: center;
+}
+
+.pomodoro-time {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 12px;
+    line-height: 1;
+}
+
+.pomodoro-controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.pomodoro-btn {
+    background: var(--bg-color);
+    border: 1px solid var(--panel-border);
+    color: var(--text-primary);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+.pomodoro-btn:hover {
+    background: var(--panel-border);
+    transform: scale(1.05);
+}
+
+.pomodoro-btn.play-btn {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.pomodoro-btn.play-btn:hover {
+    background: var(--primary-hover);
+}
+
